@@ -26,7 +26,7 @@ export function DatasetSearch({ index }: { index: DatasetSummary[] }) {
         value={q}
         onChange={(e) => setQ(e.target.value)}
         placeholder={`${index.length.toLocaleString()}개 데이터에서 찾기 — 예: 낱알, 회수, 위생등급, 공급부족`}
-        className="h-12 pl-9 text-base"
+        className="h-12 rounded-xl border-[#E5E8EB] bg-white pl-9 text-base shadow-sm focus-visible:border-primary"
         aria-label="데이터 검색"
       />
       {deferred.trim() && (

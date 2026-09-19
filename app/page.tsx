@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <div className="space-y-10">
-      <section className="space-y-4 pt-4">
+      <section className="-mx-4 -mt-6 space-y-4 bg-gradient-to-b from-[var(--brand-soft)] to-white px-4 pt-10 pb-6 sm:rounded-b-3xl">
         <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">
           식약처가 공개한 데이터 <span className="text-primary">{total.toLocaleString()}종</span>, 전부 여기서 조회
         </h1>
@@ -28,7 +28,7 @@ export default function Home() {
             <Link
               key={c.id}
               href={`/c/${c.id}`}
-              className="group flex items-center justify-between rounded-xl border bg-card p-4 transition-colors hover:border-primary/50 hover:bg-accent"
+              className="group flex items-center justify-between rounded-2xl border border-[#E5E8EB] bg-white p-4 transition-all hover:-translate-y-0.5 hover:border-primary/40 hover:shadow-[0_4px_16px_rgba(49,130,246,0.12)]"
             >
               <div>
                 <div className="font-medium">
