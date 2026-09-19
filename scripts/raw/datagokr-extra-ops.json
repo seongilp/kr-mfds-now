@@ -1,0 +1,4339 @@
+{
+ "15058963:36869": {
+  "id": "36869",
+  "name": "마약류 목록조회",
+  "endpoint": "https://apis.data.go.kr/1471000/NrcdGnrlzInfoService01/getNrcdGnrlzList",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "인증키 (URL Encode)",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "Drfstf",
+    "label": "한글명",
+    "required": false
+   },
+   {
+    "name": "Drfstf_eng",
+    "label": "영문명",
+    "required": false
+   },
+   {
+    "name": "type",
+    "label": "데이터 포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "DRUG_NO",
+    "label": "약물번호"
+   },
+   {
+    "name": "DRFSTF",
+    "label": "한글명"
+   },
+   {
+    "name": "DRFSTF_ENG",
+    "label": "영문명"
+   },
+   {
+    "name": "TYPE_CODE",
+    "label": "분류/구분"
+   },
+   {
+    "name": "PHARM",
+    "label": "이화학정보"
+   },
+   {
+    "name": "SIDE_EFFECT",
+    "label": "남용정보"
+   },
+   {
+    "name": "MEDICATION",
+    "label": "약물정보"
+   }
+  ]
+ },
+ "15058963:36870": {
+  "id": "36870",
+  "name": "마약류 상세조회",
+  "endpoint": "https://apis.data.go.kr/1471000/NrcdGnrlzInfoService01/getNrcdGnrlzItem",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "인증키 (URL Encode)",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "Drfstf",
+    "label": "한글명",
+    "required": false
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "DRFSTF",
+    "label": "한글명"
+   },
+   {
+    "name": "EXPER",
+    "label": "실험원리"
+   },
+   {
+    "name": "SPLORE",
+    "label": "시료"
+   },
+   {
+    "name": "UTNSIL",
+    "label": "기구및장비"
+   },
+   {
+    "name": "REAGENT",
+    "label": "시약"
+   },
+   {
+    "name": "SPLORE_PROCESS",
+    "label": "시료처리"
+   },
+   {
+    "name": "MHRLS_ANALS",
+    "label": "기기분석(GC/MS)"
+   },
+   {
+    "name": "DATA_PROCESS",
+    "label": "데이터 처리 및 계산"
+   },
+   {
+    "name": "REFER",
+    "label": "참고문헌"
+   },
+   {
+    "name": "ETC",
+    "label": "기타"
+   },
+   {
+    "name": "ETC_ANALS",
+    "label": "저장파일명"
+   }
+  ]
+ },
+ "15057942:37374": {
+  "id": "37374",
+  "name": "지표성분목록 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/HbdcGnrlzInfoService/getIdxIrdntList",
+  "params": [
+   {
+    "name": "hbdc_code",
+    "label": "생약코드",
+    "required": false,
+    "sample": "KP-032"
+   },
+   {
+    "name": "hbdc_name",
+    "label": "생약명",
+    "required": false,
+    "sample": "황금"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "serviceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키 (URL Encode)",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터 포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "HBDC_CODE",
+    "label": "생약코드"
+   },
+   {
+    "name": "HBDC_NAME",
+    "label": "생약명"
+   },
+   {
+    "name": "IDX_IRDNT",
+    "label": "지표성분명"
+   },
+   {
+    "name": "LOT_NO",
+    "label": "LOT-NO"
+   },
+   {
+    "name": "PACKNG_UNIT",
+    "label": "포장단위"
+   },
+   {
+    "name": "CONTENT",
+    "label": "함량(%)"
+   },
+   {
+    "name": "LTTOT_UNTPC",
+    "label": "분양단가(원/vial)"
+   },
+   {
+    "name": "APPLC_EXPR",
+    "label": "적용시험"
+   },
+   {
+    "name": "STNDRD_BOOKNAME",
+    "label": "규격서"
+   },
+   {
+    "name": "REMARK",
+    "label": "비고"
+   }
+  ]
+ },
+ "15057942:37375": {
+  "id": "37375",
+  "name": "표준생약목록 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/HbdcGnrlzInfoService/getStdHbdcList",
+  "params": [
+   {
+    "name": "hbdc_code",
+    "label": "생약코드",
+    "required": false,
+    "sample": "KP-053"
+   },
+   {
+    "name": "hbdc_name",
+    "label": "생약명",
+    "required": false,
+    "sample": "갈근(葛根)"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "serviceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키 (URL Encode)",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터 포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "HBDC_CODE",
+    "label": "생약코드"
+   },
+   {
+    "name": "HBDC_NAME",
+    "label": "생약명"
+   },
+   {
+    "name": "GENSIS_SCNCENM",
+    "label": "기원학명"
+   },
+   {
+    "name": "LOT_NO",
+    "label": "LOT-NO"
+   },
+   {
+    "name": "PACKNG_UNIT",
+    "label": "포장단위"
+   },
+   {
+    "name": "LTTOT_UNTPC",
+    "label": "분양단가(원)"
+   },
+   {
+    "name": "STNDRD_BOOKNAME",
+    "label": "규격서명"
+   },
+   {
+    "name": "REMARK",
+    "label": "비고"
+   }
+  ]
+ },
+ "15057942:37376": {
+  "id": "37376",
+  "name": "생약명 정보 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/HbdcGnrlzInfoService/getHerbNameList",
+  "params": [
+   {
+    "name": "code",
+    "label": "생약코드",
+    "required": false,
+    "sample": "KF-072"
+   },
+   {
+    "name": "name",
+    "label": "생약명",
+    "required": false,
+    "sample": "영란"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "serviceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키 (URL Encode)",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터 포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "CODE",
+    "label": "생약코드"
+   },
+   {
+    "name": "NAME",
+    "label": "생약명"
+   },
+   {
+    "name": "HM_NAME",
+    "label": "생약명(한문)"
+   },
+   {
+    "name": "LATIN_NAME",
+    "label": "latin명"
+   },
+   {
+    "name": "NAME_DESC",
+    "label": "생약명설명"
+   },
+   {
+    "name": "CLASS",
+    "label": "자료구분"
+   },
+   {
+    "name": "ETC_NAME2",
+    "label": "기타명2"
+   },
+   {
+    "name": "description",
+    "label": "설명"
+   },
+   {
+    "name": "NATURE",
+    "label": "성미"
+   },
+   {
+    "name": "COMPONENT",
+    "label": "함유성분"
+   },
+   {
+    "name": "USES",
+    "label": "효능/효과"
+   },
+   {
+    "name": "PICK_TIME",
+    "label": "채취시기"
+   },
+   {
+    "name": "PROD_AREA",
+    "label": "국내주요산지"
+   },
+   {
+    "name": "CULT_METHOD",
+    "label": "재배방법"
+   },
+   {
+    "name": "BOTANIC_CLASS",
+    "label": "영문명"
+   },
+   {
+    "name": "NOTICE",
+    "label": "주의사항"
+   },
+   {
+    "name": "USE_PART",
+    "label": "사용부위"
+   },
+   {
+    "name": "USE_PART_CODE",
+    "label": "사용부위코드"
+   },
+   {
+    "name": "ORG_BOTANICNAME",
+    "label": "형상영문"
+   },
+   {
+    "name": "PACKING_UNIT",
+    "label": "포장단위"
+   },
+   {
+    "name": "HOLDINGS",
+    "label": "보류기간"
+   },
+   {
+    "name": "MEDICINE",
+    "label": "사용약명"
+   },
+   {
+    "name": "ADV_EFFECT",
+    "label": "부작용치료"
+   },
+   {
+    "name": "TOX1",
+    "label": "독성정보1"
+   },
+   {
+    "name": "TOX2",
+    "label": "독성정보2"
+   },
+   {
+    "name": "TOX_YN",
+    "label": "유독성여부"
+   },
+   {
+    "name": "REFERENCE",
+    "label": "참조문헌"
+   },
+   {
+    "name": "SYNM",
+    "label": "유사명"
+   },
+   {
+    "name": "PHARMACO",
+    "label": "약리정보"
+   },
+   {
+    "name": "TOXIC_SYMPTOMS",
+    "label": "중독증상"
+   },
+   {
+    "name": "DETOXICATION",
+    "label": "해독법"
+   },
+   {
+    "name": "DUKE",
+    "label": "상태"
+   },
+   {
+    "name": "MCGUFFIN",
+    "label": "사용방법"
+   },
+   {
+    "name": "AMT",
+    "label": "용량"
+   },
+   {
+    "name": "F_ADV_EFFECT",
+    "label": "부작용자료"
+   },
+   {
+    "name": "F_CONTRAINDI",
+    "label": "금기사항"
+   },
+   {
+    "name": "VIEWJIKIM",
+    "label": "한약재관능검사지침"
+   },
+   {
+    "name": "COMJIKIM",
+    "label": "한약재표준제조공정지침"
+   }
+  ]
+ },
+ "15057942:37377": {
+  "id": "37377",
+  "name": "식물명 정보 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/HbdcGnrlzInfoService/getPlantNameList",
+  "params": [
+   {
+    "name": "code",
+    "label": "생약코드",
+    "required": false,
+    "sample": "KF-072"
+   },
+   {
+    "name": "plant_name",
+    "label": "식물명",
+    "required": false,
+    "sample": "은방울꽃"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "serviceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키 (URL Encode)",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터 포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "CODE",
+    "label": "생약코드"
+   },
+   {
+    "name": "PLANT_NAME",
+    "label": "식물명"
+   },
+   {
+    "name": "BOTANIC_NAME",
+    "label": "영문명"
+   },
+   {
+    "name": "LATIN_NAME",
+    "label": "latin명"
+   },
+   {
+    "name": "NAME_DESC",
+    "label": "생약명"
+   },
+   {
+    "name": "CLASS",
+    "label": "자료구분"
+   },
+   {
+    "name": "ETC_NAME2",
+    "label": "기타명2"
+   },
+   {
+    "name": "description",
+    "label": "설명"
+   },
+   {
+    "name": "NATURE",
+    "label": "성미"
+   },
+   {
+    "name": "COMPONENT",
+    "label": "함유성분"
+   },
+   {
+    "name": "USES",
+    "label": "효능/효과"
+   },
+   {
+    "name": "PICK_TIME",
+    "label": "채취시기"
+   },
+   {
+    "name": "PROD_AREA",
+    "label": "국내주요산지"
+   },
+   {
+    "name": "CULT_METHOD",
+    "label": "재배방법"
+   },
+   {
+    "name": "BOTANIC_CLASS",
+    "label": "영문명"
+   },
+   {
+    "name": "NOTICE",
+    "label": "주의사항"
+   },
+   {
+    "name": "USE_PART",
+    "label": "사용부위"
+   },
+   {
+    "name": "USE_PART_CODE",
+    "label": "사용부위코드"
+   },
+   {
+    "name": "ORG_BOTANICNAME",
+    "label": "형상영문"
+   },
+   {
+    "name": "PACKING_UNIT",
+    "label": "포장단위"
+   },
+   {
+    "name": "HOLDINGS",
+    "label": "보류기간"
+   },
+   {
+    "name": "MEDICINE",
+    "label": "사용약명"
+   },
+   {
+    "name": "ADV_EFFECT",
+    "label": "부작용치료"
+   },
+   {
+    "name": "TOX1",
+    "label": "독성정보1"
+   },
+   {
+    "name": "TOX2",
+    "label": "독성정보2"
+   },
+   {
+    "name": "TOX_YN",
+    "label": "유독성여부"
+   },
+   {
+    "name": "REFERENCE",
+    "label": "참조문헌"
+   },
+   {
+    "name": "SYNONYM",
+    "label": "유사명"
+   },
+   {
+    "name": "PHARMACO",
+    "label": "약리정보"
+   },
+   {
+    "name": "TOXIC_SYMPTOMS",
+    "label": "중독증상"
+   },
+   {
+    "name": "DETOXICATION",
+    "label": "해독법"
+   },
+   {
+    "name": "DUKE",
+    "label": "상태"
+   },
+   {
+    "name": "MCGUFFIN",
+    "label": "사용방법"
+   },
+   {
+    "name": "AMT",
+    "label": "용량"
+   },
+   {
+    "name": "F_ADV_EFFECT",
+    "label": "부작용자료"
+   },
+   {
+    "name": "F_CONTRAINDI",
+    "label": "금기사항"
+   },
+   {
+    "name": "VIEWJIKIM",
+    "label": "한약재관능검사지침"
+   },
+   {
+    "name": "COMJIKIM",
+    "label": "한약재표준제조공정지침"
+   }
+  ]
+ },
+ "15057942:37378": {
+  "id": "37378",
+  "name": "생약기원 정보 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/HbdcGnrlzInfoService/getHerbOriginList",
+  "params": [
+   {
+    "name": "code",
+    "label": "생약코드",
+    "required": false,
+    "sample": "KF-072"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "serviceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키 (URL Encode)",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터 포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "CODE",
+    "label": "생약코드"
+   },
+   {
+    "name": "E_MOON",
+    "label": "문_영문"
+   },
+   {
+    "name": "H_MOON",
+    "label": "문_한글"
+   },
+   {
+    "name": "E_KANG",
+    "label": "강_영문"
+   },
+   {
+    "name": "H_KANG",
+    "label": "강_한글"
+   },
+   {
+    "name": "E_MOK",
+    "label": "목_영문"
+   },
+   {
+    "name": "H_MOK",
+    "label": "목_한글"
+   },
+   {
+    "name": "E_KWA",
+    "label": "과_영문"
+   },
+   {
+    "name": "H_KWA",
+    "label": "과_한글"
+   },
+   {
+    "name": "NAME",
+    "label": "생약명"
+   },
+   {
+    "name": "HM_NAME",
+    "label": "생약명(한문)"
+   },
+   {
+    "name": "PLANT_NAME",
+    "label": "식물명"
+   },
+   {
+    "name": "BOTANIC_NAME",
+    "label": "영문명"
+   },
+   {
+    "name": "LATIN_NAME",
+    "label": "latin명"
+   },
+   {
+    "name": "NAME_DESC",
+    "label": "생약명설명"
+   },
+   {
+    "name": "CLASS",
+    "label": "자료구분"
+   },
+   {
+    "name": "ETC_NAME2",
+    "label": "기타명2"
+   },
+   {
+    "name": "description",
+    "label": "설명"
+   },
+   {
+    "name": "NATURE",
+    "label": "성미"
+   },
+   {
+    "name": "COMPONENT",
+    "label": "함유성분"
+   },
+   {
+    "name": "USES",
+    "label": "효능/효과"
+   },
+   {
+    "name": "PICK_TIME",
+    "label": "채취시기"
+   },
+   {
+    "name": "PROD_AREA",
+    "label": "국내주요산지"
+   },
+   {
+    "name": "CULT_METHOD",
+    "label": "재배방법"
+   },
+   {
+    "name": "BOTANIC_CLASS",
+    "label": "영문명"
+   },
+   {
+    "name": "NOTICE",
+    "label": "주의사항"
+   },
+   {
+    "name": "USE_PART",
+    "label": "사용부위"
+   },
+   {
+    "name": "USE_PART_CODE",
+    "label": "사용부위코드"
+   },
+   {
+    "name": "ORG_BOTANICNAME",
+    "label": "형상영문"
+   },
+   {
+    "name": "PACKING_UNIT",
+    "label": "포장단위"
+   },
+   {
+    "name": "HOLDINGS",
+    "label": "보류기간"
+   },
+   {
+    "name": "MEDICINE",
+    "label": "사용약명"
+   },
+   {
+    "name": "ADV_EFFECT",
+    "label": "부작용치료"
+   },
+   {
+    "name": "TOX1",
+    "label": "독성정보1"
+   },
+   {
+    "name": "TOX2",
+    "label": "독성정보2"
+   },
+   {
+    "name": "TOX_YN",
+    "label": "유독성여부"
+   },
+   {
+    "name": "REFERENCE",
+    "label": "참조문헌"
+   },
+   {
+    "name": "SYNONYM",
+    "label": "유사명"
+   },
+   {
+    "name": "PHARMACO",
+    "label": "약리정보"
+   },
+   {
+    "name": "TOXIC_SYMPTOMS",
+    "label": "중독증상"
+   },
+   {
+    "name": "DETOXICATION",
+    "label": "해독법"
+   },
+   {
+    "name": "DUKE",
+    "label": "상태"
+   },
+   {
+    "name": "MCGUFFIN",
+    "label": "사용방법"
+   },
+   {
+    "name": "AMT",
+    "label": "용량"
+   },
+   {
+    "name": "F_ADV_EFFECT",
+    "label": "부작용자료"
+   },
+   {
+    "name": "F_CONTRAINDI",
+    "label": "금기사항"
+   },
+   {
+    "name": "VIEWJIKIM",
+    "label": "한약재관능검사지침"
+   },
+   {
+    "name": "COMJIKIM",
+    "label": "한약재표준제조공정지침"
+   }
+  ]
+ },
+ "15057942:37379": {
+  "id": "37379",
+  "name": "한약재명 정보 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/HbdcGnrlzInfoService/getMedicalHerbList",
+  "params": [
+   {
+    "name": "code",
+    "label": "생약코드",
+    "required": false,
+    "sample": "KF-079"
+   },
+   {
+    "name": "medhrb_name",
+    "label": "한약재명",
+    "required": false,
+    "sample": "자운영"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "serviceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키 (URL Encode)",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터 포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "CODE",
+    "label": "생약코드"
+   },
+   {
+    "name": "MEDHRB_NAME",
+    "label": "한약재명"
+   },
+   {
+    "name": "MEDHRB_HMNAME",
+    "label": "한약재한문명"
+   },
+   {
+    "name": "BOOKNAME",
+    "label": "책명"
+   },
+   {
+    "name": "BOOKCLASS",
+    "label": "책구분"
+   },
+   {
+    "name": "MEDHRB_DESC",
+    "label": "한약재설명"
+   },
+   {
+    "name": "NAME",
+    "label": "생약명"
+   },
+   {
+    "name": "HM_NAME",
+    "label": "생약명(한문)"
+   },
+   {
+    "name": "PLANT_NAME",
+    "label": "식물명"
+   },
+   {
+    "name": "BOTANIC_NAME",
+    "label": "영문명"
+   },
+   {
+    "name": "LATIN_NAME",
+    "label": "latin명"
+   },
+   {
+    "name": "NAME_DESC",
+    "label": "생약명설명"
+   },
+   {
+    "name": "CLASS",
+    "label": "자료구분"
+   },
+   {
+    "name": "ETC_NAME2",
+    "label": "기타명2"
+   },
+   {
+    "name": "description",
+    "label": "설명"
+   },
+   {
+    "name": "NATURE",
+    "label": "성미"
+   },
+   {
+    "name": "COMPONENT",
+    "label": "함유성분"
+   },
+   {
+    "name": "USES",
+    "label": "효능/효과"
+   },
+   {
+    "name": "PICK_TIME",
+    "label": "채취시기"
+   },
+   {
+    "name": "PROD_AREA",
+    "label": "국내주요산지"
+   },
+   {
+    "name": "CULT_METHOD",
+    "label": "재배방법"
+   },
+   {
+    "name": "BOTANIC_CLASS",
+    "label": "영문명"
+   },
+   {
+    "name": "NOTICE",
+    "label": "주의사항"
+   },
+   {
+    "name": "USE_PART",
+    "label": "사용부위"
+   },
+   {
+    "name": "USE_PART_CODE",
+    "label": "사용부위코드"
+   },
+   {
+    "name": "ORG_BOTANICNAME",
+    "label": "형상영문"
+   },
+   {
+    "name": "PACKING_UNIT",
+    "label": "포장단위"
+   },
+   {
+    "name": "HOLDINGS",
+    "label": "보류기간"
+   },
+   {
+    "name": "MEDICINE",
+    "label": "사용약명"
+   },
+   {
+    "name": "ADV_EFFECT",
+    "label": "부작용치료"
+   },
+   {
+    "name": "TOX1",
+    "label": "독성정보1"
+   },
+   {
+    "name": "TOX2",
+    "label": "독성정보2"
+   },
+   {
+    "name": "TOX_YN",
+    "label": "유독성여부"
+   },
+   {
+    "name": "REFERENCE",
+    "label": "참조문헌"
+   },
+   {
+    "name": "SYNONYM",
+    "label": "유사명"
+   },
+   {
+    "name": "PHARMACO",
+    "label": "약리정보"
+   },
+   {
+    "name": "TOXIC_SYMPTOMS",
+    "label": "중독증상"
+   },
+   {
+    "name": "DETOXICATION",
+    "label": "해독법"
+   },
+   {
+    "name": "DUKE",
+    "label": "상태"
+   },
+   {
+    "name": "MCGUFFIN",
+    "label": "사용방법"
+   },
+   {
+    "name": "AMT",
+    "label": "용량"
+   },
+   {
+    "name": "F_ADV_EFFECT",
+    "label": "부작용자료"
+   },
+   {
+    "name": "F_CONTRAINDI",
+    "label": "금기사항"
+   },
+   {
+    "name": "VIEWJIKIM",
+    "label": "한약재관능검사지침"
+   },
+   {
+    "name": "COMJIKIM",
+    "label": "한약재표준제조공정지침"
+   }
+  ]
+ },
+ "15095409:37412": {
+  "id": "37412",
+  "name": "코로나19진단시약생산수출현황 조회",
+  "endpoint": "https://apis.data.go.kr/1471000/CovidDagnsRgntProdExprtStusService/getCovidDagnsRgntProdExprtStusInq",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키(URL Encode)",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   },
+   {
+    "name": "YYYY",
+    "label": "년도",
+    "required": false
+   },
+   {
+    "name": "MM",
+    "label": "실적월",
+    "required": false
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "YYYY",
+    "label": "년도"
+   },
+   {
+    "name": "MM",
+    "label": "실적월"
+   },
+   {
+    "name": "KIT_PROD_QTY",
+    "label": "생산량"
+   },
+   {
+    "name": "KIT_EXPRT_QTY",
+    "label": "수출량"
+   },
+   {
+    "name": "KIT_STOCK_QTY",
+    "label": "재고량"
+   }
+  ]
+ },
+ "15095409:37413": {
+  "id": "37413",
+  "name": "코로나19진단시약 월별수출현황조회",
+  "endpoint": "https://apis.data.go.kr/1471000/CovidDagnsRgntProdExprtStusService/getMmCovidDagnsRgntExprtStusInq",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   },
+   {
+    "name": "YYYY",
+    "label": "실적년도",
+    "required": false
+   },
+   {
+    "name": "MM",
+    "label": "실적월",
+    "required": false
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "YYYY",
+    "label": "실적년도"
+   },
+   {
+    "name": "MM",
+    "label": "실적월"
+   },
+   {
+    "name": "KIT_EXPRT_QTY",
+    "label": "수량"
+   }
+  ]
+ },
+ "15094578:41475": {
+  "id": "41475",
+  "name": "마스크 회수 제품 상세정보 조회",
+  "endpoint": "https://apis.data.go.kr/1471000/MaskReclPrdtInfoService01/getMaskReclPrdtDtlInfoInq2",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키(URL Encode)",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "제품명",
+    "required": false
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업체명",
+    "required": false
+   },
+   {
+    "name": "PRDLST_SN",
+    "label": "품목기준코드",
+    "required": false
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "제품명"
+   },
+   {
+    "name": "TRAT_CONT",
+    "label": "성상"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업체명"
+   },
+   {
+    "name": "CNSGN_MANUF",
+    "label": "위탁제조업체명"
+   },
+   {
+    "name": "SPCT_GNRL_DIVS_CD_NM",
+    "label": "전문/일반구분"
+   },
+   {
+    "name": "PRDLST_PRMSN_YMD",
+    "label": "허가일자"
+   },
+   {
+    "name": "CLSF_NO",
+    "label": "분류코드"
+   },
+   {
+    "name": "CLSF_NO_NM",
+    "label": "분류코드명"
+   },
+   {
+    "name": "BARCODE",
+    "label": "표준코드"
+   },
+   {
+    "name": "PRDLST_SN",
+    "label": "품목기준코드"
+   },
+   {
+    "name": "EFCY_EFCT_DOC_CONT",
+    "label": "효능효과"
+   },
+   {
+    "name": "USAG_CPCT_DOC_CONT",
+    "label": "용법용량"
+   },
+   {
+    "name": "GNRL_ATTN_MTTR_DOC_CONT",
+    "label": "사용상의주의사항"
+   },
+   {
+    "name": "STRG_MTH_CONT",
+    "label": "저장방법"
+   },
+   {
+    "name": "VLD_PRD",
+    "label": "사용기간"
+   },
+   {
+    "name": "PCKN_UNIT_NM",
+    "label": "포장정보"
+   }
+  ]
+ },
+ "15094578:41476": {
+  "id": "41476",
+  "name": "마스크 회수 제품 정보 조회",
+  "endpoint": "https://apis.data.go.kr/1471000/MaskReclPrdtInfoService01/getMaskReclPrdtInfoInq",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키(URL Encode)",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "제품명",
+    "required": false
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업체명",
+    "required": false
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "제품명"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업체명"
+   },
+   {
+    "name": "DSPS_CONT",
+    "label": "회수사유"
+   },
+   {
+    "name": "MNFT_NO",
+    "label": "제조번호[제조일자]"
+   },
+   {
+    "name": "RECL_COMND_DT",
+    "label": "회수명령일자"
+   },
+   {
+    "name": "RLS_END_YMD",
+    "label": "공개마감일자"
+   }
+  ]
+ },
+ "15042667:41107": {
+  "id": "41107",
+  "name": "교육 코스 별 상세설명",
+  "endpoint": "https://apis.data.go.kr/1471057/TheAPECHarmonizationCenterService02/getCourseDescriplist",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "-",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "COURSE_NAME",
+    "label": "코스명"
+   },
+   {
+    "name": "STUDY_HOUR",
+    "label": "교육 시간"
+   },
+   {
+    "name": "STUDY_TERM",
+    "label": "교육 기간"
+   },
+   {
+    "name": "CANCEL_TERM",
+    "label": "취소 기간"
+   },
+   {
+    "name": "COMPLETE_SCORE",
+    "label": "수료 점수"
+   },
+   {
+    "name": "REVIEW_TERM",
+    "label": "다시보기 기간"
+   },
+   {
+    "name": "REVIEW_UNI",
+    "label": "다시보기 개수"
+   }
+  ]
+ },
+ "15042667:41108": {
+  "id": "41108",
+  "name": "교육 발생 정보 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/TheAPECHarmonizationCenterService02/getCourseOccurInfoList",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "-",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "0",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "COURSE_NAME",
+    "label": "코스명"
+   },
+   {
+    "name": "RATIO",
+    "label": "진행률"
+   },
+   {
+    "name": "REG_DATE",
+    "label": "등록일"
+   }
+  ]
+ },
+ "15042667:41109": {
+  "id": "41109",
+  "name": "교육 코스 별 수강 취소시간",
+  "endpoint": "https://apis.data.go.kr/1471057/TheAPECHarmonizationCenterService02/getCourseCencleList",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "-",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "COURSE_NAME",
+    "label": "코스명"
+   },
+   {
+    "name": "STUDY_TERM",
+    "label": "수강시간"
+   },
+   {
+    "name": "CANCEL_TERM",
+    "label": "취소시간"
+   }
+  ]
+ },
+ "15042667:41110": {
+  "id": "41110",
+  "name": "교육 신청 내역",
+  "endpoint": "https://apis.data.go.kr/1471057/TheAPECHarmonizationCenterService02/getCourseApplicationList",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "-",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "USER_NO",
+    "label": "유저번호"
+   },
+   {
+    "name": "COURSE_NAME",
+    "label": "코스명"
+   },
+   {
+    "name": "PROGRESS_RATIO",
+    "label": "진행률"
+   },
+   {
+    "name": "TEST_SCORE",
+    "label": "시험점수"
+   }
+  ]
+ },
+ "15042667:41111": {
+  "id": "41111",
+  "name": "교육코스 정보 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/TheAPECHarmonizationCenterService02/getCourseInfoList",
+  "params": [
+   {
+    "name": "ServiceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "-",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "COURSE_NAME",
+    "label": "코스명"
+   },
+   {
+    "name": "STUDY_HOUR",
+    "label": "교육 시간"
+   },
+   {
+    "name": "COMPLETE_SCORE",
+    "label": "수료 점수"
+   },
+   {
+    "name": "INTRODUCE",
+    "label": "교육 소개"
+   },
+   {
+    "name": "GOAL",
+    "label": "교육 목표"
+   },
+   {
+    "name": "TARGET",
+    "label": "교육 대상"
+   }
+  ]
+ },
+ "15042667:41112": {
+  "id": "41112",
+  "name": "컨텐츠 정보 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/TheAPECHarmonizationCenterService02/getContentInfoList",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "-",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "CONTENT_ID",
+    "label": "콘텐츠 아이디"
+   },
+   {
+    "name": "CONTENT_NAME",
+    "label": "콘텐츠 명"
+   }
+  ]
+ },
+ "15042667:41113": {
+  "id": "41113",
+  "name": "교육 코스 썸네일 정보 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/TheAPECHarmonizationCenterService02/getCourseThumCountList",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "-",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "COURSE_NAME",
+    "label": "코스명"
+   },
+   {
+    "name": "THUMBNAIL",
+    "label": "썸네일"
+   },
+   {
+    "name": "WIDTH",
+    "label": "교육 콘텐츠 창 넓이"
+   },
+   {
+    "name": "HEIGHT",
+    "label": "교육 콘텐츠 창 높이"
+   }
+  ]
+ },
+ "15042667:41114": {
+  "id": "41114",
+  "name": "교육 코스 별 평균점수 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/TheAPECHarmonizationCenterService02/getCourseAvgList",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "-",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "COURSE_NAME",
+    "label": "코스명"
+   },
+   {
+    "name": "AVG_TEST_SCORE",
+    "label": "평균점수"
+   }
+  ]
+ },
+ "15042667:41115": {
+  "id": "41115",
+  "name": "교육 코스 별 컨텐츠 갯수 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/TheAPECHarmonizationCenterService02/getCourseContentCountList",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "-",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "CONTENT_NAME",
+    "label": "콘텐츠명"
+   },
+   {
+    "name": "OBJECTIVE_CNT",
+    "label": "객체수"
+   }
+  ]
+ },
+ "15042667:41116": {
+  "id": "41116",
+  "name": "컨텐츠 챕터 별 섹션 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/TheAPECHarmonizationCenterService02/getContentChapterList",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "-",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "CONTENT_NAME",
+    "label": "콘텐츠명"
+   },
+   {
+    "name": "CHAPTER_NO",
+    "label": "챕터번호"
+   },
+   {
+    "name": "CHAPTER_TITLE",
+    "label": "챕터 타이틀"
+   },
+   {
+    "name": "SECTION_TITLE",
+    "label": "섹션 타이틀"
+   }
+  ]
+ },
+ "15042667:41117": {
+  "id": "41117",
+  "name": "컨텐츠 별 참여자 수 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/TheAPECHarmonizationCenterService02/getContentParticpationList",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "-",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "CONTETNT_NAME",
+    "label": "콘텐츠명"
+   },
+   {
+    "name": "ENROLL_CNT",
+    "label": "참여자수"
+   }
+  ]
+ },
+ "15042667:41118": {
+  "id": "41118",
+  "name": "교육 코스 별 진행률 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/TheAPECHarmonizationCenterService02/getCourseProgressList",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "-",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "COURSE_NAME",
+    "label": "코스명"
+   },
+   {
+    "name": "AVG_PROGRESS_RATIO",
+    "label": "평균 진행률"
+   }
+  ]
+ },
+ "15042667:41119": {
+  "id": "41119",
+  "name": "소속 정보 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/TheAPECHarmonizationCenterService02/getAffInfoList",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "-",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "AFF_CODE",
+    "label": "소속 코드"
+   },
+   {
+    "name": "AFFILIATION",
+    "label": "소속"
+   }
+  ]
+ },
+ "15042667:41120": {
+  "id": "41120",
+  "name": "국가 정보 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/TheAPECHarmonizationCenterService02/getNationInfoList",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "-",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "NA_CODE",
+    "label": "국가코드"
+   },
+   {
+    "name": "NATION",
+    "label": "국가"
+   }
+  ]
+ },
+ "15042667:41121": {
+  "id": "41121",
+  "name": "컨텐츠 캡처 정보 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/TheAPECHarmonizationCenterService02/getContentCaptureList",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "-",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "CONTENT_NAME",
+    "label": "콘텐츠명"
+   },
+   {
+    "name": "CHAPTER_NO",
+    "label": "챕터번호"
+   },
+   {
+    "name": "CHAPTER_TITLE",
+    "label": "챕터타이틀"
+   }
+  ]
+ },
+ "15042667:41122": {
+  "id": "41122",
+  "name": "교육신청취소내역",
+  "endpoint": "https://apis.data.go.kr/1471057/TheAPECHarmonizationCenterService02/getCourseAppCancleList",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "-",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "USER_NO",
+    "label": "유저 번호"
+   },
+   {
+    "name": "COURSE_NAME",
+    "label": "코스명"
+   },
+   {
+    "name": "PROGRESS_RATIO",
+    "label": "진행률"
+   },
+   {
+    "name": "TEST_SCORE",
+    "label": "시험 점수"
+   },
+   {
+    "name": "ETC",
+    "label": "기타 취소사유"
+   }
+  ]
+ },
+ "15042667:41123": {
+  "id": "41123",
+  "name": "교육 수료 정보 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/TheAPECHarmonizationCenterService02/getCourseCompleteInfoList",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "-",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "USER_NO",
+    "label": "유저 번호"
+   },
+   {
+    "name": "COURSE_NAME",
+    "label": "코스명"
+   },
+   {
+    "name": "COMPLETION_NO",
+    "label": "수료 번호"
+   }
+  ]
+ },
+ "15042667:41124": {
+  "id": "41124",
+  "name": "교육 수강 완료 정보 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/TheAPECHarmonizationCenterService02/getCourseCompleteList",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "-",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "COMPLETION_NO",
+    "label": "수료 번호"
+   },
+   {
+    "name": "CONVERTED_SCORE",
+    "label": "점수"
+   }
+  ]
+ },
+ "15042667:41125": {
+  "id": "41125",
+  "name": "기관 정보 조회",
+  "endpoint": "https://apis.data.go.kr/1471057/TheAPECHarmonizationCenterService02/getOrganizationInfoList",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "-",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "INS_CODE",
+    "label": "기관 코드"
+   },
+   {
+    "name": "INSTITUTE",
+    "label": "기관"
+   }
+  ]
+ },
+ "15095381:37405": {
+  "id": "37405",
+  "name": "수입위생용품 품목(유형)별 현황 조회",
+  "endpoint": "https://apis.data.go.kr/1471000/IprtHgpdGnrlStusService/getIprtHgpdPrdlstTypeStusInq",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키(URL Encode)",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   },
+   {
+    "name": "KOR_NM",
+    "label": "대표품목별",
+    "required": false
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "KOR_NM",
+    "label": "대표품목별"
+   },
+   {
+    "name": "CNT",
+    "label": "총건수"
+   },
+   {
+    "name": "DCLR_WEIT",
+    "label": "총중량"
+   },
+   {
+    "name": "DCLR_WEIT_UNIT",
+    "label": "총중량단위"
+   },
+   {
+    "name": "STBLT_CNT",
+    "label": "적합건수"
+   },
+   {
+    "name": "STBLT_WEIT",
+    "label": "적합중량"
+   },
+   {
+    "name": "STBLT_WEIT_UNIT",
+    "label": "적합중량단위"
+   },
+   {
+    "name": "INCG_CNT",
+    "label": "부적합건수"
+   },
+   {
+    "name": "INCG_WEIT",
+    "label": "부적합중량"
+   },
+   {
+    "name": "INCG_WEIT_UNIT",
+    "label": "부적합중량단위"
+   }
+  ]
+ },
+ "15095381:37406": {
+  "id": "37406",
+  "name": "수입위생용품 제품구분별 현황 조회",
+  "endpoint": "https://apis.data.go.kr/1471000/IprtHgpdGnrlStusService/getIprtHgpdPrdtDivsStusInq",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키(URL Encode)",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   },
+   {
+    "name": "DCLR_PRDT_DIVS_CD_NM",
+    "label": "제품구분별",
+    "required": false
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "DCLR_PRDT_DIVS_CD_NM",
+    "label": "제품구분별"
+   },
+   {
+    "name": "CNT",
+    "label": "총건수"
+   },
+   {
+    "name": "DCLR_WEIT",
+    "label": "총중량"
+   },
+   {
+    "name": "STBLT_CNT",
+    "label": "적합건수"
+   },
+   {
+    "name": "STBLT_WEIT",
+    "label": "적합중량"
+   },
+   {
+    "name": "INCG_CNT",
+    "label": "부적합건수"
+   },
+   {
+    "name": "INCG_WEIT",
+    "label": "부적합중량"
+   }
+  ]
+ },
+ "15095381:37407": {
+  "id": "37407",
+  "name": "수입위생용품 제조국별(원산지) 현황 조회",
+  "endpoint": "https://apis.data.go.kr/1471000/IprtHgpdGnrlStusService/getIprtHgpdMnftNatnStusInq",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키(URL Encode)",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   },
+   {
+    "name": "MNFT_NATN_CD_NM",
+    "label": "제조국명(원산지)",
+    "required": false
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "MNFT_NATN_CD_NM",
+    "label": "제조국명(원산지)"
+   },
+   {
+    "name": "CNT",
+    "label": "총건수"
+   },
+   {
+    "name": "DCLR_WEIT",
+    "label": "총중량"
+   },
+   {
+    "name": "STBLT_CNT",
+    "label": "적합건수"
+   },
+   {
+    "name": "STBLT_WEIT",
+    "label": "적합중량"
+   },
+   {
+    "name": "INCG_CNT",
+    "label": "부적합건수"
+   },
+   {
+    "name": "INCG_WEIT",
+    "label": "부적합중량"
+   }
+  ]
+ },
+ "15068683:41808": {
+  "id": "41808",
+  "name": "스케쥴 정보",
+  "endpoint": "https://apis.data.go.kr/1471057/KovamService01/getScheduleInfo",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "SCHEDULE_KEY",
+    "label": "스케쥴 키",
+    "required": false,
+    "sample": "test"
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "SCHEDULE_KEY",
+    "label": "스케쥴 키"
+   },
+   {
+    "name": "SDATE",
+    "label": "시작일"
+   },
+   {
+    "name": "EDATE",
+    "label": "종료일"
+   },
+   {
+    "name": "TITLE",
+    "label": "제목"
+   },
+   {
+    "name": "CONTENT",
+    "label": "내용"
+   },
+   {
+    "name": "SYS_RDATE",
+    "label": "등록일"
+   }
+  ]
+ },
+ "15068683:41809": {
+  "id": "41809",
+  "name": "관리자페이지메뉴목록",
+  "endpoint": "https://apis.data.go.kr/1471057/KovamService01/getAdminPageMenuList",
+  "params": [
+   {
+    "name": "ServiceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "menu_key",
+    "label": "메뉴키"
+   },
+   {
+    "name": "menu_name",
+    "label": "메뉴이름"
+   },
+   {
+    "name": "menu_type",
+    "label": "메뉴종류"
+   },
+   {
+    "name": "menu_resource",
+    "label": "메뉴정보"
+   },
+   {
+    "name": "active_flag",
+    "label": "메뉴활성화여부"
+   },
+   {
+    "name": "userid",
+    "label": "메뉴등록id"
+   },
+   {
+    "name": "sys_rdate",
+    "label": "메뉴등록일"
+   }
+  ]
+ },
+ "15068683:41810": {
+  "id": "41810",
+  "name": "메인페이지 배너 정보",
+  "endpoint": "https://apis.data.go.kr/1471057/KovamService01/getMainPageInfo",
+  "params": [
+   {
+    "name": "focus_key",
+    "label": "포커스 키",
+    "required": false,
+    "sample": "test"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "serviceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "focus_key",
+    "label": "포커스 키"
+   },
+   {
+    "name": "focus_title",
+    "label": "배너 제목"
+   },
+   {
+    "name": "focus_url",
+    "label": "배너 주소"
+   },
+   {
+    "name": "focus_image",
+    "label": "배너 이미지"
+   },
+   {
+    "name": "url_target",
+    "label": "대상 url"
+   },
+   {
+    "name": "active_flag",
+    "label": "활성화 여부"
+   },
+   {
+    "name": "sys_date",
+    "label": "등록일"
+   },
+   {
+    "name": "focus_order",
+    "label": "정렬순서"
+   }
+  ]
+ },
+ "15068683:41811": {
+  "id": "41811",
+  "name": "사이트 내 보호된 URL 정보",
+  "endpoint": "https://apis.data.go.kr/1471057/KovamService01/getSiteURLInfo",
+  "params": [
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "serviceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "RESOURCE_URL",
+    "label": "보호된 URL 주소"
+   },
+   {
+    "name": "RESOURCE_NAME",
+    "label": "url 이름"
+   },
+   {
+    "name": "CONTROLLER_CLASS",
+    "label": "클래스파일명"
+   },
+   {
+    "name": "SYS_RDATE",
+    "label": "등록일"
+   },
+   {
+    "name": "SYS_UDATE",
+    "label": "수정일"
+   }
+  ]
+ },
+ "15068683:41812": {
+  "id": "41812",
+  "name": "보호된 컨트롤러 목록",
+  "endpoint": "https://apis.data.go.kr/1471057/KovamService01/getControllerList",
+  "params": [
+   {
+    "name": "ServiceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "CONTROLLER_CLASS",
+    "label": "클래스파일명"
+   },
+   {
+    "name": "CONTROLLER_NAME",
+    "label": "컨트롤러명"
+   },
+   {
+    "name": "SYS_RDATE",
+    "label": "등록일"
+   }
+  ]
+ },
+ "15068683:41813": {
+  "id": "41813",
+  "name": "홈페이지관리자권한목록",
+  "endpoint": "https://apis.data.go.kr/1471057/KovamService01/getHomepageAdminRoleList",
+  "params": [
+   {
+    "name": "ServiceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "인증키",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "ROLE_CODE",
+    "label": "권한코드"
+   },
+   {
+    "name": "ROLE_NAME",
+    "label": "권한명"
+   },
+   {
+    "name": "ROLE_ORDER",
+    "label": "정렬순서"
+   },
+   {
+    "name": "SYS_RDATE",
+    "label": "등록일"
+   },
+   {
+    "name": "ACTIVE_FLAG",
+    "label": "활성여부"
+   }
+  ]
+ },
+ "15068683:41814": {
+  "id": "41814",
+  "name": "접근권한별 접근가능한 사이트",
+  "endpoint": "https://apis.data.go.kr/1471057/KovamService01/getRoleResourceURL",
+  "params": [
+   {
+    "name": "ServiceKey",
+    "label": "서비스키",
+    "required": true,
+    "sample": "인증키",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "ROLE_CODE",
+    "label": "권한코드"
+   },
+   {
+    "name": "RESOURCE_URL",
+    "label": "접근 url"
+   }
+  ]
+ },
+ "15068683:41815": {
+  "id": "41815",
+  "name": "첨부파일 목록 정보",
+  "endpoint": "https://apis.data.go.kr/1471057/KovamService01/getFileListInfo",
+  "params": [
+   {
+    "name": "FILE_ID",
+    "label": "파일ID",
+    "required": false,
+    "sample": "T_ARTICLE_17"
+   },
+   {
+    "name": "FILE_SEQ",
+    "label": "파일순번",
+    "required": true,
+    "sample": "2"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "serviceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "FILE_ID",
+    "label": "파일ID"
+   },
+   {
+    "name": "FILE_SEQ",
+    "label": "파일순번"
+   },
+   {
+    "name": "FILE_NAME",
+    "label": "파일명"
+   },
+   {
+    "name": "FILE_SIZE",
+    "label": "파일사이즈"
+   },
+   {
+    "name": "FILE_MASK",
+    "label": "실제파일명"
+   },
+   {
+    "name": "DOWNLOAD_COUNT",
+    "label": "다운로드횟수"
+   },
+   {
+    "name": "DOWNLOAD_EXPIRE_DATE",
+    "label": "다운로드만료일자"
+   },
+   {
+    "name": "DOWNLOAD_LIMIT_COUNT",
+    "label": "다운로드제한수"
+   },
+   {
+    "name": "REG_DATE",
+    "label": "등록일자"
+   },
+   {
+    "name": "DELETE_YN",
+    "label": "삭제여부"
+   },
+   {
+    "name": "FILE_TYPE",
+    "label": "파일타입"
+   }
+  ]
+ },
+ "15068683:41816": {
+  "id": "41816",
+  "name": "코드테이블정보",
+  "endpoint": "https://apis.data.go.kr/1471057/KovamService01/getCodeTableInfo",
+  "params": [
+   {
+    "name": "ServiceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "CODE_ID",
+    "label": "코드아이디"
+   },
+   {
+    "name": "PARENT_CODE",
+    "label": "상위코드명"
+   },
+   {
+    "name": "CODE_NAME",
+    "label": "코드명"
+   },
+   {
+    "name": "USE_FLAG",
+    "label": "사용여부"
+   },
+   {
+    "name": "ARRAY_ORDER",
+    "label": "정렬순서"
+   }
+  ]
+ },
+ "15068683:41820": {
+  "id": "41820",
+  "name": "콘텐츠 수정 이력 정보",
+  "endpoint": "https://apis.data.go.kr/1471057/KovamService01/getContentHistoryInfo",
+  "params": [
+   {
+    "name": "serviceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "CONTENT_HISTORY_KEY",
+    "label": "콘텐츠이력키",
+    "required": false,
+    "sample": "9"
+   },
+   {
+    "name": "CONTENT_KEY",
+    "label": "콘텐츠키",
+    "required": false,
+    "sample": "4"
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "CONTENT_HISTORY_KEY",
+    "label": "콘텐츠이력키"
+   },
+   {
+    "name": "CONTENT_KEY",
+    "label": "콘텐츠키"
+   },
+   {
+    "name": "CONTENT_TITLE",
+    "label": "콘텐츠제목"
+   },
+   {
+    "name": "SYSDATE",
+    "label": "등록일"
+   }
+  ]
+ },
+ "15068683:41821": {
+  "id": "41821",
+  "name": "콘텐츠 상세 정보",
+  "endpoint": "https://apis.data.go.kr/1471057/KovamService01/getContentDetailInfo",
+  "params": [
+   {
+    "name": "ServiceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "CONTENT_KEY",
+    "label": "콘텐츠키",
+    "required": false,
+    "sample": "4"
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "CONTENT_KEY",
+    "label": "콘텐츠키"
+   },
+   {
+    "name": "CONTENT_TITLE",
+    "label": "콘텐츠제목"
+   },
+   {
+    "name": "CONTENT_DETAIL",
+    "label": "콘텐츠내용"
+   },
+   {
+    "name": "SYS_DATE",
+    "label": "등록일"
+   },
+   {
+    "name": "ACTIVE_FLAG",
+    "label": "활성화여부"
+   },
+   {
+    "name": "MENU_TYPE",
+    "label": "메뉴타입"
+   }
+  ]
+ },
+ "15068683:41822": {
+  "id": "41822",
+  "name": "키테이블 정보",
+  "endpoint": "https://apis.data.go.kr/1471057/KovamService01/getKeyTableInfo",
+  "params": [
+   {
+    "name": "ServiceKey",
+    "label": "인증키",
+    "required": true,
+    "sample": "인증키",
+    "system": true
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호",
+    "required": false,
+    "sample": "1",
+    "system": true
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수",
+    "required": false,
+    "sample": "3",
+    "system": true
+   },
+   {
+    "name": "type",
+    "label": "데이터포맷",
+    "required": false,
+    "sample": "xml",
+    "system": true
+   }
+  ],
+  "fields": [
+   {
+    "name": "resultCode",
+    "label": "결과코드"
+   },
+   {
+    "name": "resultMsg",
+    "label": "결과메시지"
+   },
+   {
+    "name": "numOfRows",
+    "label": "한 페이지 결과 수"
+   },
+   {
+    "name": "pageNo",
+    "label": "페이지 번호"
+   },
+   {
+    "name": "totalCount",
+    "label": "전체 결과 수"
+   },
+   {
+    "name": "TABLE_NAME",
+    "label": "테이블명"
+   },
+   {
+    "name": "NEXT_ID",
+    "label": "키값"
+   }
+  ]
+ }
+}

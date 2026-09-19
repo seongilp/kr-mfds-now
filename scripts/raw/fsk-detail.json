@@ -1,0 +1,8287 @@
+{
+ "I0600": {
+  "params": [],
+  "fields": [
+   {
+    "name": "EDC_INSTT_APPN_NO",
+    "label": "지정번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "교육훈련기관명"
+   },
+   {
+    "name": "BSSH_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   }
+  ]
+ },
+ "I0580": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "INDUTY_CD_NM",
+    "label": "업종"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "SITE_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "HACCP_APPN_DT",
+    "label": "HACCP 지정일자"
+   },
+   {
+    "name": "HACCP_APPN_NO",
+    "label": "HACCP 지정번호"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "품목명"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "영업상태"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "ASGN_CANCL_DT",
+    "label": "지정취소일자"
+   },
+   {
+    "name": "CRTFC_ENDDT",
+    "label": "인증종료일자"
+   },
+   {
+    "name": "CRTFC_RETN_DT",
+    "label": "인증반납일자"
+   }
+  ]
+ },
+ "I0130": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LMO_CONFM_NO",
+    "label": "유전자 변형 생물체 승인번호"
+   },
+   {
+    "name": "CONFM_DT",
+    "label": "승인일자"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "COMMON_NM",
+    "label": "보통명"
+   },
+   {
+    "name": "SYSTM_NM",
+    "label": "계통명"
+   },
+   {
+    "name": "BNE_NM",
+    "label": "학명"
+   },
+   {
+    "name": "PRPOS",
+    "label": "용도"
+   },
+   {
+    "name": "NATN_CD_NM",
+    "label": "수입국"
+   }
+  ]
+ },
+ "I2580": {
+  "params": [],
+  "fields": [
+   {
+    "name": "INDV_SPEC_SEQ",
+    "label": "개별기준규격일련번호"
+   },
+   {
+    "name": "PRDLST_CD",
+    "label": "품목분류코드"
+   },
+   {
+    "name": "PRDLST_CD_NM",
+    "label": "품목명"
+   },
+   {
+    "name": "TESTITM_CD",
+    "label": "시험항목코드"
+   },
+   {
+    "name": "TESTITM_NM",
+    "label": "시험항목명"
+   },
+   {
+    "name": "FNPRT_ITM_NM",
+    "label": "세부항목명"
+   },
+   {
+    "name": "ATTRB_SEQ",
+    "label": "단서조항일련번호"
+   },
+   {
+    "name": "PIAM_KOR_NM",
+    "label": "단서조항명"
+   },
+   {
+    "name": "SPEC_VAL",
+    "label": "기준규격"
+   },
+   {
+    "name": "SPEC_VAL_SUMUP",
+    "label": "기준규격요약"
+   },
+   {
+    "name": "VALD_BEGN_DT",
+    "label": "유효개시일"
+   },
+   {
+    "name": "VALD_END_DT",
+    "label": "유효종료일"
+   },
+   {
+    "name": "SORC",
+    "label": "출처"
+   },
+   {
+    "name": "VALD_MANLI",
+    "label": "유효자리"
+   },
+   {
+    "name": "JDGMNT_FOM_CD",
+    "label": "판정형식코드"
+   },
+   {
+    "name": "A079_FNPRT_CD_NM",
+    "label": "판정형식명"
+   },
+   {
+    "name": "MXMM_VAL",
+    "label": "최대값"
+   },
+   {
+    "name": "MXMM_VAL_DVS_CD",
+    "label": "최대값구분코드"
+   },
+   {
+    "name": "A081_FNPRT_CD_NM",
+    "label": "최대값구분명"
+   },
+   {
+    "name": "MIMM_VAL",
+    "label": "최소값"
+   },
+   {
+    "name": "MIMM_VAL_DVS_CD",
+    "label": "최소값구분코드"
+   },
+   {
+    "name": "A080_FNPRT_CD_NM",
+    "label": "최소값구분명"
+   },
+   {
+    "name": "CHOIC_FIT",
+    "label": "선택형적합코드"
+   },
+   {
+    "name": "A082_CF_FNPRT_CD_NM",
+    "label": "선택형적합명"
+   },
+   {
+    "name": "CHOIC_IMPROPT",
+    "label": "선택형부적합코드"
+   },
+   {
+    "name": "A082_CI_FNPRT_CD_NM",
+    "label": "선택형부적합명"
+   },
+   {
+    "name": "MCRRGNSM_2N",
+    "label": "미생물2N"
+   },
+   {
+    "name": "MCRRGNSM_2C",
+    "label": "미생물2C"
+   },
+   {
+    "name": "MCRRGNSM_2M",
+    "label": "미생물2M"
+   },
+   {
+    "name": "MCRRGNSM_3M",
+    "label": "미생물3M"
+   },
+   {
+    "name": "FNPRT_ITM_INCLS_YN",
+    "label": "세부항목포함여부"
+   },
+   {
+    "name": "INJRY_YN",
+    "label": "위해여부"
+   },
+   {
+    "name": "EMPHS_PRSEC_TESTITM_YN",
+    "label": "중점검사시험항목여부"
+   },
+   {
+    "name": "MONTRNG_TESTITM_YN",
+    "label": "감시시험항목여부"
+   },
+   {
+    "name": "RVLV_ELSE_TESTITM_YN",
+    "label": "공전외시험항목여부"
+   },
+   {
+    "name": "NTR_PRSEC_ITM_YN",
+    "label": "자품검사시험항목여부"
+   },
+   {
+    "name": "UNIT_CD",
+    "label": "단위코드"
+   },
+   {
+    "name": "UNIT_NM",
+    "label": "단위명"
+   },
+   {
+    "name": "UPDT_PRVNS",
+    "label": "수정사유"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일시"
+   }
+  ]
+ },
+ "I-0050": {
+  "params": [],
+  "fields": [
+   {
+    "name": "HF_FNCLTY_MTRAL_RCOGN_NO",
+    "label": "원료인정번호"
+   },
+   {
+    "name": "DAY_INTK_HIGHLIMIT",
+    "label": "1일 섭취량 상한선"
+   },
+   {
+    "name": "DAY_INTK_LOWLIMIT",
+    "label": "1일 섭취량 하한선"
+   },
+   {
+    "name": "WT_UNIT",
+    "label": "중량 단위"
+   },
+   {
+    "name": "RAWMTRL_NM",
+    "label": "원재료 명"
+   },
+   {
+    "name": "IFTKN_ATNT_MATR_CN",
+    "label": "섭취시 주의 사항 내용"
+   },
+   {
+    "name": "PRIMARY_FNCLTY",
+    "label": "주된 기능성"
+   }
+  ]
+ },
+ "I-0040": {
+  "params": [],
+  "fields": [
+   {
+    "name": "HF_FNCLTY_MTRAL_RCOGN_NO",
+    "label": "인정번호"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "인정일자"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업체명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "APLC_RAWMTRL_NM",
+    "label": "신청원료명"
+   },
+   {
+    "name": "FNCLTY_CN",
+    "label": "기능성 내용"
+   },
+   {
+    "name": "DAY_INTK_CN",
+    "label": "1일 섭취량"
+   },
+   {
+    "name": "IFTKN_ATNT_MATR_CN",
+    "label": "섭취시 주의사항"
+   }
+  ]
+ },
+ "I0310": {
+  "params": [],
+  "fields": [
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "품목명"
+   },
+   {
+    "name": "GUBUN",
+    "label": "품목구분"
+   },
+   {
+    "name": "H_ITEM_NM",
+    "label": "품목유형"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "EVL_YR",
+    "label": "보고년도"
+   },
+   {
+    "name": "PRDLST_REPORT_NO",
+    "label": "품목제조보고번호"
+   },
+   {
+    "name": "FYER_PRDCTN_ABRT_QY",
+    "label": "연간생산능력(KG)"
+   },
+   {
+    "name": "PRDCTN_QY",
+    "label": "생산량(KG)"
+   }
+  ]
+ },
+ "I0760": {
+  "params": [],
+  "fields": [
+   {
+    "name": "HELT_ITM_GRP_CD",
+    "label": "건강 항목 그룹 코드"
+   },
+   {
+    "name": "HELT_ITM_GRP_NM",
+    "label": "건강 항목 그룹 명"
+   },
+   {
+    "name": "LCLAS_CD",
+    "label": "대분류 코드"
+   },
+   {
+    "name": "LCLAS_NM",
+    "label": "대분류 명"
+   },
+   {
+    "name": "MLSFC_CD",
+    "label": "중분류 코드"
+   },
+   {
+    "name": "MLSFC_NM",
+    "label": "중분류 명"
+   },
+   {
+    "name": "SCLAS_CD",
+    "label": "소분류 코드"
+   },
+   {
+    "name": "SCLAS_NM",
+    "label": "소분류 명"
+   }
+  ]
+ },
+ "I-0020": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가 번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   }
+  ]
+ },
+ "I2822": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "페업상태"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2710": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRDCT_NM",
+    "label": "품목명"
+   },
+   {
+    "name": "IFTKN_ATNT_MATR_CN",
+    "label": "섭취시주의사항"
+   },
+   {
+    "name": "PRIMARY_FNCLTY",
+    "label": "주된기능성"
+   },
+   {
+    "name": "DAY_INTK_LOWLIMIT",
+    "label": "일일섭취량 하한"
+   },
+   {
+    "name": "DAY_INTK_HIGHLIMIT",
+    "label": "일일섭취량 상한"
+   },
+   {
+    "name": "INTK_UNIT",
+    "label": "단위"
+   },
+   {
+    "name": "INTK_MEMO",
+    "label": "REMARK"
+   },
+   {
+    "name": "SKLL_IX_IRDNT_RAWMTRL",
+    "label": "성분명"
+   },
+   {
+    "name": "CRET_DTM",
+    "label": "최초등록일"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일"
+   }
+  ]
+ },
+ "I0030": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소_명"
+   },
+   {
+    "name": "PRDLST_REPORT_NO",
+    "label": "품목제조번호"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "품목_명"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가_일자"
+   },
+   {
+    "name": "POG_DAYCNT",
+    "label": "소비기한_일수"
+   },
+   {
+    "name": "DISPOS",
+    "label": "제품형태"
+   },
+   {
+    "name": "NTK_MTHD",
+    "label": "섭취방법"
+   },
+   {
+    "name": "PRIMARY_FNCLTY",
+    "label": "주된기능성"
+   },
+   {
+    "name": "IFTKN_ATNT_MATR_CN",
+    "label": "섭취시주의사항"
+   },
+   {
+    "name": "CSTDY_MTHD",
+    "label": "보관방법"
+   },
+   {
+    "name": "PRDLST_CDNM",
+    "label": "유형"
+   },
+   {
+    "name": "STDR_STND",
+    "label": "기준규격"
+   },
+   {
+    "name": "HIENG_LNTRT_DVS_NM",
+    "label": "고열량저영양여부"
+   },
+   {
+    "name": "PRODUCTION",
+    "label": "생산종료여부"
+   },
+   {
+    "name": "CHILD_CRTFC_YN",
+    "label": "어린이기호식품품질인증여부"
+   },
+   {
+    "name": "PRDT_SHAP_CD_NM",
+    "label": "제품_형태_코드_명"
+   },
+   {
+    "name": "FRMLC_MTRQLT",
+    "label": "포장재질"
+   },
+   {
+    "name": "RAWMTRL_NM",
+    "label": "품목유형(기능지표성분)"
+   },
+   {
+    "name": "INDUTY_CD_NM",
+    "label": "업종"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일자"
+   },
+   {
+    "name": "INDIV_RAWMTRL_NM",
+    "label": "기능성 원재료"
+   },
+   {
+    "name": "ETC_RAWMTRL_NM",
+    "label": "기타 원재료"
+   },
+   {
+    "name": "CAP_RAWMTRL_NM",
+    "label": "캡슐 원재료"
+   },
+   {
+    "name": "FRMLC_MTHD",
+    "label": "포장방법"
+   }
+  ]
+ },
+ "C003": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRDLST_REPORT_NO",
+    "label": "품목제조번호"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "품목명"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "보고일자"
+   },
+   {
+    "name": "POG_DAYCNT",
+    "label": "소비기한"
+   },
+   {
+    "name": "DISPOS",
+    "label": "성상"
+   },
+   {
+    "name": "NTK_MTHD",
+    "label": "섭취방법"
+   },
+   {
+    "name": "PRIMARY_FNCLTY",
+    "label": "주된기능성"
+   },
+   {
+    "name": "IFTKN_ATNT_MATR_CN",
+    "label": "섭취시주의사항"
+   },
+   {
+    "name": "CSTDY_MTHD",
+    "label": "보관방법"
+   },
+   {
+    "name": "SHAP",
+    "label": "형태"
+   },
+   {
+    "name": "STDR_STND",
+    "label": "기준규격"
+   },
+   {
+    "name": "RAWMTRL_NM",
+    "label": "원재료"
+   },
+   {
+    "name": "CRET_DTM",
+    "label": "최초생성일시"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일시"
+   },
+   {
+    "name": "PRDT_SHAP_CD_NM",
+    "label": "제품형태"
+   }
+  ]
+ },
+ "I0630": {
+  "params": [],
+  "fields": [
+   {
+    "name": "GMP_APPN_NO",
+    "label": "GMP지정번호"
+   },
+   {
+    "name": "APPN_DT",
+    "label": "지정일자"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "업고고유번호"
+   },
+   {
+    "name": "APPN_CANCL_DT",
+    "label": "GMP취소일자"
+   },
+   {
+    "name": "INDUTY_CD_NM",
+    "label": "업종명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   }
+  ]
+ },
+ "I0960": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRDLST_CD",
+    "label": "품목코드"
+   },
+   {
+    "name": "PC_KOR_NM",
+    "label": "품목한글명"
+   },
+   {
+    "name": "TESTITM_CD",
+    "label": "시험항목코드"
+   },
+   {
+    "name": "T_KOR_NM",
+    "label": "시험항목 한글명"
+   },
+   {
+    "name": "FNPRT_ITM_NM",
+    "label": "세부항목명"
+   },
+   {
+    "name": "SPEC_VAL",
+    "label": "기준규격값"
+   },
+   {
+    "name": "SPEC_VAL_SUMUP",
+    "label": "기준규격값 요약"
+   },
+   {
+    "name": "VALD_BEGN_DT",
+    "label": "유효개시일자"
+   },
+   {
+    "name": "VALD_END_DT",
+    "label": "유효종료일자"
+   },
+   {
+    "name": "SORC",
+    "label": "출처"
+   },
+   {
+    "name": "MXMM_VAL",
+    "label": "최대값"
+   },
+   {
+    "name": "MIMM_VAL",
+    "label": "최소값"
+   },
+   {
+    "name": "UNIT_NM",
+    "label": "단위명"
+   }
+  ]
+ },
+ "I2860": {
+  "params": [],
+  "fields": [
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "INDUTY_CD_NM",
+    "label": "업종명"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "SITE_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "CHNG_DT",
+    "label": "변경일자"
+   },
+   {
+    "name": "CHNG_BF_CN",
+    "label": "변경전내용"
+   },
+   {
+    "name": "CHNG_AF_CN",
+    "label": "변경후내용"
+   },
+   {
+    "name": "CHNG_PRVNS",
+    "label": "변경사유"
+   },
+   {
+    "name": "LCNS_LEDG_CI_CDNM",
+    "label": "변경구분"
+   }
+  ]
+ },
+ "I2839": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PLAN_CLCD",
+    "label": "계획분류"
+   },
+   {
+    "name": "CHCK_BGNDT",
+    "label": "계획시작일자"
+   },
+   {
+    "name": "CHCK_ENDDT",
+    "label": "계획종료일자"
+   },
+   {
+    "name": "EXC_INSTTCD",
+    "label": "점검기관"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "GIDCHCK_DT",
+    "label": "지도점검일자"
+   },
+   {
+    "name": "BLDINSCTR_NAME",
+    "label": "피점검자성명"
+   },
+   {
+    "name": "GIDCHCK_RSLTCD",
+    "label": "점검결과"
+   },
+   {
+    "name": "PLAN_TITL",
+    "label": "계획명"
+   }
+  ]
+ },
+ "I1290": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가 번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2640": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRDTNM",
+    "label": "제품명"
+   },
+   {
+    "name": "BSSHNM",
+    "label": "업소명"
+   },
+   {
+    "name": "MNFDT",
+    "label": "제조일자"
+   },
+   {
+    "name": "DISTBTMLMT",
+    "label": "유통/소비기한"
+   },
+   {
+    "name": "ADDR",
+    "label": "영업자주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "검사기관"
+   },
+   {
+    "name": "REGSTR_TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "BRCDNO",
+    "label": "바코드번호"
+   },
+   {
+    "name": "FRMLCUNIT",
+    "label": "포장단위"
+   },
+   {
+    "name": "TEST_ITMNM",
+    "label": "부적합항목"
+   },
+   {
+    "name": "STDR_STND",
+    "label": "기준규격"
+   },
+   {
+    "name": "TESTANALS_RSLT",
+    "label": "검사결과"
+   },
+   {
+    "name": "CRET_DTM",
+    "label": "등록일"
+   },
+   {
+    "name": "RTRVLDSUSE_SEQ",
+    "label": "회수폐기일련번호"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "업체인허가번호"
+   },
+   {
+    "name": "REPORTR_TELNO",
+    "label": "보고자전화번호"
+   }
+  ]
+ },
+ "I2620": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRDTNM",
+    "label": "제품명"
+   },
+   {
+    "name": "BSSHNM",
+    "label": "업소명"
+   },
+   {
+    "name": "MNFDT",
+    "label": "제조일자"
+   },
+   {
+    "name": "DISTBTMLMT",
+    "label": "유통/소비기한"
+   },
+   {
+    "name": "ADDR",
+    "label": "영업자주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "검사기관"
+   },
+   {
+    "name": "REGSTR_TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "BRCDNO",
+    "label": "바코드번호"
+   },
+   {
+    "name": "FRMLCUNIT",
+    "label": "포장단위"
+   },
+   {
+    "name": "TEST_ITMNM",
+    "label": "부적합항목"
+   },
+   {
+    "name": "STDR_STND",
+    "label": "기준규격"
+   },
+   {
+    "name": "TESTANALS_RSLT",
+    "label": "검사결과"
+   },
+   {
+    "name": "CRET_DTM",
+    "label": "등록일"
+   },
+   {
+    "name": "RTRVLDSUSE_SEQ",
+    "label": "회수폐기일련번호"
+   },
+   {
+    "name": "PRDLST_REPORT_NO",
+    "label": "품목제조보고번호"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "업체인허가번호"
+   },
+   {
+    "name": "REPORTR_TELNO",
+    "label": "보고자전화번호"
+   },
+   {
+    "name": "PRDLST_CD_NM",
+    "label": "식품유형"
+   }
+  ]
+ },
+ "I2857": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2600": {
+  "params": [],
+  "fields": [
+   {
+    "name": "CMMN_SPEC_SEQ",
+    "label": "공통기준종류코드일련번호"
+   },
+   {
+    "name": "CMMN_SPEC_CD",
+    "label": "공통기준종류코드"
+   },
+   {
+    "name": "SPEC_NM",
+    "label": "공통기준종류명"
+   },
+   {
+    "name": "PRDLST_CD",
+    "label": "품목분류코드"
+   },
+   {
+    "name": "PRDLST_CD_NM",
+    "label": "품목명"
+   },
+   {
+    "name": "TESTITM_CD",
+    "label": "시험항목코드"
+   },
+   {
+    "name": "TESTITM_NM",
+    "label": "시험항목명"
+   },
+   {
+    "name": "FNPRT_ITM_NM",
+    "label": "세부항목명"
+   },
+   {
+    "name": "ATTRB_SEQ",
+    "label": "단서조항일련번호"
+   },
+   {
+    "name": "PIAM_KOR_NM",
+    "label": "단서조항명"
+   },
+   {
+    "name": "SPEC_VAL",
+    "label": "기준규격"
+   },
+   {
+    "name": "SPEC_VAL_SUMUP",
+    "label": "기준규격요약"
+   },
+   {
+    "name": "VALD_BEGN_DT",
+    "label": "유효개시일"
+   },
+   {
+    "name": "VALD_END_DT",
+    "label": "유효종료일"
+   },
+   {
+    "name": "SORC",
+    "label": "출처"
+   },
+   {
+    "name": "VALD_MANLI",
+    "label": "유효자리"
+   },
+   {
+    "name": "JDGMNT_FOM_CD",
+    "label": "판정형식코드"
+   },
+   {
+    "name": "A079_FNPRT_CD_NM",
+    "label": "판정형식명"
+   },
+   {
+    "name": "MXMM_VAL",
+    "label": "최대값"
+   },
+   {
+    "name": "MXMM_VAL_DVS_CD",
+    "label": "최대값구분코드"
+   },
+   {
+    "name": "A081_FNPRT_CD_NM",
+    "label": "최대값구분명"
+   },
+   {
+    "name": "MIMM_VAL",
+    "label": "최소값"
+   },
+   {
+    "name": "MIMM_VAL_DVS_CD",
+    "label": "최소값구분코드"
+   },
+   {
+    "name": "A080_FNPRT_CD_NM",
+    "label": "최소값구분명"
+   },
+   {
+    "name": "CHOIC_FIT",
+    "label": "선택형적합코드"
+   },
+   {
+    "name": "A082_CF_FNPRT_CD_NM",
+    "label": "선택형적합명"
+   },
+   {
+    "name": "CHOIC_IMPROPT",
+    "label": "선택형부적합코드"
+   },
+   {
+    "name": "A082_CI_FNPRT_CD_NM",
+    "label": "선택형부적합명"
+   },
+   {
+    "name": "MCRRGNSM_2N",
+    "label": "미생물2N"
+   },
+   {
+    "name": "MCRRGNSM_2C",
+    "label": "미생물2C"
+   },
+   {
+    "name": "MCRRGNSM_2M",
+    "label": "미생물2M"
+   },
+   {
+    "name": "MCRRGNSM_3M",
+    "label": "미생물3M"
+   },
+   {
+    "name": "FNPRT_ITM_INCLS_YN",
+    "label": "세부항목포함여부"
+   },
+   {
+    "name": "INJRY_YN",
+    "label": "위해여부"
+   },
+   {
+    "name": "EMPHS_PRSEC_TESTITM_YN",
+    "label": "중점검사시험항목여부"
+   },
+   {
+    "name": "MONTRNG_TESTITM_YN",
+    "label": "감시시험항목여부"
+   },
+   {
+    "name": "RVLV_ELSE_TESTITM_YN",
+    "label": "공전외시험항목여부"
+   },
+   {
+    "name": "NTR_PRSEC_ITM_YN",
+    "label": "자품검사시험항목여부"
+   },
+   {
+    "name": "UNIT_CD",
+    "label": "단위코드"
+   },
+   {
+    "name": "UNIT_NM",
+    "label": "단위명"
+   },
+   {
+    "name": "UPDT_PRVNS",
+    "label": "수정사유"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일시"
+   }
+  ]
+ },
+ "I2610": {
+  "params": [],
+  "fields": [
+   {
+    "name": "CMMN_SPEC_CD",
+    "label": "공통기준규격코드"
+   },
+   {
+    "name": "SPEC_NM",
+    "label": "기준규격명"
+   },
+   {
+    "name": "PRDLST_CD",
+    "label": "품목코드"
+   },
+   {
+    "name": "KOR_NM",
+    "label": "한글명"
+   },
+   {
+    "name": "TESTITM_CD",
+    "label": "시험항목코드"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일시"
+   }
+  ]
+ },
+ "I2590": {
+  "params": [],
+  "fields": [
+   {
+    "name": "CMMN_SPEC_CD",
+    "label": "공통기준규격코드"
+   },
+   {
+    "name": "SPEC_NM",
+    "label": "기준규격명"
+   },
+   {
+    "name": "HRNK_CMMN_SPEC_CD",
+    "label": "상위공통기준규격코드"
+   },
+   {
+    "name": "LV",
+    "label": "레벨"
+   },
+   {
+    "name": "DFN",
+    "label": "정의"
+   },
+   {
+    "name": "USE_YN",
+    "label": "사용여부"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일시"
+   }
+  ]
+ },
+ "I1660": {
+  "params": [],
+  "fields": [
+   {
+    "name": "DSPS_STDR_CD_NM",
+    "label": "처분기준명"
+   },
+   {
+    "name": "LAWORD_CD_NM",
+    "label": "식품법령"
+   },
+   {
+    "name": "BASIS_LAWORD",
+    "label": "근거법령"
+   },
+   {
+    "name": "VILT_TYPE_NM",
+    "label": "위반유형"
+   },
+   {
+    "name": "LV_NO",
+    "label": "레벨"
+   },
+   {
+    "name": "VALD_BGN_DT",
+    "label": "유효시작일자"
+   },
+   {
+    "name": "VALD_END_DT",
+    "label": "유효종료일자"
+   }
+  ]
+ },
+ "I1670": {
+  "params": [],
+  "fields": [
+   {
+    "name": "DSPS_STDR_CD",
+    "label": "처분기준코드"
+   },
+   {
+    "name": "DSPS_STDR_CD_NM",
+    "label": "처분기준명"
+   },
+   {
+    "name": "LV_NO",
+    "label": "레벨"
+   },
+   {
+    "name": "BASIS_LAWORD",
+    "label": "근거법령"
+   },
+   {
+    "name": "VILT_TYPE_NM",
+    "label": "위반유형"
+   },
+   {
+    "name": "VALD_BGN_DT",
+    "label": "유효시작일자"
+   },
+   {
+    "name": "VALD_END_DT",
+    "label": "유효종료일자"
+   }
+  ]
+ },
+ "I0910": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRSEC_INSTT_RCOGN_NO",
+    "label": "인정번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "기관명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자"
+   },
+   {
+    "name": "APPN_BGN_DT",
+    "label": "지정일자"
+   },
+   {
+    "name": "PRSEC_ITM_CD_NM",
+    "label": "검사항목"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "BSSH_ADDR",
+    "label": "주소"
+   }
+  ]
+ },
+ "I0990": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LIMIT_STDR_STND_RCOGN_NO",
+    "label": "인정번호"
+   },
+   {
+    "name": "RCOGN_DT",
+    "label": "인정일자"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "MC_NM",
+    "label": "제조회사"
+   },
+   {
+    "name": "PRDT_NM",
+    "label": "제품명"
+   },
+   {
+    "name": "MC_NATN_CD_NM",
+    "label": "제조회사 국가"
+   }
+  ]
+ },
+ "I1240": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가 번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I1100": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PC_KOR_NM",
+    "label": "품목한글명"
+   },
+   {
+    "name": "T_KOR_NM",
+    "label": "시험항목 한글명"
+   },
+   {
+    "name": "FNPRT_ITM_NM",
+    "label": "세부항목명"
+   },
+   {
+    "name": "PIAM_KOR_NM",
+    "label": "품목항목속성 한글명"
+   },
+   {
+    "name": "SPEC_VAL",
+    "label": "기준규격값"
+   },
+   {
+    "name": "SPEC_VAL_SUMUP",
+    "label": "기준규격값 요약"
+   },
+   {
+    "name": "VALD_BEGN_DT",
+    "label": "유효개시일자"
+   },
+   {
+    "name": "VALD_END_DT",
+    "label": "유효종료일자"
+   },
+   {
+    "name": "SORC",
+    "label": "출처"
+   },
+   {
+    "name": "MXMM_VAL",
+    "label": "최대값"
+   },
+   {
+    "name": "MIMM_VAL",
+    "label": "최소값"
+   },
+   {
+    "name": "UNIT_NM",
+    "label": "단위명"
+   },
+   {
+    "name": "UPDT_PRVNS",
+    "label": "수정사유"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "수정일자"
+   }
+  ]
+ },
+ "I1010": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LIMIT_STDR_STND_RCOGN_NO",
+    "label": "인정번호"
+   },
+   {
+    "name": "RCOGN_DT",
+    "label": "인정일자"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "MC_NM",
+    "label": "제조회사"
+   },
+   {
+    "name": "PRDT_NM",
+    "label": "제품명"
+   },
+   {
+    "name": "MC_NATN_CD_NM",
+    "label": "제조회사 국가"
+   }
+  ]
+ },
+ "I2847": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업체명"
+   },
+   {
+    "name": "INDUTY_CD_NM",
+    "label": "업종"
+   },
+   {
+    "name": "SITE_ADDR",
+    "label": "영업소재지"
+   },
+   {
+    "name": "APPT_YMD",
+    "label": "지정일자"
+   },
+   {
+    "name": "ETC_INFO",
+    "label": "기타정보"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "관할기관"
+   }
+  ]
+ },
+ "I1870": {
+  "params": [],
+  "fields": [
+   {
+    "name": "APPN_NO",
+    "label": "지정번호"
+   },
+   {
+    "name": "APPN_DT",
+    "label": "지정일자"
+   },
+   {
+    "name": "APPN_INSTT_NM",
+    "label": "지정기관"
+   },
+   {
+    "name": "PRSEC_INSTT_LOCPLC",
+    "label": "검사기관소재지"
+   },
+   {
+    "name": "PRSEC_WORK_SCOPE",
+    "label": "검사업무범위"
+   },
+   {
+    "name": "HRMF_MTTR_ITM",
+    "label": "유해물질항목"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   }
+  ]
+ },
+ "I1790": {
+  "params": [],
+  "fields": [
+   {
+    "name": "HIST_TRACE_REG_NO",
+    "label": "이력추적등록번호"
+   },
+   {
+    "name": "REG_INSTT_NM",
+    "label": "등록기관"
+   },
+   {
+    "name": "RPRSNT_PRDLST_NM",
+    "label": "대표품목"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "ORGN_NM",
+    "label": "단체명"
+   },
+   {
+    "name": "VALD_PRICE_BGN_DT",
+    "label": "유효기간시작일자"
+   },
+   {
+    "name": "VALD_PRICE_END_DT",
+    "label": "유효기간종료일자"
+   }
+  ]
+ },
+ "I1800": {
+  "params": [],
+  "fields": [
+   {
+    "name": "HIST_TRACE_REG_NO",
+    "label": "이력추적등록번호"
+   },
+   {
+    "name": "GRP_NM",
+    "label": "거래처명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   }
+  ]
+ },
+ "I1910": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRDLST_KOR_NM",
+    "label": "농약명"
+   },
+   {
+    "name": "PRDLST_ENG_NM",
+    "label": "농약영문명"
+   },
+   {
+    "name": "BRND_NM",
+    "label": "상표명"
+   },
+   {
+    "name": "AGCHM_PRDLST_NO",
+    "label": "품목번호"
+   },
+   {
+    "name": "PRDLST_REG_NO",
+    "label": "등록번호"
+   },
+   {
+    "name": "MDC_SHAP_NM",
+    "label": "제제형태"
+   },
+   {
+    "name": "AGCHM_DVS_NM",
+    "label": "농약구분"
+   },
+   {
+    "name": "PRPOS_DVS_CD_NM",
+    "label": "용도"
+   },
+   {
+    "name": "SICKNS_HLSCT_NM_WEEDS_NM",
+    "label": "병해충/잡초명"
+   },
+   {
+    "name": "CROPS_NM",
+    "label": "작물명"
+   },
+   {
+    "name": "AGCHM_USE_MTHD",
+    "label": "농약사용방법"
+   },
+   {
+    "name": "USE_PPRTM",
+    "label": "사용적기"
+   },
+   {
+    "name": "DILU_DRNG",
+    "label": "희석배수"
+   },
+   {
+    "name": "USE_QTY",
+    "label": "사용수량"
+   },
+   {
+    "name": "USE_UNIT",
+    "label": "단위"
+   },
+   {
+    "name": "USE_TMNO",
+    "label": "사용횟수"
+   },
+   {
+    "name": "BUSS_REG_NO",
+    "label": "업등록번호"
+   },
+   {
+    "name": "BUSS_REG_EVNT_NM",
+    "label": "업등록종목"
+   },
+   {
+    "name": "CPR_NM",
+    "label": "법인명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자"
+   },
+   {
+    "name": "ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "MNF_INCM_DVS_NM",
+    "label": "제조/수입구분"
+   },
+   {
+    "name": "PRDLST_REG_VALD_DT",
+    "label": "등록유효일자"
+   },
+   {
+    "name": "PRDLST_REG_DT",
+    "label": "등록일자"
+   },
+   {
+    "name": "TEST_DRGS_NM",
+    "label": "시험약제명"
+   },
+   {
+    "name": "PRDLST_REG_STND",
+    "label": "등록규격"
+   },
+   {
+    "name": "REG_YN_NM",
+    "label": "등록여부"
+   },
+   {
+    "name": "PERSN_LVSTCK_TOXCTY",
+    "label": "사람/가축독성"
+   },
+   {
+    "name": "ECLGY_TOXCTY",
+    "label": "생태독성"
+   }
+  ]
+ },
+ "I1040": {
+  "params": [],
+  "fields": [
+   {
+    "name": "AGCHM_KOR_NM",
+    "label": "농약명"
+   },
+   {
+    "name": "FOOD_KOR_NM",
+    "label": "식품명"
+   },
+   {
+    "name": "OPERTN_CITYPOINT",
+    "label": "시행 시점"
+   },
+   {
+    "name": "STEP",
+    "label": "단계"
+   },
+   {
+    "name": "MRL_VAL",
+    "label": "MRL 값"
+   },
+   {
+    "name": "DSUSE_YN",
+    "label": "폐기 여부"
+   }
+  ]
+ },
+ "I1850": {
+  "params": [],
+  "fields": [
+   {
+    "name": "BSN_KND_NM",
+    "label": "업종"
+   },
+   {
+    "name": "ENTRPS_NM",
+    "label": "업체명"
+   },
+   {
+    "name": "ENTRPS_BASS_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "VILT_DTLS",
+    "label": "위반내역"
+   },
+   {
+    "name": "PUBLC_BGN_DT",
+    "label": "공표시작일"
+   },
+   {
+    "name": "PUBLC_END_DT",
+    "label": "공표종료일"
+   }
+  ]
+ },
+ "I1860": {
+  "params": [],
+  "fields": [
+   {
+    "name": "BSN_KND_NM",
+    "label": "업종"
+   },
+   {
+    "name": "ENTRPS_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "ENTRPS_BASS_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "VILT_DTLS",
+    "label": "위반내역"
+   },
+   {
+    "name": "PUBLC_BGN_DT",
+    "label": "공표시작일자"
+   },
+   {
+    "name": "PUBLC_END_DT",
+    "label": "공표종료일자"
+   },
+   {
+    "name": "VILT_CN",
+    "label": "위반내용"
+   },
+   {
+    "name": "DSPS_CN",
+    "label": "처분내용"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "품목명"
+   }
+  ]
+ },
+ "I2858": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I1070": {
+  "params": [],
+  "fields": [
+   {
+    "name": "ANIMAL_ONLY_MDCIN_NM_KOR",
+    "label": "의약품 한글명"
+   },
+   {
+    "name": "ANIMAL_ONLY_MDCIN_NM_ENG",
+    "label": "의약품 영문명"
+   },
+   {
+    "name": "APPLC_OBJ_ANIMAL",
+    "label": "적용 대상 동물"
+   },
+   {
+    "name": "MCFRL",
+    "label": "분자식"
+   },
+   {
+    "name": "MCWGH",
+    "label": "분자량"
+   },
+   {
+    "name": "SYSTM_NM",
+    "label": "계통명"
+   },
+   {
+    "name": "IUPAC_NM",
+    "label": "IUPAC 명"
+   },
+   {
+    "name": "CAS_NM",
+    "label": "CAS 명"
+   },
+   {
+    "name": "SHAP_NM",
+    "label": "형태"
+   },
+   {
+    "name": "POIOF",
+    "label": "녹는점"
+   },
+   {
+    "name": "BOILPNT",
+    "label": "끓는점"
+   },
+   {
+    "name": "STEPR",
+    "label": "증기압"
+   },
+   {
+    "name": "LOGPOW",
+    "label": "LOGPOW"
+   },
+   {
+    "name": "DENS_UNIT",
+    "label": "밀도단위"
+   },
+   {
+    "name": "PKA",
+    "label": "PKA"
+   },
+   {
+    "name": "SOLUB",
+    "label": "용해도"
+   },
+   {
+    "name": "STBLY",
+    "label": "안정성"
+   }
+  ]
+ },
+ "I1080": {
+  "params": [],
+  "fields": [
+   {
+    "name": "CDX_KOREA_DVS_CD",
+    "label": "구분"
+   },
+   {
+    "name": "ANIMAL_ONLY_MDCIN_NM_KOR",
+    "label": "동물 전용 의약품 한글명"
+   },
+   {
+    "name": "OPERTN_CITYPOINT",
+    "label": "시행 시점"
+   },
+   {
+    "name": "STEP",
+    "label": "단계"
+   },
+   {
+    "name": "MRL",
+    "label": "MRL"
+   },
+   {
+    "name": "FOOD_KOR_NM",
+    "label": "식품 한글명"
+   },
+   {
+    "name": "FOOD_ENG_NM",
+    "label": "식품 영문명"
+   },
+   {
+    "name": "ETC_YN",
+    "label": "기타 여부"
+   },
+   {
+    "name": "TMPR_STDR_APPLC_YN",
+    "label": "임시기준적용여부"
+   },
+   {
+    "name": "DSUSE_YN",
+    "label": "폐기 여부"
+   }
+  ]
+ },
+ "I2410": {
+  "params": [],
+  "fields": [
+   {
+    "name": "EXAM_ARA_NM",
+    "label": "조사지역명"
+   },
+   {
+    "name": "ABL_YN",
+    "label": "폐지여부"
+   },
+   {
+    "name": "PRSEC_DT",
+    "label": "검사일자"
+   },
+   {
+    "name": "WATSA_DT",
+    "label": "채수일자"
+   },
+   {
+    "name": "WATSA_TM",
+    "label": "채수시간"
+   },
+   {
+    "name": "MESURE_DP",
+    "label": "측정깊이"
+   },
+   {
+    "name": "TEMOD",
+    "label": "수온"
+   },
+   {
+    "name": "FLUX",
+    "label": "유량"
+   },
+   {
+    "name": "PH",
+    "label": "PH"
+   },
+   {
+    "name": "BOD",
+    "label": "BOD"
+   },
+   {
+    "name": "COD",
+    "label": "COD"
+   },
+   {
+    "name": "SS",
+    "label": "SS"
+   },
+   {
+    "name": "EEC_QTY",
+    "label": "대장균군수량"
+   },
+   {
+    "name": "TN",
+    "label": "TN"
+   },
+   {
+    "name": "TP",
+    "label": "TP"
+   },
+   {
+    "name": "DOC",
+    "label": "DOC"
+   },
+   {
+    "name": "EC",
+    "label": "EC"
+   },
+   {
+    "name": "TOC",
+    "label": "TOC"
+   }
+  ]
+ },
+ "C005": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRDLST_REPORT_NO",
+    "label": "품목보고(신고)번호"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "보고(신고일)"
+   },
+   {
+    "name": "END_DT",
+    "label": "생산중단일"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "제품명"
+   },
+   {
+    "name": "POG_DAYCNT",
+    "label": "소비기한"
+   },
+   {
+    "name": "PRDLST_DCNM",
+    "label": "식품 유형"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "제조사명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "SITE_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "BAR_CD",
+    "label": "유통바코드"
+   }
+  ]
+ },
+ "I1030": {
+  "params": [],
+  "fields": [
+   {
+    "name": "SPEC_NM",
+    "label": "기준규격명"
+   },
+   {
+    "name": "PC_KOR_NM",
+    "label": "품목한글명"
+   },
+   {
+    "name": "T_KOR_NM",
+    "label": "시험항목 한글명"
+   },
+   {
+    "name": "PIAM_KOR_NM",
+    "label": "품목항목속성 한글명"
+   },
+   {
+    "name": "SPEC_VAL",
+    "label": "기준규격값"
+   },
+   {
+    "name": "SPEC_VAL_SUMUP",
+    "label": "기준규격값 요약"
+   },
+   {
+    "name": "VALD_BEGN_DT",
+    "label": "유효개시일자"
+   },
+   {
+    "name": "VALD_END_DT",
+    "label": "유효종료일자"
+   },
+   {
+    "name": "SORC",
+    "label": "출처"
+   },
+   {
+    "name": "MXMM_VAL",
+    "label": "최대값"
+   },
+   {
+    "name": "MIMM_VAL",
+    "label": "최소값"
+   },
+   {
+    "name": "UNIT_NM",
+    "label": "단위명"
+   }
+  ]
+ },
+ "I2540": {
+  "params": [],
+  "fields": [
+   {
+    "name": "FOOD_LAWORD_CD",
+    "label": "법령코드"
+   },
+   {
+    "name": "HRNK_LAWORD_CD",
+    "label": "상위법령코드"
+   },
+   {
+    "name": "WORK_REALM_CD_NM",
+    "label": "업무분야"
+   },
+   {
+    "name": "LAWORD_CD_NM",
+    "label": "법령명"
+   },
+   {
+    "name": "ALL_LAWORD_CD_NM",
+    "label": "전체법령명"
+   },
+   {
+    "name": "LV_NO",
+    "label": "레벨"
+   },
+   {
+    "name": "USE_YN",
+    "label": "사용여부"
+   },
+   {
+    "name": "VALD_BGN_DT",
+    "label": "유효시작일자"
+   },
+   {
+    "name": "VALD_END_DT",
+    "label": "유효종료일자"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일시"
+   }
+  ]
+ },
+ "I2381": {
+  "params": [],
+  "fields": [
+   {
+    "name": "FCLTY_NM",
+    "label": "시설명"
+   },
+   {
+    "name": "FCLTY_LOC",
+    "label": "시설위치"
+   },
+   {
+    "name": "PRSEC_YR",
+    "label": "검사년도"
+   },
+   {
+    "name": "PRSEC_MM",
+    "label": "검사월"
+   },
+   {
+    "name": "PICK_DT",
+    "label": "채취일자"
+   },
+   {
+    "name": "PRSEC_ITM_NM",
+    "label": "검사항목명"
+   },
+   {
+    "name": "MESURE_VAL",
+    "label": "측정값"
+   },
+   {
+    "name": "UNIT_NM",
+    "label": "단위명"
+   },
+   {
+    "name": "DCMLPOINT",
+    "label": "소수점"
+   },
+   {
+    "name": "EXCS_YN",
+    "label": "초과여부"
+   }
+  ]
+ },
+ "I2852": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRDLST_REPORT_NO",
+    "label": "품목제조보고번호"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "품목보고일자"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "제품명"
+   },
+   {
+    "name": "END_DT",
+    "label": "생산중단일자"
+   },
+   {
+    "name": "PRDLST_DCNM",
+    "label": "품목유형명"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "FOOD_HF_LS_CL_CD_NM",
+    "label": "구분"
+   },
+   {
+    "name": "ARTCL_END_WHY",
+    "label": "생산중단사유"
+   }
+  ]
+ },
+ "I1830": {
+  "params": [],
+  "fields": [
+   {
+    "name": "ENTTY_IDNTFC_NO",
+    "label": "개체식별번호"
+   },
+   {
+    "name": "PRCSS_PLC_CD",
+    "label": "가공장소코드"
+   },
+   {
+    "name": "PRCSS_DT",
+    "label": "가공일자"
+   },
+   {
+    "name": "PRCSS_PLC_NM",
+    "label": "가공장소명"
+   }
+  ]
+ },
+ "I1810": {
+  "params": [],
+  "fields": [
+   {
+    "name": "ENTTY_IDNTFC_NO",
+    "label": "개체식별번호"
+   },
+   {
+    "name": "BRTH_DT",
+    "label": "출생일자"
+   },
+   {
+    "name": "ENTTY_STATS_NM",
+    "label": "개체상태명"
+   },
+   {
+    "name": "COW_KND_NM",
+    "label": "소종류명"
+   },
+   {
+    "name": "GND_NM",
+    "label": "성별"
+   },
+   {
+    "name": "FMH_NM",
+    "label": "농가명"
+   },
+   {
+    "name": "VACIN_LAST_INOCL_DT",
+    "label": "백신최종접종일자"
+   },
+   {
+    "name": "VACIN_LAST_INOCL_OPNO",
+    "label": "백신최종접종차수"
+   }
+  ]
+ },
+ "I1820": {
+  "params": [],
+  "fields": [
+   {
+    "name": "ENTTY_IDNTFC_NO",
+    "label": "개체식별번호"
+   },
+   {
+    "name": "SLAU_PLC_NM",
+    "label": "도축장소"
+   },
+   {
+    "name": "SNTT_PRSEC_NM",
+    "label": "위생검사"
+   },
+   {
+    "name": "SLAU_YMD",
+    "label": "도축년월일"
+   },
+   {
+    "name": "ADDR",
+    "label": "도축장소주소"
+   },
+   {
+    "name": "SNTT_PRSEC_PASS_ENNC",
+    "label": "위생검사합격유무"
+   },
+   {
+    "name": "PRCSS_DT",
+    "label": "가공일자"
+   },
+   {
+    "name": "PRCSS_PLC_NM",
+    "label": "가공장소명"
+   },
+   {
+    "name": "BRTH_DT",
+    "label": "출생일자"
+   },
+   {
+    "name": "ENTTY_STATS_NM",
+    "label": "개체상태명"
+   },
+   {
+    "name": "COW_KND_NM",
+    "label": "소종류명"
+   },
+   {
+    "name": "GND_NM",
+    "label": "성별"
+   },
+   {
+    "name": "FMH_NM",
+    "label": "농가명"
+   },
+   {
+    "name": "VACIN_LAST_INOCL_DT",
+    "label": "백신최종접종일자"
+   },
+   {
+    "name": "VACIN_LAST_INOCL_OPNO",
+    "label": "백신최종접종차수"
+   }
+  ]
+ },
+ "I0460": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRCSCITYPOINT_INDUTYCD_NM",
+    "label": "업종"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "SITE_ADDR",
+    "label": "소재지"
+   },
+   {
+    "name": "PRDTNM",
+    "label": "제품명"
+   },
+   {
+    "name": "TKAWYDTM",
+    "label": "수거일자"
+   },
+   {
+    "name": "JDGMNT_CD_NM",
+    "label": "판정결과"
+   },
+   {
+    "name": "EXC_INSTT_NM",
+    "label": "수행기관명"
+   },
+   {
+    "name": "TKAWYSPCI_TYPECD_NM",
+    "label": "검체구분"
+   },
+   {
+    "name": "PRDLST_REPORT_NO",
+    "label": "품목제조보고번호"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일시"
+   },
+   {
+    "name": "TKAWYPRNO",
+    "label": "수거증번호"
+   },
+   {
+    "name": "PLAN_TITL",
+    "label": "수거계획명"
+   }
+  ]
+ },
+ "I1380": {
+  "params": [],
+  "fields": [
+   {
+    "name": "INDUTY_CD_NM",
+    "label": "업종코드명"
+   },
+   {
+    "name": "BSN_PRMS_NO_1",
+    "label": "영업허가번호"
+   },
+   {
+    "name": "ENTRPS_KOR_NM",
+    "label": "업체한글명"
+   },
+   {
+    "name": "ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "RM",
+    "label": "비고"
+   },
+   {
+    "name": "PRSDNT_KOR_NM",
+    "label": "대표자명"
+   }
+  ]
+ },
+ "I2020": {
+  "params": [],
+  "fields": [
+   {
+    "name": "ENTRPS_NM",
+    "label": "업체명"
+   },
+   {
+    "name": "BIZCND_DVS_NM",
+    "label": "업태"
+   },
+   {
+    "name": "CTPRVN_NM",
+    "label": "주소"
+   },
+   {
+    "name": "VILT_ENTRPS_RELS_YN",
+    "label": "위반업체해제여부"
+   },
+   {
+    "name": "VILT_ENTRPS_RELS_DT",
+    "label": "위반업체해제일자"
+   },
+   {
+    "name": "DISCL_DTM",
+    "label": "단속일자"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "단속기관명"
+   },
+   {
+    "name": "ORGNP_DVS_NM",
+    "label": "원산지구분"
+   },
+   {
+    "name": "VILT_MATR_DVS_NM",
+    "label": "위반사항구분"
+   },
+   {
+    "name": "MPRC_DVS_NM",
+    "label": "수산물구분"
+   }
+  ]
+ },
+ "I2050": {
+  "params": [],
+  "fields": [
+   {
+    "name": "REG_NO",
+    "label": "등록번호"
+   },
+   {
+    "name": "ENTRPS_NM",
+    "label": "업체명"
+   },
+   {
+    "name": "KND_CD_NM",
+    "label": "종류코드명"
+   },
+   {
+    "name": "NLTY_NM",
+    "label": "국적명"
+   },
+   {
+    "name": "ENTRPS_ADDR",
+    "label": "업체주소"
+   },
+   {
+    "name": "ADDR_PRDT",
+    "label": "주소제품"
+   },
+   {
+    "name": "APPLC_DT",
+    "label": "적용일자"
+   },
+   {
+    "name": "STATS_DVS",
+    "label": "상태구분"
+   },
+   {
+    "name": "POSTPNE_BGN_DT",
+    "label": "유예시작일자"
+   },
+   {
+    "name": "POSTPNE_END_DT",
+    "label": "유예종료일자"
+   },
+   {
+    "name": "POSTPNE_RELS_DT",
+    "label": "유예해제일자"
+   },
+   {
+    "name": "CANCL_DT",
+    "label": "취소일자"
+   },
+   {
+    "name": "RM",
+    "label": "비고"
+   }
+  ]
+ },
+ "I1920": {
+  "params": [],
+  "fields": [
+   {
+    "name": "HIST_TRACE_REG_NO",
+    "label": "이력추적등록번호"
+   },
+   {
+    "name": "GOODS_NM",
+    "label": "상품명"
+   },
+   {
+    "name": "PRDLST_GROUP_DVS_NM",
+    "label": "품목"
+   },
+   {
+    "name": "ENTRPS_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "ADDR",
+    "label": "주소"
+   }
+  ]
+ },
+ "I1930": {
+  "params": [],
+  "fields": [
+   {
+    "name": "HIST_TRACE_REG_NO",
+    "label": "이력추적등록번호"
+   },
+   {
+    "name": "PRDCTN_SEQ",
+    "label": "생산일련번호"
+   },
+   {
+    "name": "PRDCTN_MTHD_DVS_NM",
+    "label": "생산방법"
+   },
+   {
+    "name": "PRDCTN_DVS",
+    "label": "생산구분"
+   },
+   {
+    "name": "EXHS_YN_C",
+    "label": "생산소진여부"
+   },
+   {
+    "name": "EXHS_DT",
+    "label": "생산소진일자"
+   },
+   {
+    "name": "SETT_QTY",
+    "label": "입식수량"
+   },
+   {
+    "name": "PRDCTN_UNIT_NM",
+    "label": "생산단위명"
+   },
+   {
+    "name": "PRDLC",
+    "label": "생산지"
+   }
+  ]
+ },
+ "I1940": {
+  "params": [],
+  "fields": [
+   {
+    "name": "HIST_TRACE_REG_NO",
+    "label": "이력추적등록번호"
+   },
+   {
+    "name": "LOTNO_RELES",
+    "label": "로트번호출고"
+   },
+   {
+    "name": "LOTNO_WRHOUSNG",
+    "label": "로트번호입고"
+   },
+   {
+    "name": "PRDLST_GROUP_DVS_NM",
+    "label": "품목"
+   },
+   {
+    "name": "RELES_DVS_NM",
+    "label": "출고구분"
+   },
+   {
+    "name": "PRDCTN_DT",
+    "label": "생산일자"
+   },
+   {
+    "name": "PRDCTN_QTY",
+    "label": "생산수량"
+   },
+   {
+    "name": "RELES_DT",
+    "label": "출고일자"
+   },
+   {
+    "name": "RELES_QTY",
+    "label": "출고수량"
+   },
+   {
+    "name": "RELES_UNIT_NM",
+    "label": "출고단위"
+   }
+  ]
+ },
+ "I2780": {
+  "params": [],
+  "fields": [
+   {
+    "name": "MEATWATCH_NO",
+    "label": "이력번호"
+   },
+   {
+    "name": "HIST_NO",
+    "label": "수입신고확인증번호"
+   },
+   {
+    "name": "ORGNP_NM",
+    "label": "원산지"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "수입업체명"
+   },
+   {
+    "name": "APLC_DTM",
+    "label": "신고일"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "품명(한글)"
+   },
+   {
+    "name": "FREEZING_CNVRS_QTY",
+    "label": "전환수량(BOX)"
+   },
+   {
+    "name": "FREEZING_CNVRS_WT",
+    "label": "전환중량(KG)"
+   },
+   {
+    "name": "FRESH_DISTB_TMLMT_BGN_DT",
+    "label": "냉장유통/소비기한 시작일자"
+   },
+   {
+    "name": "FRESH_DISTB_TMLMT_DT",
+    "label": "냉장유통/소비기한 만료일자"
+   },
+   {
+    "name": "FREEZING_CNVRS_OPRTN_DT",
+    "label": "냉동전환 실시일"
+   },
+   {
+    "name": "FREEZING_CNVRS_PREARNGE_DT",
+    "label": "냉동전환 완료일"
+   },
+   {
+    "name": "FREEZING_DISTB_TMLMT_DT",
+    "label": "냉동전환 후 유통/소비기한"
+   },
+   {
+    "name": "ACCEPT_NO",
+    "label": "축산물수입신고필증번호"
+   }
+  ]
+ },
+ "I1720": {
+  "params": [],
+  "fields": [
+   {
+    "name": "BL_NO",
+    "label": "선하증권번호"
+   },
+   {
+    "name": "INCM_BEEF_PRDLST_NM",
+    "label": "수입쇠고기품목명"
+   },
+   {
+    "name": "ORGNP_NATN_NM",
+    "label": "원산지국가명"
+   },
+   {
+    "name": "EXCOURY_SLAU_PLC_NM",
+    "label": "수출국도축장소명"
+   },
+   {
+    "name": "EXCOURY_SLAU_BGN_DT",
+    "label": "수출국도축시작일자"
+   },
+   {
+    "name": "EXCOURY_SLAU_END_DT",
+    "label": "수출국도축종료일자"
+   },
+   {
+    "name": "EXCOURY_PRCSS_PLC_NM",
+    "label": "수출국가공장소명"
+   },
+   {
+    "name": "EXCOURY_PRCSS_BGN_DT",
+    "label": "수출국가공시작일자"
+   },
+   {
+    "name": "EXCOURY_PRCSS_END_DT",
+    "label": "수출국가공종료일자"
+   },
+   {
+    "name": "XPORT_ENTRPS_NM",
+    "label": "수출업체명"
+   },
+   {
+    "name": "INCM_ENTRPS_NM",
+    "label": "수입업체명"
+   },
+   {
+    "name": "INCM_DT",
+    "label": "수입일자"
+   },
+   {
+    "name": "REGN_NM",
+    "label": "부위명"
+   }
+  ]
+ },
+ "C001": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   }
+  ]
+ },
+ "I2821": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "페업상태"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2781": {
+  "params": [],
+  "fields": [
+   {
+    "name": "MEATWATCH_NO",
+    "label": "이력번호"
+   },
+   {
+    "name": "ACCEPT_NO",
+    "label": "축산물수입신고필증번호"
+   },
+   {
+    "name": "HIST_NO",
+    "label": "수입신고확인증번호"
+   },
+   {
+    "name": "ORGNP_NM",
+    "label": "원산지"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "수입업체명"
+   },
+   {
+    "name": "APLC_DTM",
+    "label": "신고일"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "품명(한글)"
+   },
+   {
+    "name": "FREEZING_CNVRS_QTY",
+    "label": "전환수량(BOX)"
+   },
+   {
+    "name": "FREEZING_CNVRS_WT",
+    "label": "전환중량(KG)"
+   },
+   {
+    "name": "FRESH_DISTB_TMLMT_BGN_DT",
+    "label": "냉장유통/소비기한 시작일자"
+   },
+   {
+    "name": "FRESH_DISTB_TMLMT_DT",
+    "label": "냉장유통/소비기한 만료일자"
+   },
+   {
+    "name": "FREEZING_CNVRS_OPRTN_DT",
+    "label": "냉동전환 실시일"
+   },
+   {
+    "name": "FREEZING_CNVRS_PREARNGE_DT",
+    "label": "냉동전환 완료일"
+   },
+   {
+    "name": "FREEZING_DISTB_TMLMT_DT",
+    "label": "냉동전환 후 유통/소비기한"
+   }
+  ]
+ },
+ "I1060": {
+  "params": [],
+  "fields": [
+   {
+    "name": "CITYMEDI_NM_CD",
+    "label": "시약 명"
+   },
+   {
+    "name": "CMPNY_NO",
+    "label": "회사 명"
+   },
+   {
+    "name": "CTPRVNACCTO_INTD_NO",
+    "label": "시도별 지방청"
+   },
+   {
+    "name": "STATS_NO",
+    "label": "상태"
+   },
+   {
+    "name": "PUREDO",
+    "label": "순도"
+   },
+   {
+    "name": "VALD_TERM",
+    "label": "유효기간"
+   }
+  ]
+ },
+ "I2530": {
+  "params": [],
+  "fields": [
+   {
+    "name": "TESTITM_CD",
+    "label": "시험항목코드"
+   },
+   {
+    "name": "KOR_NM",
+    "label": "한글명"
+   },
+   {
+    "name": "ENG_NM",
+    "label": "영문명"
+   },
+   {
+    "name": "ABRV",
+    "label": "약어"
+   },
+   {
+    "name": "NCKNM",
+    "label": "이명"
+   },
+   {
+    "name": "TESTITM_NM",
+    "label": "시험항목명"
+   },
+   {
+    "name": "TESTITM_LCLAS_CD",
+    "label": "시험항목대분류시퀀스"
+   },
+   {
+    "name": "L_ATTRB_CD",
+    "label": "시험항목대분류코드"
+   },
+   {
+    "name": "L_KOR_NM",
+    "label": "대분류한글명"
+   },
+   {
+    "name": "TESTITM_MLSFC_CD",
+    "label": "시험항목중분류시퀀스"
+   },
+   {
+    "name": "M_ATTRB_CD",
+    "label": "시험항목중분류코드"
+   },
+   {
+    "name": "M_KOR_NM",
+    "label": "중분류한글명"
+   },
+   {
+    "name": "REMN_MTTR_DFN",
+    "label": "잔류물질정의"
+   },
+   {
+    "name": "USE_YN",
+    "label": "사용여부"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일시"
+   }
+  ]
+ },
+ "I2836": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2835": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2827": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "페업상태"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2850": {
+  "params": [],
+  "fields": [
+   {
+    "name": "OCCRNC_YEAR",
+    "label": "발생년"
+   },
+   {
+    "name": "OCCRNC_MM",
+    "label": "발생월"
+   },
+   {
+    "name": "OCCRNC_VIRS",
+    "label": "발생물질"
+   },
+   {
+    "name": "OCCRNC_CNT",
+    "label": "발생건수"
+   },
+   {
+    "name": "PATNT_CNT",
+    "label": "환자수"
+   }
+  ]
+ },
+ "I2849": {
+  "params": [],
+  "fields": [
+   {
+    "name": "OCCRNC_YEAR",
+    "label": "발생년"
+   },
+   {
+    "name": "OCCRNC_MM",
+    "label": "발생월"
+   },
+   {
+    "name": "OCCRNC_PLC",
+    "label": "발생장소"
+   },
+   {
+    "name": "OCCRNC_CNT",
+    "label": "발생건수"
+   },
+   {
+    "name": "PATNT_CNT",
+    "label": "환자수"
+   }
+  ]
+ },
+ "I2848": {
+  "params": [],
+  "fields": [
+   {
+    "name": "OCCRNC_YEAR",
+    "label": "발생년"
+   },
+   {
+    "name": "OCCRNC_MM",
+    "label": "발생월"
+   },
+   {
+    "name": "OCCRNC_AREA",
+    "label": "발생지역"
+   },
+   {
+    "name": "OCCRNC_CNT",
+    "label": "발생건수"
+   },
+   {
+    "name": "PATNT_CNT",
+    "label": "환자수"
+   }
+  ]
+ },
+ "I1250": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRDLST_REPORT_NO",
+    "label": "품목제조번호"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "제품명"
+   },
+   {
+    "name": "PRDLST_DCNM",
+    "label": "품목유형명"
+   },
+   {
+    "name": "PRODUCTION",
+    "label": "생산종료여부"
+   },
+   {
+    "name": "HIENG_LNTRT_DVS_NM",
+    "label": "고열량저영양식품여부"
+   },
+   {
+    "name": "CHILD_CRTFC_YN",
+    "label": "어린이기호식품품질인증여부"
+   },
+   {
+    "name": "POG_DAYCNT",
+    "label": "소비기한"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일자"
+   },
+   {
+    "name": "INDUTY_CD_NM",
+    "label": "업종"
+   },
+   {
+    "name": "QLITY_MNTNC_TMLMT_DAYCNT",
+    "label": "품질유지기한일수"
+   },
+   {
+    "name": "USAGE",
+    "label": "용법"
+   },
+   {
+    "name": "PRPOS",
+    "label": "용도"
+   },
+   {
+    "name": "DISPOS",
+    "label": "제품형태"
+   },
+   {
+    "name": "FRMLC_MTRQLT",
+    "label": "포장재질"
+   },
+   {
+    "name": "ETQTY_XPORT_PRDLST_YN",
+    "label": "내수/겸용구분(N:내수, O:겸용)"
+   }
+  ]
+ },
+ "C002": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRDLST_REPORT_NO",
+    "label": "품목제조번호"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "보고일자"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "품목명"
+   },
+   {
+    "name": "PRDLST_DCNM",
+    "label": "품목유형명"
+   },
+   {
+    "name": "RAWMTRL_NM",
+    "label": "원재료명"
+   },
+   {
+    "name": "RAWMTRL_ORDNO",
+    "label": "원재료표시순서"
+   },
+   {
+    "name": "CHNG_DT",
+    "label": "변경일자(YYYYMMDD)"
+   },
+   {
+    "name": "ETQTY_XPORT_PRDLST_YN",
+    "label": "내수/겸용구분(N:내수, O:겸용)"
+   }
+  ]
+ },
+ "I0300": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "SITE_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "EVL_YR",
+    "label": "보고년도"
+   },
+   {
+    "name": "PRDLST_REPORT_NO",
+    "label": "품목제조보고번호"
+   },
+   {
+    "name": "H_ITEM_NM",
+    "label": "품목유형"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "품목명"
+   },
+   {
+    "name": "FYER_PRDCTN_ABRT_QY",
+    "label": "연간생산능력(KG/옹기류:개)"
+   },
+   {
+    "name": "PRDCTN_QY",
+    "label": "생산량(KG/옹기류:개)"
+   }
+  ]
+ },
+ "I0920": {
+  "params": [],
+  "fields": [
+   {
+    "name": "REALM_NM",
+    "label": "분야"
+   },
+   {
+    "name": "CMPTNC_INSTT_NM",
+    "label": "관할기관"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "검사기관"
+   },
+   {
+    "name": "ADDR",
+    "label": "소재지"
+   },
+   {
+    "name": "MSK_TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "TESTITM_LCLAS_NM",
+    "label": "대분류"
+   },
+   {
+    "name": "TESTITM_MLSFC_NM",
+    "label": "중분류"
+   },
+   {
+    "name": "TESTITM_NM",
+    "label": "시험항목명"
+   },
+   {
+    "name": "RM",
+    "label": "비고"
+   },
+   {
+    "name": "CHNG_DT",
+    "label": "변경일자(YYYYMMDD)"
+   }
+  ]
+ },
+ "I0930": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRDLST_NM",
+    "label": "품목명"
+   },
+   {
+    "name": "T_KOR_NM",
+    "label": "시험항목"
+   },
+   {
+    "name": "FNPRT_ITM_NM",
+    "label": "세부항목"
+   },
+   {
+    "name": "PIAM_KOR_NM",
+    "label": "품목항목속성"
+   },
+   {
+    "name": "SPEC_VAL",
+    "label": "기준규격값"
+   },
+   {
+    "name": "VALD_BEGN_DT",
+    "label": "유효개시일자"
+   },
+   {
+    "name": "VALD_END_DT",
+    "label": "유효종료일자"
+   },
+   {
+    "name": "SPEC_VAL_SUMUP",
+    "label": "규격값요약"
+   },
+   {
+    "name": "JDGMNT_FNPRT_CD_NM",
+    "label": "판정형식"
+   },
+   {
+    "name": "MXMM_VAL",
+    "label": "최대값"
+   },
+   {
+    "name": "MXMM_VAL_FNPRT_CD_NM",
+    "label": "이하/미만"
+   },
+   {
+    "name": "MIMM_VAL",
+    "label": "최소값"
+   },
+   {
+    "name": "MIMM_VAL_FNPRT_CD_NM",
+    "label": "이상/초과"
+   },
+   {
+    "name": "CHOIC_FIT_FNPRT_CD_NM",
+    "label": "세부적합"
+   },
+   {
+    "name": "CHOIC_IMPROPT_FNPRT_CD_NM",
+    "label": "부적합"
+   },
+   {
+    "name": "INJRY_YN",
+    "label": "위해여부"
+   },
+   {
+    "name": "UNIT_NM",
+    "label": "단위명"
+   }
+  ]
+ },
+ "I2833": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I1260": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가 번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I1590": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "SIGNGU_NM",
+    "label": "시군구"
+   },
+   {
+    "name": "YEAR",
+    "label": "인허가연도"
+   },
+   {
+    "name": "APLC_DT",
+    "label": "신청일자"
+   },
+   {
+    "name": "PNCPL_FOOD_NM",
+    "label": "주된 음식명"
+   },
+   {
+    "name": "APPN_DT",
+    "label": "지정일자"
+   },
+   {
+    "name": "OPERT_DT",
+    "label": "작업일"
+   }
+  ]
+ },
+ "I1050": {
+  "params": [],
+  "fields": [
+   {
+    "name": "FOOD_KOR_NM",
+    "label": "식품한글명"
+   },
+   {
+    "name": "FOOD_ENG_NM",
+    "label": "식품영문명"
+   },
+   {
+    "name": "AGCHM_KOR_NM",
+    "label": "농약명"
+   },
+   {
+    "name": "DEDE_NTK_QTY",
+    "label": "일일섭취량"
+   },
+   {
+    "name": "TMPR_STDR_APPLC_YN",
+    "label": "잠정기준적용여부"
+   },
+   {
+    "name": "LCLAS_NM",
+    "label": "대분류"
+   },
+   {
+    "name": "MLSFC_NM",
+    "label": "중분류"
+   },
+   {
+    "name": "SCLAS_NM",
+    "label": "소분류"
+   },
+   {
+    "name": "OPERTN_CITYPOINT",
+    "label": "시행시점"
+   },
+   {
+    "name": "STEP",
+    "label": "단계"
+   },
+   {
+    "name": "MRL_VAL",
+    "label": "MRL 값"
+   },
+   {
+    "name": "ETC_YN",
+    "label": "기타여부"
+   }
+  ]
+ },
+ "I2854": {
+  "params": [],
+  "fields": [
+   {
+    "name": "SNT_GBN",
+    "label": "구분"
+   },
+   {
+    "name": "PRDLST_CD",
+    "label": "식품유형"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "식품명"
+   },
+   {
+    "name": "ANALS_YEAR",
+    "label": "분석연도"
+   },
+   {
+    "name": "COL_A_RESULT",
+    "label": "다이옥신"
+   },
+   {
+    "name": "COL_B_RESULT",
+    "label": "PCBs"
+   },
+   {
+    "name": "COL_C_RESULT",
+    "label": "벤조피렌"
+   },
+   {
+    "name": "COL_D_RESULT",
+    "label": "3-MCPD"
+   },
+   {
+    "name": "COL_E_RESULT",
+    "label": "총 아플라톡신"
+   },
+   {
+    "name": "COL_F_RESULT",
+    "label": "아플라톡신B1"
+   },
+   {
+    "name": "COL_G_RESULT",
+    "label": "오크라톡신"
+   },
+   {
+    "name": "COL_H_RESULT",
+    "label": "푸모니신"
+   },
+   {
+    "name": "COL_I_RESULT",
+    "label": "제랄레논"
+   },
+   {
+    "name": "COL_J_RESULT",
+    "label": "데옥시니발레놀"
+   },
+   {
+    "name": "COL_K_RESULT",
+    "label": "파튤린"
+   },
+   {
+    "name": "COL_L_RESULT",
+    "label": "아플라톡신M1"
+   },
+   {
+    "name": "COL_M_RESULT",
+    "label": "납"
+   },
+   {
+    "name": "COL_N_RESULT",
+    "label": "카드뮴"
+   },
+   {
+    "name": "COL_O_RESULT",
+    "label": "비소"
+   },
+   {
+    "name": "COL_P_RESULT",
+    "label": "무기비소"
+   },
+   {
+    "name": "COL_Q_RESULT",
+    "label": "수은"
+   },
+   {
+    "name": "COL_R_RESULT",
+    "label": "메틸수은"
+   },
+   {
+    "name": "COL_S_RESULT",
+    "label": "주석"
+   },
+   {
+    "name": "CRET_DTM",
+    "label": "생성일자"
+   }
+  ]
+ },
+ "I2817": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "페업상태"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2831": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2815": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "페업상태"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2859": {
+  "params": [],
+  "fields": [
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "INDUTY_CD_NM",
+    "label": "업종"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "SITE_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "CHNG_DT",
+    "label": "변경일자"
+   },
+   {
+    "name": "CHNG_BF_CN",
+    "label": "변경전내용"
+   },
+   {
+    "name": "CHNG_AF_CN",
+    "label": "변경후내용"
+   },
+   {
+    "name": "CHNG_PRVNS",
+    "label": "변경사유"
+   },
+   {
+    "name": "LCNS_LEDG_CI_CDNM",
+    "label": "변경구분"
+   }
+  ]
+ },
+ "I0940": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRDLST_CD",
+    "label": "품목코드"
+   },
+   {
+    "name": "PC_KOR_NM",
+    "label": "품목한글명"
+   },
+   {
+    "name": "TESTITM_CD",
+    "label": "시험항목코드"
+   },
+   {
+    "name": "T_KOR_NM",
+    "label": "시험항목 한글명"
+   },
+   {
+    "name": "FNPRT_ITM_NM",
+    "label": "세부항목명"
+   },
+   {
+    "name": "SPEC_VAL",
+    "label": "기준규격값"
+   },
+   {
+    "name": "SPEC_VAL_SUMUP",
+    "label": "기준규격값 요약"
+   },
+   {
+    "name": "VALD_BEGN_DT",
+    "label": "유효개시일자"
+   },
+   {
+    "name": "VALD_END_DT",
+    "label": "유효종료일자"
+   },
+   {
+    "name": "SORC",
+    "label": "출처"
+   },
+   {
+    "name": "MXMM_VAL",
+    "label": "최대값"
+   },
+   {
+    "name": "MIMM_VAL",
+    "label": "최소값"
+   },
+   {
+    "name": "INJRY_YN",
+    "label": "위해여부"
+   },
+   {
+    "name": "UNIT_NM",
+    "label": "단위명"
+   }
+  ]
+ },
+ "I2830": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2814": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "페업상태"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I0980": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LIMIT_STDR_STND_RCOGN_NO",
+    "label": "한시적 기준 규격 인정 번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "BSSH_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자"
+   },
+   {
+    "name": "RCOGN_DT",
+    "label": "인정일자"
+   },
+   {
+    "name": "PRDT_NM",
+    "label": "제품명"
+   },
+   {
+    "name": "RAWMTRL_NM",
+    "label": "원재료명"
+   },
+   {
+    "name": "PRPOS",
+    "label": "용도"
+   },
+   {
+    "name": "USED",
+    "label": "사용량"
+   },
+   {
+    "name": "USING_UNIT",
+    "label": "사용량단위"
+   }
+  ]
+ },
+ "I1020": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCLAS_NM",
+    "label": "대분류"
+   },
+   {
+    "name": "MLSFC_NM",
+    "label": "중분류"
+   },
+   {
+    "name": "RPRSNT_RAWMTRL_NM",
+    "label": "원재료명"
+   },
+   {
+    "name": "RAWMTRL_NCKNM",
+    "label": "이명"
+   },
+   {
+    "name": "ENG_NM",
+    "label": "영문명"
+   },
+   {
+    "name": "SCNM",
+    "label": "학명"
+   },
+   {
+    "name": "REGN_CD_NM",
+    "label": "부위명"
+   },
+   {
+    "name": "RAWMTRL_STATS_CD_NM",
+    "label": "상태명"
+   },
+   {
+    "name": "USE_CND_NM",
+    "label": "사용조건"
+   },
+   {
+    "name": "USE_CND_STDR_CN",
+    "label": "사용조건기준내용"
+   }
+  ]
+ },
+ "I2520": {
+  "params": [],
+  "fields": [
+   {
+    "name": "RAWMTRL_CD",
+    "label": "원재료코드"
+   },
+   {
+    "name": "RAWMTRL_LCLAS_NM",
+    "label": "대분류"
+   },
+   {
+    "name": "RAWMTRL_MLSFC_NM",
+    "label": "중분류"
+   },
+   {
+    "name": "RPRSNT_RAWMTRL_NM",
+    "label": "원재료명"
+   },
+   {
+    "name": "RAWMTRL_NCKNM",
+    "label": "원재료이명"
+   },
+   {
+    "name": "ENG_NM",
+    "label": "영문명"
+   },
+   {
+    "name": "SCNM",
+    "label": "학명"
+   },
+   {
+    "name": "REGN_CD",
+    "label": "부위코드"
+   },
+   {
+    "name": "REGN_CD_NM",
+    "label": "부위코드명"
+   },
+   {
+    "name": "PRCSS_PROCS_CD",
+    "label": "가공공정코드"
+   },
+   {
+    "name": "PRCSS_PROCS_CD_NM",
+    "label": "가공공정코드명"
+   },
+   {
+    "name": "RAWMTRL_STATS_CD",
+    "label": "원재료코드"
+   },
+   {
+    "name": "RAWMTRL_STATS_CD_NM",
+    "label": "원재료코드명"
+   },
+   {
+    "name": "VALD_BGN_DT",
+    "label": "유효시작일자"
+   },
+   {
+    "name": "VALD_END_DT",
+    "label": "유효종료일자"
+   },
+   {
+    "name": "USE_YN",
+    "label": "사용여부"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일시"
+   }
+  ]
+ },
+ "I0890": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRSEC_INSTT_RCOGN_NO",
+    "label": "지정번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "기관명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자"
+   },
+   {
+    "name": "APPN_BGN_DT",
+    "label": "지정일자"
+   },
+   {
+    "name": "APPN_END_DT",
+    "label": "지정종료일자"
+   },
+   {
+    "name": "WORK_SCOPE",
+    "label": "업무범위"
+   }
+  ]
+ },
+ "I1560": {
+  "params": [],
+  "fields": [
+   {
+    "name": "EDC_TYPE_NM",
+    "label": "교육유형"
+   },
+   {
+    "name": "EDC_DVS_NM",
+    "label": "교육구분"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "EDC_OBJ_NM",
+    "label": "교육대상"
+   },
+   {
+    "name": "CMPLTR_NAME",
+    "label": "성명"
+   },
+   {
+    "name": "CTFHV_NO",
+    "label": "수료증번호"
+   },
+   {
+    "name": "COMPL_DTM",
+    "label": "수료일자"
+   },
+   {
+    "name": "EDC_MEDIA",
+    "label": "매체"
+   },
+   {
+    "name": "EDC_COMPL_NMPR",
+    "label": "교육수료인원"
+   },
+   {
+    "name": "INSTT_CD_NM",
+    "label": "교육기관명"
+   },
+   {
+    "name": "EDC_PROCES_NM",
+    "label": "교육과정명"
+   },
+   {
+    "name": "EDC_PLC",
+    "label": "교육장소명"
+   },
+   {
+    "name": "ADDR",
+    "label": "업소주소"
+   }
+  ]
+ },
+ "I1540": {
+  "params": [],
+  "fields": [
+   {
+    "name": "EVL_SEQ",
+    "label": "평가일련번호"
+   },
+   {
+    "name": "EVL_PLAN_DT",
+    "label": "평가계획일자"
+   },
+   {
+    "name": "EVL_TYPE_DVS_CD_NM",
+    "label": "평가유형구분"
+   },
+   {
+    "name": "EVL_DT",
+    "label": "평가일자"
+   },
+   {
+    "name": "EVL_SCORE",
+    "label": "평가점수"
+   },
+   {
+    "name": "EVL_GRD_CD_NM",
+    "label": "평가등급"
+   },
+   {
+    "name": "BSSH_LOC_CD_NM",
+    "label": "업소위치"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업체명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자"
+   },
+   {
+    "name": "ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "EVL_INCPCTY_YN",
+    "label": "점검불능여부"
+   }
+  ]
+ },
+ "I0320": {
+  "params": [],
+  "fields": [
+   {
+    "name": "REG_NUM",
+    "label": "등록번호"
+   },
+   {
+    "name": "PDT_NM",
+    "label": "제품명"
+   },
+   {
+    "name": "PDT_BARCD",
+    "label": "바코드"
+   },
+   {
+    "name": "PDT_TYPE",
+    "label": "식품유형"
+   },
+   {
+    "name": "MAKE_TYPE",
+    "label": "제조구분"
+   },
+   {
+    "name": "ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "BRNCH_NM",
+    "label": "업체명"
+   },
+   {
+    "name": "BTYPE",
+    "label": "업종"
+   },
+   {
+    "name": "FOOD_TYPE",
+    "label": "식품구분"
+   },
+   {
+    "name": "PRDLST_REPORT_NO",
+    "label": "품목보고번호"
+   },
+   {
+    "name": "MNFT_DAY",
+    "label": "제조일자(YYYYMMDD)"
+   },
+   {
+    "name": "FOOD_HISTRACE_NUM",
+    "label": "식품이력추적관리번호"
+   },
+   {
+    "name": "CRCL_PRD",
+    "label": "소비기한"
+   },
+   {
+    "name": "MOD_DT",
+    "label": "최종수정일(YYYYMMDD)"
+   }
+  ]
+ },
+ "I2819": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "페업상태"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "C004": {
+  "params": [],
+  "fields": [
+   {
+    "name": "HG_ASGN_NM",
+    "label": "지정기관"
+   },
+   {
+    "name": "HG_ASGN_LV",
+    "label": "지정등급"
+   },
+   {
+    "name": "HG_ASGN_NO",
+    "label": "지정번호"
+   },
+   {
+    "name": "HG_ASGN_YMD",
+    "label": "지정일자"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자"
+   },
+   {
+    "name": "ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "ASGN_FROM",
+    "label": "지정시작일자"
+   },
+   {
+    "name": "ASGN_TO",
+    "label": "지정종료일자"
+   },
+   {
+    "name": "TELNO",
+    "label": "업소전화번호"
+   },
+   {
+    "name": "WRKR_REG_NO",
+    "label": "사업자등록번호"
+   },
+   {
+    "name": "ASGN_CANCEL_YMD",
+    "label": "지정취소일자"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "영업상태"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "CHNG_DT",
+    "label": "변경일자(YYYYMMDD)"
+   },
+   {
+    "name": "INSTT_CD_NM",
+    "label": "인허가관할기관"
+   }
+  ]
+ },
+ "I1200": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가 번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   },
+   {
+    "name": "HG_LV",
+    "label": "위생등급"
+   },
+   {
+    "name": "ASGN_GIGAN_FROM",
+    "label": "위생등급지정시작일"
+   },
+   {
+    "name": "ASGN_GIGAN_TO",
+    "label": "위생등급지정종료일"
+   },
+   {
+    "name": "PART_GBN",
+    "label": "나트륨저감화업소여부"
+   },
+   {
+    "name": "JOIN_YMD",
+    "label": "나트륨저감화참여일"
+   },
+   {
+    "name": "APPT_YMD",
+    "label": "나트륨저감화업소지정일"
+   },
+   {
+    "name": "CALC_YMD",
+    "label": "나트륨저감화업소취소일"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "SITE_X",
+    "label": "위도"
+   },
+   {
+    "name": "SITE_Y",
+    "label": "경도"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일시"
+   },
+   {
+    "name": "CRET_DTM",
+    "label": "데이터생성일시"
+   },
+   {
+    "name": "BSN_LCNS_LEDG_NO",
+    "label": "영업대장전산키(고유값)"
+   },
+   {
+    "name": "PET_OUTIN_YN",
+    "label": "반려동물출입여부"
+   }
+  ]
+ },
+ "I2811": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "페업상태"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I1220": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가 번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I-0010": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가 번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "FOOD_HF_LS_CL_CD_NM",
+    "label": "식품건기축산분류"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   }
+  ]
+ },
+ "I0950": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRDLST_CD",
+    "label": "품목코드"
+   },
+   {
+    "name": "PC_KOR_NM",
+    "label": "품목한글명"
+   },
+   {
+    "name": "TESTITM_CD",
+    "label": "시험항목코드"
+   },
+   {
+    "name": "T_KOR_NM",
+    "label": "시험항목 한글명"
+   },
+   {
+    "name": "FNPRT_ITM_NM",
+    "label": "세부항목명"
+   },
+   {
+    "name": "SPEC_VAL",
+    "label": "기준규격값"
+   },
+   {
+    "name": "SPEC_VAL_SUMUP",
+    "label": "기준규격값 요약"
+   },
+   {
+    "name": "VALD_BEGN_DT",
+    "label": "유효개시일자"
+   },
+   {
+    "name": "VALD_END_DT",
+    "label": "유효종료일자"
+   },
+   {
+    "name": "SORC",
+    "label": "출처"
+   },
+   {
+    "name": "MXMM_VAL",
+    "label": "최대값"
+   },
+   {
+    "name": "MIMM_VAL",
+    "label": "최소값"
+   },
+   {
+    "name": "INJRY_YN",
+    "label": "위해여부"
+   },
+   {
+    "name": "UNIT_NM",
+    "label": "단위명"
+   }
+  ]
+ },
+ "I1101": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PC_KOR_NM",
+    "label": "품목한글명"
+   },
+   {
+    "name": "PRDLST_CD",
+    "label": "품목분류코드"
+   },
+   {
+    "name": "T_KOR_NM",
+    "label": "시험항목 한글명"
+   },
+   {
+    "name": "FNPRT_ITM_NM",
+    "label": "세부항목명"
+   },
+   {
+    "name": "PIAM_KOR_NM",
+    "label": "품목항목속성 한글명"
+   },
+   {
+    "name": "SPEC_VAL",
+    "label": "기준규격값"
+   },
+   {
+    "name": "SPEC_VAL_SUMUP",
+    "label": "기준규격값 요약"
+   },
+   {
+    "name": "VALD_BEGN_DT",
+    "label": "유효개시일자"
+   },
+   {
+    "name": "VALD_END_DT",
+    "label": "유효종료일자"
+   },
+   {
+    "name": "SORC",
+    "label": "출처"
+   },
+   {
+    "name": "MXMM_VAL",
+    "label": "최대값"
+   },
+   {
+    "name": "MIMM_VAL",
+    "label": "최소값"
+   },
+   {
+    "name": "INJRY_YN",
+    "label": "위해여부"
+   },
+   {
+    "name": "UNIT_NM",
+    "label": "단위명"
+   },
+   {
+    "name": "UPDT_PRVNS",
+    "label": "수정사유"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "수정일자"
+   }
+  ]
+ },
+ "I1000": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LIMIT_STDR_STND_RCOGN_NO",
+    "label": "인정번호"
+   },
+   {
+    "name": "RCOGN_DT",
+    "label": "인정일자"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "MC_NM",
+    "label": "제조회사"
+   },
+   {
+    "name": "PRDT_NM",
+    "label": "제품명"
+   }
+  ]
+ },
+ "I1230": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가 번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2813": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "페업상태"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2832": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2816": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "페업상태"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I1650": {
+  "params": [],
+  "fields": [
+   {
+    "name": "CMMN_CD_NM",
+    "label": "분류"
+   },
+   {
+    "name": "FNPRT_CD_NM",
+    "label": "신고분류"
+   },
+   {
+    "name": "USER_DFN_CLMN_1",
+    "label": "분류1"
+   },
+   {
+    "name": "USER_DFN_CLMN_2",
+    "label": "분류2"
+   }
+  ]
+ },
+ "I1980": {
+  "params": [],
+  "fields": [
+   {
+    "name": "DISS_NM",
+    "label": "질병명"
+   },
+   {
+    "name": "DISS_CL_DVS_NM",
+    "label": "질병분류구분명"
+   },
+   {
+    "name": "ARA_DVS_NM",
+    "label": "지역구분명"
+   },
+   {
+    "name": "FISHSPCS_NM",
+    "label": "어종명"
+   },
+   {
+    "name": "SYMPTMS_CAUS_CN",
+    "label": "증상원인내용"
+   },
+   {
+    "name": "CURE_PREVNT_MESUR_CN",
+    "label": "치료예방대책내용"
+   },
+   {
+    "name": "DGNS_MTHD_CN",
+    "label": "진단방법내용"
+   }
+  ]
+ },
+ "I2846": {
+  "params": [],
+  "fields": [
+   {
+    "name": "INSTT_NM",
+    "label": "관할기관"
+   },
+   {
+    "name": "CNTER_NM",
+    "label": "센터명"
+   },
+   {
+    "name": "REPORT_YR",
+    "label": "년도"
+   },
+   {
+    "name": "REPORT_QU",
+    "label": "분기"
+   },
+   {
+    "name": "KNDRGR_REG_CO",
+    "label": "유치원 수"
+   },
+   {
+    "name": "KNDRGR_NMPR_CO",
+    "label": "유치원 인원수"
+   },
+   {
+    "name": "DCCNTR_REG_CO",
+    "label": "어린이집 수"
+   },
+   {
+    "name": "DCCNTR_NMPR_CO",
+    "label": "어린이집 인원수"
+   },
+   {
+    "name": "ETC_REG_CO",
+    "label": "기타 수"
+   },
+   {
+    "name": "ETC_NMPR_CO",
+    "label": "기타 인원수"
+   }
+  ]
+ },
+ "I0080": {
+  "params": [],
+  "fields": [
+   {
+    "name": "CHILD_FFQ_CRTFC_NO",
+    "label": "인증번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "PRDLST_CD_NM",
+    "label": "식품유형"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "제품명"
+   },
+   {
+    "name": "CN_WT",
+    "label": "제품용량"
+   },
+   {
+    "name": "APPN_BGN_DT",
+    "label": "인증일자"
+   },
+   {
+    "name": "APPN_END_DT",
+    "label": "만료일자"
+   },
+   {
+    "name": "CHILD_FAVOR_FOOD_TYPE_NM",
+    "label": "제품형태"
+   },
+   {
+    "name": "PRDLST_REPORT_NO",
+    "label": "품목보고번호"
+   }
+  ]
+ },
+ "I0340": {
+  "params": [],
+  "fields": [
+   {
+    "name": "HOLD_INSTT_NM",
+    "label": "관할기관"
+   },
+   {
+    "name": "SCHL_NM",
+    "label": "학교명"
+   },
+   {
+    "name": "FOOD_SAFE_PRTC_ZONE_NM",
+    "label": "식품안전보호구역지정명"
+   },
+   {
+    "name": "ADDR",
+    "label": "위치"
+   },
+   {
+    "name": "APPN_DT",
+    "label": "지정일자"
+   },
+   {
+    "name": "BSSH_NO",
+    "label": "업소고유번호(미사용)"
+   },
+   {
+    "name": "UPSO_NM",
+    "label": "업소명(미사용)"
+   },
+   {
+    "name": "UPJONG",
+    "label": "업종(미사용)"
+   }
+  ]
+ },
+ "I2840": {
+  "params": [],
+  "fields": [
+   {
+    "name": "GNT_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "UPSO_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "UPJONG",
+    "label": "업종"
+   },
+   {
+    "name": "ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "APLC_DT",
+    "label": "지정_일자"
+   },
+   {
+    "name": "HOLD_INSTT_CD",
+    "label": "관할기관"
+   }
+  ]
+ },
+ "I2560": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "LOCPLC",
+    "label": "소재지"
+   },
+   {
+    "name": "SAN",
+    "label": "산"
+   },
+   {
+    "name": "LNBR",
+    "label": "번지"
+   },
+   {
+    "name": "ISSNO",
+    "label": "호"
+   },
+   {
+    "name": "TONG",
+    "label": "통"
+   },
+   {
+    "name": "BAN",
+    "label": "반"
+   },
+   {
+    "name": "SPCLADDR",
+    "label": "특수주소"
+   },
+   {
+    "name": "SPCPPDONG",
+    "label": "특수지동"
+   },
+   {
+    "name": "SPCPPISSNO",
+    "label": "특수지호"
+   },
+   {
+    "name": "ROADNMSIGNGUCD",
+    "label": "도로명시군구코드"
+   },
+   {
+    "name": "ROADNMADDREMDDVS",
+    "label": "도로명주소읍면동구분"
+   },
+   {
+    "name": "ROADNMADDREMDCD",
+    "label": "도로명주소읍면동코드"
+   },
+   {
+    "name": "ROADNMADDRBDFLRDVS",
+    "label": "도로명주소건물층구분"
+   },
+   {
+    "name": "ROADNMADDRBDORIGNO",
+    "label": "도로명주소건물본번호"
+   },
+   {
+    "name": "ROADNMADDRBDSUBNO",
+    "label": "도로명주소건물부번호"
+   },
+   {
+    "name": "ROADNMADDRSPCLADDR",
+    "label": "도로명주소특수주소"
+   },
+   {
+    "name": "PNU_CD",
+    "label": "PNU코드"
+   },
+   {
+    "name": "BDMERGEMANAGENO",
+    "label": "건물통합관리번호"
+   },
+   {
+    "name": "UFID_CD",
+    "label": "UFID코드"
+   }
+  ]
+ },
+ "I2818": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "페업상태"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2837": {
+  "params": [],
+  "fields": [
+   {
+    "name": "WORD",
+    "label": "단어"
+   },
+   {
+    "name": "FRNTNFISH",
+    "label": "외국어"
+   },
+   {
+    "name": "DTL_DESC",
+    "label": "설명"
+   },
+   {
+    "name": "KEYWORD",
+    "label": "연관어"
+   },
+   {
+    "name": "SAUS",
+    "label": "출처"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일"
+   }
+  ]
+ },
+ "I0250": {
+  "params": [],
+  "fields": [
+   {
+    "name": "EXCLNC_INCM_BSSH_REGNO",
+    "label": "우수수입업소등록번호"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "ADDR",
+    "label": "소재지"
+   },
+   {
+    "name": "EXCOURY_NATN_CD_NM",
+    "label": "수출국가"
+   },
+   {
+    "name": "INCM_PRDT_XPORT_MC_NM",
+    "label": "수입제품제조회사명"
+   },
+   {
+    "name": "PRDLST_CNT",
+    "label": "품목수"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "품목명"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   }
+  ]
+ },
+ "I1550": {
+  "params": [],
+  "fields": [
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "ZIPNO",
+    "label": "우편번호"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "LOCP_ADDR_DTL",
+    "label": "주소상세"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   }
+  ]
+ },
+ "I0680": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "EVL_TYPE_DVS_NM",
+    "label": "평가유형"
+   },
+   {
+    "name": "EVL_GRD_NM",
+    "label": "평가등급"
+   },
+   {
+    "name": "EVL_DT",
+    "label": "평가일자"
+   }
+  ]
+ },
+ "I2823": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "페업상태"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2714": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   }
+  ]
+ },
+ "I2851": {
+  "params": [],
+  "fields": [
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "품목명"
+   },
+   {
+    "name": "GUBUN",
+    "label": "품목구분"
+   },
+   {
+    "name": "H_ITEM_NM",
+    "label": "품목유형"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "EVL_YR",
+    "label": "보고년도"
+   },
+   {
+    "name": "PRDLST_REPORT_NO",
+    "label": "품목제조보고번호"
+   },
+   {
+    "name": "PRDCTN_QY",
+    "label": "생산량(KG/위생물수건:매)"
+   }
+  ]
+ },
+ "I2713": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2711": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRDLST_REPORT_NO",
+    "label": "품목제조번호"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "제품명"
+   },
+   {
+    "name": "PRDLST_DCNM",
+    "label": "유형"
+   },
+   {
+    "name": "PRODUCTION",
+    "label": "생산종료여부"
+   },
+   {
+    "name": "POG_DAYCNT",
+    "label": "유통/소비기한"
+   },
+   {
+    "name": "INDUTY_CD_NM",
+    "label": "업종"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일자"
+   }
+  ]
+ },
+ "I2712": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRDLST_REPORT_NO",
+    "label": "품목제조번호"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "보고일자"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "품목명"
+   },
+   {
+    "name": "PRDLST_DCNM",
+    "label": "유형"
+   },
+   {
+    "name": "RAWMTRL_NM",
+    "label": "원재료"
+   }
+  ]
+ },
+ "I0140": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRDLST_NM",
+    "label": "품목 명"
+   },
+   {
+    "name": "GOODS_NM",
+    "label": "상품 명"
+   },
+   {
+    "name": "INJECTION_GENE_CN",
+    "label": "삽입된 유전자 내용"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가 일자"
+   },
+   {
+    "name": "ENDOW_CHARTR_CN",
+    "label": "부여된 특성 내용"
+   },
+   {
+    "name": "GMO_SAFTY_NO",
+    "label": "통보 번호"
+   },
+   {
+    "name": "GMO_PRDT_KND_CL_NM",
+    "label": "제품종류"
+   }
+  ]
+ },
+ "I2570": {
+  "params": [],
+  "fields": [
+   {
+    "name": "BRCD_NO",
+    "label": "바코드번호"
+   },
+   {
+    "name": "PRDLST_REPORT_NO",
+    "label": "품목보고번호"
+   },
+   {
+    "name": "CMPNY_NM",
+    "label": "회사명"
+   },
+   {
+    "name": "PRDT_NM",
+    "label": "제품명"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일시"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "품목분류_소분류"
+   },
+   {
+    "name": "HRNK_PRDLST_NM",
+    "label": "품목분류_중분류"
+   },
+   {
+    "name": "HTRK_PRDLST_NM",
+    "label": "품목분류_대분류"
+   }
+  ]
+ },
+ "I2861": {
+  "params": [],
+  "fields": [
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "INDUTY_CD_NM",
+    "label": "업종명"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "SITE_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "CHNG_DT",
+    "label": "변경일자"
+   },
+   {
+    "name": "CHNG_BF_CN",
+    "label": "변경전내용"
+   },
+   {
+    "name": "CHNG_AF_CN",
+    "label": "변경후내용"
+   },
+   {
+    "name": "CHNG_PRVNS",
+    "label": "변경사유"
+   },
+   {
+    "name": "LCNS_LEDG_CI_CDNM",
+    "label": "변경구분"
+   }
+  ]
+ },
+ "I2500": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "영업고유구분번호(인허가번호)"
+   },
+   {
+    "name": "INDUTY_CD_NM",
+    "label": "업종"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "ADDR",
+    "label": "주소"
+   }
+  ]
+ },
+ "I1090": {
+  "params": [],
+  "fields": [
+   {
+    "name": "FOOD_KOR_NM",
+    "label": "식품한글명"
+   },
+   {
+    "name": "FOOD_ENG_NM",
+    "label": "식품영문명"
+   },
+   {
+    "name": "DEDE_INTK",
+    "label": "일일섭취량"
+   },
+   {
+    "name": "TMPR_STDR_APPLC_YN",
+    "label": "잠정기준적용여부"
+   },
+   {
+    "name": "LCLAS_NM",
+    "label": "대분류"
+   },
+   {
+    "name": "MLSFC_NM",
+    "label": "중분류"
+   },
+   {
+    "name": "SCLAS_NM",
+    "label": "소분류"
+   }
+  ]
+ },
+ "COOKRCP01": {
+  "params": [],
+  "fields": [
+   {
+    "name": "RCP_SEQ",
+    "label": "일련번호"
+   },
+   {
+    "name": "RCP_NM",
+    "label": "메뉴명"
+   },
+   {
+    "name": "RCP_WAY2",
+    "label": "조리방법"
+   },
+   {
+    "name": "RCP_PAT2",
+    "label": "요리종류"
+   },
+   {
+    "name": "INFO_WGT",
+    "label": "중량(1인분)"
+   },
+   {
+    "name": "INFO_ENG",
+    "label": "열량"
+   },
+   {
+    "name": "INFO_CAR",
+    "label": "탄수화물"
+   },
+   {
+    "name": "INFO_PRO",
+    "label": "단백질"
+   },
+   {
+    "name": "INFO_FAT",
+    "label": "지방"
+   },
+   {
+    "name": "INFO_NA",
+    "label": "나트륨"
+   },
+   {
+    "name": "HASH_TAG",
+    "label": "해쉬태그"
+   },
+   {
+    "name": "ATT_FILE_NO_MAIN",
+    "label": "이미지경로(소)"
+   },
+   {
+    "name": "ATT_FILE_NO_MK",
+    "label": "이미지경로(대)"
+   },
+   {
+    "name": "RCP_PARTS_DTLS",
+    "label": "재료정보"
+   },
+   {
+    "name": "MANUAL01",
+    "label": "만드는법_01"
+   },
+   {
+    "name": "MANUAL_IMG01",
+    "label": "만드는법_이미지_01"
+   },
+   {
+    "name": "MANUAL02",
+    "label": "만드는법_02"
+   },
+   {
+    "name": "MANUAL_IMG02",
+    "label": "만드는법_이미지_02"
+   },
+   {
+    "name": "MANUAL03",
+    "label": "만드는법_03"
+   },
+   {
+    "name": "MANUAL_IMG03",
+    "label": "만드는법_이미지_03"
+   },
+   {
+    "name": "MANUAL04",
+    "label": "만드는법_04"
+   },
+   {
+    "name": "MANUAL_IMG04",
+    "label": "만드는법_이미지_04"
+   },
+   {
+    "name": "MANUAL05",
+    "label": "만드는법_05"
+   },
+   {
+    "name": "MANUAL_IMG05",
+    "label": "만드는법_이미지_05"
+   },
+   {
+    "name": "MANUAL06",
+    "label": "만드는법_06"
+   },
+   {
+    "name": "MANUAL_IMG06",
+    "label": "만드는법_이미지_06"
+   },
+   {
+    "name": "MANUAL07",
+    "label": "만드는법_07"
+   },
+   {
+    "name": "MANUAL_IMG07",
+    "label": "만드는법_이미지_07"
+   },
+   {
+    "name": "MANUAL08",
+    "label": "만드는법_08"
+   },
+   {
+    "name": "MANUAL_IMG08",
+    "label": "만드는법_이미지_08"
+   },
+   {
+    "name": "MANUAL09",
+    "label": "만드는법_09"
+   },
+   {
+    "name": "MANUAL_IMG09",
+    "label": "만드는법_이미지_09"
+   },
+   {
+    "name": "MANUAL10",
+    "label": "만드는법_10"
+   },
+   {
+    "name": "MANUAL_IMG10",
+    "label": "만드는법_이미지_10"
+   },
+   {
+    "name": "MANUAL11",
+    "label": "만드는법_11"
+   },
+   {
+    "name": "MANUAL_IMG11",
+    "label": "만드는법_이미지_11"
+   },
+   {
+    "name": "MANUAL12",
+    "label": "만드는법_12"
+   },
+   {
+    "name": "MANUAL_IMG12",
+    "label": "만드는법_이미지_12"
+   },
+   {
+    "name": "MANUAL13",
+    "label": "만드는법_13"
+   },
+   {
+    "name": "MANUAL_IMG13",
+    "label": "만드는법_이미지_13"
+   },
+   {
+    "name": "MANUAL14",
+    "label": "만드는법_14"
+   },
+   {
+    "name": "MANUAL_IMG14",
+    "label": "만드는법_이미지_14"
+   },
+   {
+    "name": "MANUAL15",
+    "label": "만드는법_15"
+   },
+   {
+    "name": "MANUAL_IMG15",
+    "label": "만드는법_이미지_15"
+   },
+   {
+    "name": "MANUAL16",
+    "label": "만드는법_16"
+   },
+   {
+    "name": "MANUAL_IMG16",
+    "label": "만드는법_이미지_16"
+   },
+   {
+    "name": "MANUAL17",
+    "label": "만드는법_17"
+   },
+   {
+    "name": "MANUAL_IMG17",
+    "label": "만드는법_이미지_17"
+   },
+   {
+    "name": "MANUAL18",
+    "label": "만드는법_18"
+   },
+   {
+    "name": "MANUAL_IMG18",
+    "label": "만드는법_이미지_18"
+   },
+   {
+    "name": "MANUAL19",
+    "label": "만드는법_19"
+   },
+   {
+    "name": "MANUAL_IMG19",
+    "label": "만드는법_이미지_19"
+   },
+   {
+    "name": "MANUAL20",
+    "label": "만드는법_20"
+   },
+   {
+    "name": "MANUAL_IMG20",
+    "label": "만드는법_이미지_20"
+   },
+   {
+    "name": "RCP_NA_TIP",
+    "label": "저감 조리법 TIP"
+   }
+  ]
+ },
+ "I0060": {
+  "params": [],
+  "fields": [
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종명"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   }
+  ]
+ },
+ "I2829": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2812": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "페업상태"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2400": {
+  "params": [],
+  "fields": [
+   {
+    "name": "YR",
+    "label": "년도"
+   },
+   {
+    "name": "QU",
+    "label": "분기"
+   },
+   {
+    "name": "SPOT_NO",
+    "label": "지점 번호"
+   },
+   {
+    "name": "SIGNGU_NM",
+    "label": "시군구"
+   },
+   {
+    "name": "ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "PRPOS_NM",
+    "label": "용도"
+   },
+   {
+    "name": "DKPS_YN_NM",
+    "label": "음용 여부"
+   },
+   {
+    "name": "HYDRIONDNSTY",
+    "label": "수소이온농도"
+   },
+   {
+    "name": "TOTEEC",
+    "label": "총대장균군"
+   },
+   {
+    "name": "NO3N",
+    "label": "질산성질소"
+   },
+   {
+    "name": "CI",
+    "label": "염소이온"
+   },
+   {
+    "name": "CDMM",
+    "label": "카드뮴"
+   },
+   {
+    "name": "AS_",
+    "label": "비소"
+   },
+   {
+    "name": "CYN",
+    "label": "시안"
+   },
+   {
+    "name": "MRC",
+    "label": "수은"
+   },
+   {
+    "name": "ORGNICPH",
+    "label": "유기인"
+   },
+   {
+    "name": "PHNL",
+    "label": "페놀"
+   },
+   {
+    "name": "PB",
+    "label": "납"
+   },
+   {
+    "name": "CR6",
+    "label": "6가크롬"
+   },
+   {
+    "name": "TCE",
+    "label": "트리클로로에틸렌"
+   },
+   {
+    "name": "PCE",
+    "label": "테트라클로로에틸렌"
+   },
+   {
+    "name": "TCE111",
+    "label": "111트리클로로에탄"
+   },
+   {
+    "name": "BENZ",
+    "label": "벤젠"
+   },
+   {
+    "name": "TOLUE",
+    "label": "톨루엔"
+   },
+   {
+    "name": "ETBEN",
+    "label": "에틸벤젠"
+   },
+   {
+    "name": "XYLEN",
+    "label": "크실렌"
+   },
+   {
+    "name": "EC",
+    "label": "전기전도도"
+   },
+   {
+    "name": "ARA_YN",
+    "label": "오염지역 여부"
+   },
+   {
+    "name": "ARA",
+    "label": "오염구분"
+   }
+  ]
+ },
+ "I1210": {
+  "params": [],
+  "fields": [
+   {
+    "name": "CNCTR_MANAGE_BSSH_NO",
+    "label": "집중관리업소번호"
+   },
+   {
+    "name": "SIGNGU_CD_NM",
+    "label": "시군구명"
+   },
+   {
+    "name": "INDUTY_CL_CD_NM",
+    "label": "업종분류명"
+   },
+   {
+    "name": "CNCTR_MANAGE_YN",
+    "label": "집중관리여부"
+   },
+   {
+    "name": "MLSV_MTHD_CD_NM",
+    "label": "급식방법명"
+   },
+   {
+    "name": "FCPRV_NM",
+    "label": "급식소명"
+   },
+   {
+    "name": "FCPRV_PRSDNT_NM",
+    "label": "급식소대표자명"
+   },
+   {
+    "name": "FCPRV_ADDR",
+    "label": "급식소주소"
+   },
+   {
+    "name": "CNSGN_BSSH_NM",
+    "label": "위탁업소명"
+   },
+   {
+    "name": "ORGN_MLSV_YN",
+    "label": "단체급식여부"
+   },
+   {
+    "name": "CNSGN_PRSDNT_NM",
+    "label": "위탁대표자명"
+   },
+   {
+    "name": "CNSGN_BSSH_ADDR",
+    "label": "위탁업소주소"
+   },
+   {
+    "name": "RM",
+    "label": "비고"
+   }
+  ]
+ },
+ "I2834": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2820": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "페업상태"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2550": {
+  "params": [],
+  "fields": [
+   {
+    "name": "DSPS_STDR_CD",
+    "label": "처분기준코드"
+   },
+   {
+    "name": "HRNK_DSPS_STDR_CD",
+    "label": "상위처분기준코드"
+   },
+   {
+    "name": "LV_NO",
+    "label": "레벨"
+   },
+   {
+    "name": "DSPS_STDR_CD_NM",
+    "label": "처분기준코드명"
+   },
+   {
+    "name": "BASIS_LAWORD",
+    "label": "근거법령"
+   },
+   {
+    "name": "VILT_TYPE_CD",
+    "label": "위반유형코드"
+   },
+   {
+    "name": "VILT_TYPE_CD_NM",
+    "label": "위반유형명"
+   },
+   {
+    "name": "USE_YN",
+    "label": "사용여부"
+   },
+   {
+    "name": "VALD_BGN_DT",
+    "label": "유효시작일자"
+   },
+   {
+    "name": "VALD_END_DT",
+    "label": "유효종료일자"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일시"
+   }
+  ]
+ },
+ "I2824": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "페업상태"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I1300": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   }
+  ]
+ },
+ "I1330": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가 번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I1420": {
+  "params": [],
+  "fields": [
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "품목명"
+   },
+   {
+    "name": "GUBUN",
+    "label": "품목구분"
+   },
+   {
+    "name": "H_ITEM_NM",
+    "label": "품목유형"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "EVL_YR",
+    "label": "보고년도"
+   },
+   {
+    "name": "PRDLST_REPORT_NO",
+    "label": "품목제조보고번호"
+   },
+   {
+    "name": "FYER_PRDCTN_ABRT_QY",
+    "label": "연간생산능력(KG)"
+   },
+   {
+    "name": "PRDCTN_QY",
+    "label": "생산량(KG)"
+   }
+  ]
+ },
+ "I2825": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "페업상태"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I1320": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가 번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   }
+  ]
+ },
+ "I1340": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가 번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I1370": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가 번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업 일자"
+   },
+   {
+    "name": "CLSTMP_BGN_DT",
+    "label": "휴업시작일자"
+   },
+   {
+    "name": "CLSTMP_END_DT",
+    "label": "휴업종료일자"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I2826": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "페업상태"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I1350": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가 번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I1310": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRDLST_REPORT_NO",
+    "label": "품목제조번호"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "보고일자"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "제품명"
+   },
+   {
+    "name": "PRDLST_DCNM",
+    "label": "유형"
+   },
+   {
+    "name": "PRODUCTION",
+    "label": "생산종료여부"
+   },
+   {
+    "name": "HIENG_LNTRT_DVS_NM",
+    "label": "고열량저영양식품여부"
+   },
+   {
+    "name": "CHILD_CRTFC_YN",
+    "label": "어린이기호식품품질인증여부"
+   },
+   {
+    "name": "POG_DAYCNT",
+    "label": "소비기한"
+   },
+   {
+    "name": "INDUTY_CD_NM",
+    "label": "업종"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일자"
+   }
+  ]
+ },
+ "I2828": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "INDUTY_NM",
+    "label": "업종"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "페업상태"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   }
+  ]
+ },
+ "I0610": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "INDUTY_CD_NM",
+    "label": "업종명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "CLSBIZ_DVS_CD_NM",
+    "label": "영업상태"
+   },
+   {
+    "name": "CLSBIZ_DT",
+    "label": "폐업일자"
+   },
+   {
+    "name": "SITE_ADDR",
+    "label": "업소주소"
+   },
+   {
+    "name": "HACCP_APPN_DT",
+    "label": "HACCP 지정일자"
+   },
+   {
+    "name": "HACCP_APPN_NO",
+    "label": "HACCP 지정번호"
+   },
+   {
+    "name": "ASGN_CANCL_DT",
+    "label": "지정취소일자"
+   },
+   {
+    "name": "CRTFC_ENDDT",
+    "label": "인증종료일자"
+   },
+   {
+    "name": "CRTFC_RETN_DT",
+    "label": "인증반납일자"
+   }
+  ]
+ },
+ "I0900": {
+  "params": [],
+  "fields": [
+   {
+    "name": "BSSH_NM",
+    "label": "검사기관명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자"
+   },
+   {
+    "name": "ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "APPN_BGN_DT",
+    "label": "지정시작일자"
+   },
+   {
+    "name": "APPN_END_DT",
+    "label": "지정종료일자"
+   },
+   {
+    "name": "WORK_SCOPE",
+    "label": "업무범위"
+   }
+  ]
+ },
+ "C006": {
+  "params": [],
+  "fields": [
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRDLST_REPORT_NO",
+    "label": "품목제조번호"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "보고일자"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "품목명"
+   },
+   {
+    "name": "PRDLST_DCNM",
+    "label": "유형"
+   },
+   {
+    "name": "RAWMTRL_NM",
+    "label": "원재료"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "CHNG_DT",
+    "label": "변경일자"
+   },
+   {
+    "name": "RAWMTRL_ORDNO",
+    "label": "원재료표시순서"
+   }
+  ]
+ },
+ "I2390": {
+  "params": [],
+  "fields": [
+   {
+    "name": "SOIL_SEQ",
+    "label": "토양 일련번호"
+   },
+   {
+    "name": "EXAM_YR",
+    "label": "조사 년도"
+   },
+   {
+    "name": "CHARTR_CL_NM",
+    "label": "특성 분류 명"
+   },
+   {
+    "name": "ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "LNDCGR_NM",
+    "label": "지목 명"
+   },
+   {
+    "name": "AREA",
+    "label": "면적"
+   },
+   {
+    "name": "CDMM",
+    "label": "카드뮴"
+   },
+   {
+    "name": "COPPR",
+    "label": "구리"
+   },
+   {
+    "name": "AS_",
+    "label": "비소"
+   },
+   {
+    "name": "MRC",
+    "label": "수은"
+   },
+   {
+    "name": "PB",
+    "label": "납"
+   },
+   {
+    "name": "CR6",
+    "label": "6가크롬"
+   },
+   {
+    "name": "ZINC",
+    "label": "아연"
+   },
+   {
+    "name": "NICKEL",
+    "label": "니켈"
+   },
+   {
+    "name": "IMCOW",
+    "label": "불소"
+   },
+   {
+    "name": "ORGNICPH",
+    "label": "유기인"
+   },
+   {
+    "name": "PCT",
+    "label": "폴리클로리네이트페닐"
+   },
+   {
+    "name": "CYN",
+    "label": "시안"
+   },
+   {
+    "name": "PHNL",
+    "label": "페놀"
+   },
+   {
+    "name": "BENZ",
+    "label": "벤젠"
+   },
+   {
+    "name": "TOLUE",
+    "label": "톨루엔"
+   },
+   {
+    "name": "ETBEN",
+    "label": "에틸벤젠"
+   },
+   {
+    "name": "XYLEN",
+    "label": "크실렌"
+   },
+   {
+    "name": "TPH",
+    "label": "석유계총탄화수소"
+   },
+   {
+    "name": "TCE",
+    "label": "트리클로로에틸렌"
+   },
+   {
+    "name": "PCE",
+    "label": "테트라클로로에틸렌"
+   },
+   {
+    "name": "HYDRIONDNSTY",
+    "label": "수소이온농도"
+   },
+   {
+    "name": "RM",
+    "label": "비고"
+   }
+  ]
+ },
+ "I1960": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRDLST_NM",
+    "label": "품목명"
+   },
+   {
+    "name": "EXAM_SEAR_NM",
+    "label": "조사해역명"
+   },
+   {
+    "name": "SPLORE_NO",
+    "label": "시료번호"
+   },
+   {
+    "name": "INSTT_NM",
+    "label": "기관명"
+   },
+   {
+    "name": "PICK_DT",
+    "label": "채취일자"
+   },
+   {
+    "name": "FIT_YN",
+    "label": "적합여부"
+   }
+  ]
+ },
+ "I2856": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "인허가일자"
+   },
+   {
+    "name": "INSTT_CDNM",
+    "label": "인허가기관명"
+   },
+   {
+    "name": "INDUTY_CDNM",
+    "label": "업종명"
+   },
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "LOCP_ADDR",
+    "label": "업소주소"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "업소대표자명"
+   },
+   {
+    "name": "TELNO",
+    "label": "업소전화번호"
+   },
+   {
+    "name": "CHNG_DT",
+    "label": "변경일자(YYYYMMDD)"
+   }
+  ]
+ },
+ "I2510": {
+  "params": [],
+  "fields": [
+   {
+    "name": "LV",
+    "label": "레벨"
+   },
+   {
+    "name": "PRDLST_CD",
+    "label": "품목코드"
+   },
+   {
+    "name": "KOR_NM",
+    "label": "한글명"
+   },
+   {
+    "name": "ENG_NM",
+    "label": "영문명"
+   },
+   {
+    "name": "DFN",
+    "label": "정의"
+   },
+   {
+    "name": "VALD_BEGN_DT",
+    "label": "유효개시일자"
+   },
+   {
+    "name": "VALD_END_DT",
+    "label": "유효종료일자"
+   },
+   {
+    "name": "HRNK_PRDLST_CD",
+    "label": "상위품목코드"
+   },
+   {
+    "name": "HTRK_PRDLST_CD",
+    "label": "최상위품목코드"
+   },
+   {
+    "name": "MXTR_PRDLST_YN",
+    "label": "조합품목여부"
+   },
+   {
+    "name": "ATTRB_SEQ",
+    "label": "속성일련번호"
+   },
+   {
+    "name": "PIAM_KOR_NM",
+    "label": "속성한글명"
+   },
+   {
+    "name": "PRDLST_YN",
+    "label": "품목여부"
+   },
+   {
+    "name": "UPDT_PRVNS",
+    "label": "수정사유"
+   },
+   {
+    "name": "USE_YN",
+    "label": "사용여부"
+   },
+   {
+    "name": "RM",
+    "label": "비고"
+   },
+   {
+    "name": "FDGRP_YN",
+    "label": "식품군여부"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일"
+   },
+   {
+    "name": "CHD_SMBL_FD_YN",
+    "label": "어린이기호식품 여부"
+   }
+  ]
+ },
+ "I2380": {
+  "params": [],
+  "fields": [
+   {
+    "name": "FCLTY_NM",
+    "label": "시설명"
+   },
+   {
+    "name": "CTPRVN_NM",
+    "label": "시도명"
+   },
+   {
+    "name": "SIGNGU_NM",
+    "label": "시군구명"
+   },
+   {
+    "name": "ZIPNO",
+    "label": "우편번호"
+   },
+   {
+    "name": "BASS_ADDR",
+    "label": "기본주소"
+   },
+   {
+    "name": "DTL_ADDR",
+    "label": "상세주소"
+   },
+   {
+    "name": "ROADNM_BASS_ADDR",
+    "label": "도로명기본주소"
+   },
+   {
+    "name": "ROADNM_DTL_ADDR",
+    "label": "도로명상세주소"
+   },
+   {
+    "name": "MESURE_DT",
+    "label": "측정일자"
+   },
+   {
+    "name": "FCLTY_CD",
+    "label": "시설코드"
+   },
+   {
+    "name": "PAPRONSLF_NM",
+    "label": "지자체명"
+   },
+   {
+    "name": "RIVR_NM",
+    "label": "하천명"
+   },
+   {
+    "name": "BASE_FCLTY_DVS_NM",
+    "label": "기초시설구분명"
+   },
+   {
+    "name": "BOD",
+    "label": "BOD"
+   },
+   {
+    "name": "COD",
+    "label": "COD"
+   },
+   {
+    "name": "SS",
+    "label": "SS"
+   },
+   {
+    "name": "TP",
+    "label": "TP"
+   },
+   {
+    "name": "TN",
+    "label": "TN"
+   },
+   {
+    "name": "EEC_QTY",
+    "label": "대장균군수량"
+   },
+   {
+    "name": "TEMOD",
+    "label": "수온"
+   },
+   {
+    "name": "ECLGY_TOXCTY",
+    "label": "상태독성"
+   }
+  ]
+ },
+ "I2810": {
+  "params": [],
+  "fields": [
+   {
+    "name": "TITL",
+    "label": "제품명"
+   },
+   {
+    "name": "DETECT_TITL",
+    "label": "유해물질"
+   },
+   {
+    "name": "CRET_DTM",
+    "label": "생성일자"
+   },
+   {
+    "name": "BDT",
+    "label": "본문내용"
+   },
+   {
+    "name": "DOWNLOAD_URL",
+    "label": "이미지 다운로드 URL"
+   },
+   {
+    "name": "NTCTXT_NO",
+    "label": "게시글번호"
+   }
+  ]
+ },
+ "I2715": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRDT_NM",
+    "label": "제품명"
+   },
+   {
+    "name": "MUFC_NM",
+    "label": "제조사명"
+   },
+   {
+    "name": "MUFC_CNTRY_NM",
+    "label": "제조국가명"
+   },
+   {
+    "name": "INGR_NM_LST",
+    "label": "위해성분명"
+   },
+   {
+    "name": "STT_YMD",
+    "label": "적용시작일"
+   },
+   {
+    "name": "END_YMD",
+    "label": "적용종료일"
+   },
+   {
+    "name": "CRET_DTM",
+    "label": "등록일"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일"
+   },
+   {
+    "name": "IMAGE_URL",
+    "label": "이미지URL"
+   },
+   {
+    "name": "SELF_IMPORT_SEQ",
+    "label": "일련번호(고유키값)"
+   },
+   {
+    "name": "BARCD_CTN",
+    "label": "바코드번호"
+   }
+  ]
+ },
+ "I0470": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRCSCITYPOINT_BSSHNM",
+    "label": "업소명"
+   },
+   {
+    "name": "INDUTY_CD_NM",
+    "label": "업종"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "DSPS_DCSNDT",
+    "label": "처분확정일자"
+   },
+   {
+    "name": "DSPS_BGNDT",
+    "label": "처분시작일(영업정지의경우)"
+   },
+   {
+    "name": "DSPS_ENDDT",
+    "label": "처분종료일(영업정지의경우)"
+   },
+   {
+    "name": "DSPS_TYPECD_NM",
+    "label": "처분유형"
+   },
+   {
+    "name": "VILTCN",
+    "label": "위반일자및위반내용"
+   },
+   {
+    "name": "ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "DSPSCN",
+    "label": "처분내용"
+   },
+   {
+    "name": "LAWORD_CD_NM",
+    "label": "위반법령"
+   },
+   {
+    "name": "PUBLIC_DT",
+    "label": "공개기한"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일"
+   },
+   {
+    "name": "DSPS_INSTTCD_NM",
+    "label": "처분기관명"
+   },
+   {
+    "name": "DSPSDTLS_SEQ",
+    "label": "행정처분전산키"
+   }
+  ]
+ },
+ "I0482": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRCSCITYPOINT_BSSHNM",
+    "label": "업소명"
+   },
+   {
+    "name": "INDUTY_CD_NM",
+    "label": "업종"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "DSPS_DCSNDT",
+    "label": "처분확정일자"
+   },
+   {
+    "name": "DSPS_BGNDT",
+    "label": "처분시작일(영업정지의경우)"
+   },
+   {
+    "name": "DSPS_ENDDT",
+    "label": "처분종료일(영업정지의경우)"
+   },
+   {
+    "name": "DSPS_TYPECD_NM",
+    "label": "처분유형"
+   },
+   {
+    "name": "VILTCN",
+    "label": "위반일자 및 위반내용"
+   },
+   {
+    "name": "ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "LAWORD_CD_NM",
+    "label": "위반법령"
+   },
+   {
+    "name": "DSPSCN",
+    "label": "처분내용"
+   },
+   {
+    "name": "PUBLIC_DT",
+    "label": "공개기한"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일"
+   },
+   {
+    "name": "DSPSDTLS_SEQ",
+    "label": "행정처분전산키"
+   },
+   {
+    "name": "DSPS_INSTTCD_NM",
+    "label": "처분기관명"
+   }
+  ]
+ },
+ "I2630": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRCSCITYPOINT_BSSHNM",
+    "label": "업소명"
+   },
+   {
+    "name": "INDUTY_CD_NM",
+    "label": "업종"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "DSPS_DCSNDT",
+    "label": "처분확정일자"
+   },
+   {
+    "name": "DSPS_BGNDT",
+    "label": "처분시작일(영업정지의경우)"
+   },
+   {
+    "name": "DSPS_ENDDT",
+    "label": "처분종료일(영업정지의경우)"
+   },
+   {
+    "name": "DSPS_TYPECD_NM",
+    "label": "처분유형"
+   },
+   {
+    "name": "VILTCN",
+    "label": "위반일자및위반내용"
+   },
+   {
+    "name": "ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "DSPSCN",
+    "label": "처분내용"
+   },
+   {
+    "name": "LAWORD_CD_NM",
+    "label": "위반법령"
+   },
+   {
+    "name": "PUBLIC_DT",
+    "label": "공개기한"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일"
+   },
+   {
+    "name": "DSPS_INSTTCD_NM",
+    "label": "처분기관명"
+   },
+   {
+    "name": "DSPSDTLS_SEQ",
+    "label": "행정처분전산키"
+   }
+  ]
+ },
+ "I0480": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRCSCITYPOINT_BSSHNM",
+    "label": "업소명"
+   },
+   {
+    "name": "INDUTY_CD_NM",
+    "label": "업종"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "DSPS_DCSNDT",
+    "label": "처분확정일자"
+   },
+   {
+    "name": "DSPS_BGNDT",
+    "label": "처분시작일(영업정지의경우)"
+   },
+   {
+    "name": "DSPS_ENDDT",
+    "label": "처분종료일(영업정지의경우)"
+   },
+   {
+    "name": "DSPS_TYPECD_NM",
+    "label": "처분유형"
+   },
+   {
+    "name": "VILTCN",
+    "label": "위반일자및위반내용"
+   },
+   {
+    "name": "ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "LAWORD_CD_NM",
+    "label": "위반법령"
+   },
+   {
+    "name": "DSPSCN",
+    "label": "처분내용"
+   },
+   {
+    "name": "PUBLIC_DT",
+    "label": "공개기한"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일"
+   },
+   {
+    "name": "DSPSDTLS_SEQ",
+    "label": "행정처분전산키"
+   },
+   {
+    "name": "DSPS_INSTTCD_NM",
+    "label": "처분기관명"
+   }
+  ]
+ },
+ "I0481": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRCSCITYPOINT_BSSHNM",
+    "label": "업소명"
+   },
+   {
+    "name": "INDUTY_CD_NM",
+    "label": "업종"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "인허가번호"
+   },
+   {
+    "name": "DSPS_DCSNDT",
+    "label": "처분확정일자"
+   },
+   {
+    "name": "DSPS_BGNDT",
+    "label": "처분시작일(영업정지의경우)"
+   },
+   {
+    "name": "DSPS_ENDDT",
+    "label": "처분종료일(영업정지의경우)"
+   },
+   {
+    "name": "DSPS_TYPECD_NM",
+    "label": "처분유형"
+   },
+   {
+    "name": "VILTCN",
+    "label": "위반일자 및 위반내용"
+   },
+   {
+    "name": "ADDR",
+    "label": "주소"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "LAWORD_CD_NM",
+    "label": "위반법령"
+   },
+   {
+    "name": "DSPSCN",
+    "label": "처분내용"
+   },
+   {
+    "name": "PUBLIC_DT",
+    "label": "공개기한"
+   },
+   {
+    "name": "LAST_UPDT_DTM",
+    "label": "최종수정일"
+   },
+   {
+    "name": "DSPSDTLS_SEQ",
+    "label": "행정처분전산키"
+   },
+   {
+    "name": "DSPS_INSTTCD_NM",
+    "label": "처분기관명"
+   }
+  ]
+ },
+ "I0490": {
+  "params": [],
+  "fields": [
+   {
+    "name": "PRDTNM",
+    "label": "제품명"
+   },
+   {
+    "name": "RTRVLPRVNS",
+    "label": "회수사유"
+   },
+   {
+    "name": "BSSHNM",
+    "label": "제조업체명"
+   },
+   {
+    "name": "ADDR",
+    "label": "업체주소"
+   },
+   {
+    "name": "TELNO",
+    "label": "전화번호"
+   },
+   {
+    "name": "BRCDNO",
+    "label": "바코드번호"
+   },
+   {
+    "name": "FRMLCUNIT",
+    "label": "포장단위"
+   },
+   {
+    "name": "MNFDT",
+    "label": "제조일자"
+   },
+   {
+    "name": "RTRVLPLANDOC_RTRVLMTHD",
+    "label": "회수방법"
+   },
+   {
+    "name": "DISTBTMLMT",
+    "label": "유통/소비기한"
+   },
+   {
+    "name": "PRDLST_TYPE",
+    "label": "식품분류"
+   },
+   {
+    "name": "IMG_FILE_PATH",
+    "label": "제품사진 URL"
+   },
+   {
+    "name": "PRDLST_CD",
+    "label": "품목코드"
+   },
+   {
+    "name": "CRET_DTM",
+    "label": "등록일"
+   },
+   {
+    "name": "RTRVLDSUSE_SEQ",
+    "label": "회수.판매중지 일련번호"
+   },
+   {
+    "name": "PRDLST_REPORT_NO",
+    "label": "품목제조보고번호"
+   },
+   {
+    "name": "RTRVL_GRDCD_NM",
+    "label": "회수등급"
+   },
+   {
+    "name": "PRDLST_CD_NM",
+    "label": "품목유형(품목코드명)"
+   },
+   {
+    "name": "LCNS_NO",
+    "label": "업체인허가번호"
+   }
+  ]
+ },
+ "I0150": {
+  "params": [],
+  "fields": [
+   {
+    "name": "BSSH_NM",
+    "label": "업소명"
+   },
+   {
+    "name": "PRSDNT_NM",
+    "label": "대표자명"
+   },
+   {
+    "name": "PRMS_DT",
+    "label": "허가일자"
+   },
+   {
+    "name": "PRDLST_NM",
+    "label": "품목명"
+   },
+   {
+    "name": "LMOCHILD_BTHTR_CRSS_YN",
+    "label": "이종간교배여부"
+   },
+   {
+    "name": "LMOCHILD_DFFPNT_YN",
+    "label": "차이점여부"
+   },
+   {
+    "name": "LMOCHILD_CHARTR_CHNGE_YN",
+    "label": "특성변화여부"
+   },
+   {
+    "name": "GMO_PRDT_KND",
+    "label": "제품종류"
+   },
+   {
+    "name": "GOODS_NM",
+    "label": "제품명"
+   }
+  ]
+ }
+}
