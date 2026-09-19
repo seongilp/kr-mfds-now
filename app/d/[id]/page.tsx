@@ -8,7 +8,7 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { getDataset } from '@/lib/catalog';
-import type { Dataset, Op } from '@/lib/catalog-types';
+import type { Dataset, Op, OpParam } from '@/lib/catalog-types';
 import { categoryMeta } from '@/lib/categories';
 import { query } from '@/lib/upstream';
 
@@ -98,6 +98,68 @@ export default async function DatasetPage({ params, searchParams }: PageProps<'/
   );
 }
 
+const PRIMARY_LIMIT = 3;
+const PRIMARY_HINT = /명$|명\)|이름|제품|품목|업체|업소|상호|코드|번호/;
+
+/** 필수 항목과 이름·코드류 몇 개만 바로 보이고, 나머지는 접어 둔다(모바일에서 폼이 화면을 다 먹지 않게) */
+function splitParams(op: Op): { primary: OpParam[]; more: OpParam[] } {
+  const inputs = op.params.filter((p) => !p.system);
+  const ranked = [...inputs].sort((a, b) => rank(a) - rank(b));
+  const primary = ranked.slice(0, Math.max(PRIMARY_LIMIT, inputs.filter((p) => p.required).length));
+  const chosen = new Set(primary.map((p) => p.name));
+  return {
+    primary: inputs.filter((p) => chosen.has(p.name)),
+    more: inputs.filter((p) => !chosen.has(p.name)),
+  };
+}
+
+function rank(p: OpParam): number {
+  if (p.required) return 0;
+  return PRIMARY_HINT.test(p.label) ? 1 : 2;
+}
+
+function ParamInput({ p, value }: { p: OpParam; value: string }) {
+  return (
+    <label className="space-y-1 text-sm">
+      <span className="text-muted-foreground">
+        {p.label}
+        {p.required && <span className="text-destructive"> *</span>}
+      </span>
+      <Input name={PARAM_PREFIX + p.name} defaultValue={value} placeholder={p.sample ?? ''} />
+    </label>
+  );
+}
+
+function SearchForm({ d, op, params }: { d: Dataset; op: Op; params: Record<string, string> }) {
+  const { primary, more } = splitParams(op);
+  const moreFilled = more.some((p) => params[p.name]);
+  return (
+    <form action={`/d/${d.id}`} className="space-y-3 rounded-xl border bg-card p-4">
+      <input type="hidden" name="op" value={op.id} />
+      <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+        {primary.map((p) => (
+          <ParamInput key={p.name} p={p} value={params[p.name] ?? ''} />
+        ))}
+      </div>
+      {more.length > 0 && (
+        <details open={moreFilled} className="group">
+          <summary className="cursor-pointer text-sm text-muted-foreground hover:text-foreground">
+            상세 조건 {more.length}개
+          </summary>
+          <div className="mt-3 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {more.map((p) => (
+              <ParamInput key={p.name} p={p} value={params[p.name] ?? ''} />
+            ))}
+          </div>
+        </details>
+      )}
+      <Button type="submit" className="w-full sm:w-auto">
+        조회
+      </Button>
+    </form>
+  );
+}
+
 async function DatasetBody({ d, op, page, params }: { d: Dataset; op: Op; page: number; params: Record<string, string> }) {
   const inputs = op.params.filter((p) => !p.system);
   const result = await query({ dataset: d, op, params, page, size: PAGE_SIZE });
@@ -115,25 +177,7 @@ async function DatasetBody({ d, op, page, params }: { d: Dataset; op: Op; page: 
         </div>
       )}
 
-      {inputs.length > 0 && (
-        <form action={`/d/${d.id}`} className="grid gap-3 rounded-xl border bg-card p-4 sm:grid-cols-2 lg:grid-cols-3">
-          <input type="hidden" name="op" value={op.id} />
-          {inputs.map((p) => (
-            <label key={p.name} className="space-y-1 text-sm">
-              <span className="text-muted-foreground">
-                {p.label}
-                {p.required && <span className="text-destructive"> *</span>}
-              </span>
-              <Input name={PARAM_PREFIX + p.name} defaultValue={params[p.name] ?? ''} placeholder={p.sample ?? ''} />
-            </label>
-          ))}
-          <div className="flex items-end">
-            <Button type="submit" className="w-full sm:w-auto">
-              조회
-            </Button>
-          </div>
-        </form>
-      )}
+      {inputs.length > 0 && <SearchForm d={d} op={op} params={params} />}
 
       {!result.ok ? (
         <p className="rounded-xl border border-destructive/40 bg-destructive/5 p-4 text-sm">{result.message}</p>

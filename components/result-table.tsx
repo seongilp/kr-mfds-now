@@ -1,4 +1,5 @@
 import type { Op } from '@/lib/catalog-types';
+import { proxiedImageUrl } from '@/lib/image-proxy';
 import type { Row } from '@/lib/upstream';
 
 const LONG_TEXT = 80;
@@ -22,10 +23,10 @@ function Cell({ name, value }: { name: string; value: string }) {
   if (!v) return <span className="text-muted-foreground">—</span>;
   if (isImageField(name, v)) {
     return (
-      <a href={v} target="_blank" rel="noreferrer">
+      <a href={proxiedImageUrl(v)} target="_blank" rel="noreferrer">
         {/* 원천 이미지 호스트가 제각각이라 next/image 대신 img 를 쓴다 */}
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={v} alt="" loading="lazy" className="h-16 w-auto max-w-40 rounded border object-contain" />
+        <img src={proxiedImageUrl(v)} alt="" loading="lazy" className="h-16 w-auto max-w-40 rounded border object-contain" />
       </a>
     );
   }
