@@ -219,6 +219,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "STTEMNT_NO",
+      "label": "STTEMNT_NO",
+      "required": false,
+      "sample": "20140017002183"
      }
     ],
     "fields": [
@@ -318,6 +324,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "item_seq",
+      "label": "품목일련번호",
+      "required": false,
+      "sample": "200808877"
+     },
+     {
+      "name": "item_name",
+      "label": "품목명",
+      "required": false,
+      "sample": "페라트라정2.5밀리그램(레트로졸)"
+     },
+     {
+      "name": "entp_name",
+      "label": "업체명",
+      "required": false,
+      "sample": "(주)유한양행"
+     },
+     {
+      "name": "chart",
+      "label": "성상",
+      "required": false,
+      "sample": "어두운 황색의 원형 필름코팅정"
      }
     ],
     "fields": [
@@ -528,6 +558,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "FOOD_NM_KR",
+      "label": "식품명",
+      "required": false,
+      "sample": "국밥_돼지머리"
+     },
+     {
+      "name": "DB_CLASS_NM",
+      "label": "품목대표/상용제품",
+      "required": false,
+      "sample": "품목대표"
+     },
+     {
+      "name": "FOOD_CAT1_NM",
+      "label": "식품대분류명",
+      "required": false,
+      "sample": "밥류"
      }
     ],
     "fields": [
@@ -1367,6 +1415,48 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "entp_name",
+      "label": "업체명",
+      "required": false,
+      "sample": "제이더블유중외제약(주)"
+     },
+     {
+      "name": "entp_seq",
+      "label": "업일련번호",
+      "required": false,
+      "sample": "19550004"
+     },
+     {
+      "name": "entp_no",
+      "label": "업허가번호",
+      "required": false,
+      "sample": "1302"
+     },
+     {
+      "name": "induty",
+      "label": "업종",
+      "required": false,
+      "sample": "의약품"
+     },
+     {
+      "name": "spclty_pblc",
+      "label": "전문/일반구분",
+      "required": false,
+      "sample": "전문의약품"
+     },
+     {
+      "name": "prduct_prmisn_no",
+      "label": "품목허가번호",
+      "required": false,
+      "sample": "792"
+     },
+     {
+      "name": "item_ingr_name",
+      "label": "주성분",
+      "required": false,
+      "sample": "Glucose/Sodium Chloride"
      }
     ],
     "fields": [
@@ -1507,6 +1597,36 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "item_seq",
+      "label": "품목기준코드",
+      "required": false,
+      "sample": "195700004"
+     },
+     {
+      "name": "entp_name",
+      "label": "업체명",
+      "required": false,
+      "sample": "대한약품공업(주)"
+     },
+     {
+      "name": "item_permit_date",
+      "label": "허가일자",
+      "required": false,
+      "sample": "19570614"
+     },
+     {
+      "name": "edi_code",
+      "label": "보험코드",
+      "required": false,
+      "sample": "645100922,645100932"
+     },
+     {
+      "name": "entp_no",
+      "label": "업체허가번호",
+      "required": false,
+      "sample": "1303"
      }
     ],
     "fields": [
@@ -1858,6 +1978,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "entrps",
+      "label": "업체명",
+      "required": false,
+      "sample": "메드니스(주)"
+     },
+     {
+      "name": "prduct",
+      "label": "품목명",
+      "required": false,
+      "sample": "체외형 범용 프로브"
+     },
+     {
+      "name": "prductPrmisnNo",
+      "label": "의료기기품목허가번호",
+      "required": false,
+      "sample": "서울 제신 06-182 호"
+     },
+     {
+      "name": "prmisnDt",
+      "label": "허가일자",
+      "required": false,
+      "sample": "20061110"
      }
     ],
     "fields": [
@@ -1962,6 +2106,42 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ENTRPS",
+      "label": "업체명",
+      "required": false,
+      "sample": "메드에이드"
+     },
+     {
+      "name": "PRDUCT",
+      "label": "품목명",
+      "required": false,
+      "sample": "압박용 밴드"
+     },
+     {
+      "name": "PRDUCT_PRMISN_NO",
+      "label": "의료기기품목허가번호",
+      "required": false,
+      "sample": "제신 26-1155 호"
+     },
+     {
+      "name": "PRMISN_DT",
+      "label": "허가일자",
+      "required": false,
+      "sample": "20260918"
+     },
+     {
+      "name": "TYPE_NAME",
+      "label": "모델명",
+      "required": false,
+      "sample": "EBO GRIP Hipduo band Gray외 1건"
+     },
+     {
+      "name": "BRNO",
+      "label": "사업자등록번호",
+      "required": false,
+      "sample": "1420581336"
      }
     ],
     "fields": [
@@ -2100,6 +2280,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ingr_kor_name",
+      "label": "성분명",
+      "required": false,
+      "sample": "구형흡착탄"
+     },
+     {
+      "name": "entp_name",
+      "label": "업체명",
+      "required": false,
+      "sample": "에이치케이이노엔(주)"
      }
     ],
     "fields": [
@@ -2203,6 +2395,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ingrCode",
+      "label": "DUR성분코드",
+      "required": false,
+      "sample": "D000762"
+     },
+     {
+      "name": "itemSeq",
+      "label": "품목기준코드",
+      "required": false,
+      "sample": "200000913"
+     },
+     {
+      "name": "itemName",
+      "label": "품목명",
+      "required": false,
+      "sample": "코니트라캡슐(이트라코나졸)(수출용)"
      }
     ],
     "fields": [
@@ -2427,6 +2637,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ingrCode",
+      "label": "DUR성분코드",
+      "required": false,
+      "sample": "D000893"
+     },
+     {
+      "name": "itemSeq",
+      "label": "품목기준코드",
+      "required": false,
+      "sample": "196000010"
+     },
+     {
+      "name": "itemName",
+      "label": "품목명",
+      "required": false,
+      "sample": "페니라민주사(클로르페니라민말레산염)"
      }
     ],
     "fields": [
@@ -2567,6 +2795,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "itemSeq",
+      "label": "품목기준코드",
+      "required": false,
+      "sample": "195700013"
+     },
+     {
+      "name": "entpName",
+      "label": "업체명",
+      "required": false,
+      "sample": "(주)제일제약"
      }
     ],
     "fields": [
@@ -2719,6 +2959,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ingrCode",
+      "label": "DUR성분코드",
+      "required": false,
+      "sample": "D000440"
+     },
+     {
+      "name": "itemSeq",
+      "label": "품목기준코드",
+      "required": false,
+      "sample": "197100097"
+     },
+     {
+      "name": "itemName",
+      "label": "품목명",
+      "required": false,
+      "sample": "환인벤즈트로핀정(벤즈트로핀메실산염)"
      }
     ],
     "fields": [
@@ -2859,6 +3117,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ingrCode",
+      "label": "DUR성분코드",
+      "required": false,
+      "sample": "D000176"
+     },
+     {
+      "name": "itemSeq",
+      "label": "품목기준코드",
+      "required": false,
+      "sample": "198600630"
      }
     ],
     "fields": [
@@ -2999,6 +3269,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ingrCode",
+      "label": "DUR성분코드",
+      "required": false,
+      "sample": "D000425"
+     },
+     {
+      "name": "itemSeq",
+      "label": "품목기준코드",
+      "required": false,
+      "sample": "197200484"
+     },
+     {
+      "name": "itemName",
+      "label": "품목명",
+      "required": false,
+      "sample": "맥페란정(메토클로프라미드)"
      }
     ],
     "fields": [
@@ -3139,6 +3427,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ingrCode",
+      "label": "DUR성분코드",
+      "required": false,
+      "sample": "D000739"
+     },
+     {
+      "name": "itemSeq",
+      "label": "품목기준코드",
+      "required": false,
+      "sample": "199400486"
+     },
+     {
+      "name": "itemName",
+      "label": "품목명",
+      "required": false,
+      "sample": "에어탈정(아세클로페낙)"
      }
     ],
     "fields": [
@@ -3307,6 +3613,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "itemSeq",
+      "label": "품목기준코드",
+      "required": false,
+      "sample": "197100081"
+     },
+     {
+      "name": "itemName",
+      "label": "품목명",
+      "required": false,
+      "sample": "키모랄에스정"
+     },
+     {
+      "name": "entpName",
+      "label": "업체명",
+      "required": false,
+      "sample": "(주)에이프로젠바이오로직스"
      }
     ],
     "fields": [
@@ -3423,6 +3747,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ingrCode",
+      "label": "DUR성분코드",
+      "required": false,
+      "sample": "D000145"
+     },
+     {
+      "name": "itemSeq",
+      "label": "품목기준코드",
+      "required": false,
+      "sample": "197000102"
+     },
+     {
+      "name": "itemName",
+      "label": "품목명",
+      "required": false,
+      "sample": "대원아미노필린정(아미노필린수화물)"
      }
     ],
     "fields": [
@@ -3574,6 +3916,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ingrCode",
+      "label": "DUR성분코드",
+      "required": false,
+      "sample": "D000762"
+     },
+     {
+      "name": "ingrKorName",
+      "label": "DUR성분",
+      "required": false,
+      "sample": "이트라코나졸"
      }
     ],
     "fields": [
@@ -3706,6 +4060,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ingrCode",
+      "label": "DUR성분코드",
+      "required": false,
+      "sample": "D000100"
+     },
+     {
+      "name": "ingrName",
+      "label": "DUR성분",
+      "required": false,
+      "sample": "프로게스테론"
      }
     ],
     "fields": [
@@ -3822,6 +4188,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ingrCode",
+      "label": "DUR성분코드",
+      "required": false,
+      "sample": "D000592"
+     },
+     {
+      "name": "ingrName",
+      "label": "DUR성분",
+      "required": false,
+      "sample": "트리아졸람"
      }
     ],
     "fields": [
@@ -3938,6 +4316,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ingrCode",
+      "label": "DUR성분코드",
+      "required": false,
+      "sample": "D000592"
+     },
+     {
+      "name": "ingrName",
+      "label": "DUR성분",
+      "required": false,
+      "sample": "트리아졸람"
      }
     ],
     "fields": [
@@ -4054,6 +4444,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ingrCode",
+      "label": "DUR성분코드",
+      "required": false,
+      "sample": "D000056"
+     },
+     {
+      "name": "ingrName",
+      "label": "DUR성분",
+      "required": false,
+      "sample": "클로르디아제폭시드"
      }
     ],
     "fields": [
@@ -4162,6 +4564,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ingrCode",
+      "label": "DUR성분코드",
+      "required": false,
+      "sample": "D000149"
+     },
+     {
+      "name": "ingrName",
+      "label": "DUR성분",
+      "required": false,
+      "sample": "아카보즈"
      }
     ],
     "fields": [
@@ -4278,6 +4692,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ingrCode",
+      "label": "DUR성분코드",
+      "required": false,
+      "sample": "D000739"
+     },
+     {
+      "name": "ingrName",
+      "label": "DUR성분",
+      "required": false,
+      "sample": "아세클로페낙"
      }
     ],
     "fields": [
@@ -4438,6 +4864,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "date_year",
+      "label": "DATE_YEAR",
+      "required": false,
+      "sample": "2025"
+     },
+     {
+      "name": "entp_name",
+      "label": "ENTP_NAME",
+      "required": false,
+      "sample": "제이더블유중외제약(주)"
+     },
+     {
+      "name": "result_part",
+      "label": "RESULT_PART",
+      "required": false,
+      "sample": "생산"
+     },
+     {
+      "name": "bizrno",
+      "label": "BIZRNO",
+      "required": false,
+      "sample": "1188102477"
      }
     ],
     "fields": [
@@ -4624,6 +5074,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "INGR_KOR_NAME",
+      "label": "표준명",
+      "required": false,
+      "sample": "가공소금"
      }
     ],
     "fields": [
@@ -4791,6 +5247,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "entp_name",
+      "label": "업체명",
+      "required": false,
+      "sample": "필링오브라이프"
+     },
+     {
+      "name": "entp_permit_date",
+      "label": "허가일자",
+      "required": false,
+      "sample": "20070323"
+     },
+     {
+      "name": "bizrno",
+      "label": "사업자등록번호",
+      "required": false,
+      "sample": "1020463371"
      }
     ],
     "fields": [
@@ -4990,6 +5464,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ingr_eng_name",
+      "label": "성분명(영)",
+      "required": false,
+      "sample": "Valsartan/Amlodipine Orotate"
+     },
+     {
+      "name": "ingr_name",
+      "label": "성분명(한)",
+      "required": false,
+      "sample": "발사르탄/암로디핀오로트산염"
+     },
+     {
+      "name": "item_eng_name",
+      "label": "제품명(영)",
+      "required": false,
+      "sample": "Orosartan tablet 10/160mg"
+     },
+     {
+      "name": "item_name",
+      "label": "제품명(한)",
+      "required": false,
+      "sample": "오로살탄정10/160밀리그램"
      }
     ],
     "fields": [
@@ -5245,6 +5743,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "brnchnm",
+      "label": "업체명",
+      "required": false,
+      "sample": "대백마트(경산점)"
+     },
+     {
+      "name": "ctrlministry",
+      "label": "기관코드",
+      "required": false,
+      "sample": "1470088"
+     },
+     {
+      "name": "ctrl_ministry_nm",
+      "label": "기관명",
+      "required": false,
+      "sample": "대구지방식품의약품안전청"
      }
     ],
     "fields": [
@@ -5521,6 +6037,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "pdt_typ_cd",
+      "label": "식품유형코드",
+      "required": false,
+      "sample": "C0310090000000"
+     },
+     {
+      "name": "pdt_typ_nm",
+      "label": "식품유형코드명",
+      "required": false,
+      "sample": "영.유아용 이유식"
+     },
+     {
+      "name": "pdt_nm",
+      "label": "제품이름",
+      "required": false,
+      "sample": "한우미역흑임자죽"
      }
     ],
     "fields": [
@@ -5621,6 +6155,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ctrlministry",
+      "label": "기관코드",
+      "required": false,
+      "sample": "1470096"
+     },
+     {
+      "name": "ctrlministry_nm",
+      "label": "기관코드명",
+      "required": false,
+      "sample": "대전지방식품의약품안전청"
      }
     ],
     "fields": [
@@ -5729,6 +6275,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ctrlministrynm",
+      "label": "기관코드명",
+      "required": false,
+      "sample": "대전지방식품의약품안전청"
+     },
+     {
+      "name": "makeday",
+      "label": "등록증발급일",
+      "required": false,
+      "sample": "20230412"
      }
     ],
     "fields": [
@@ -5837,6 +6395,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "foodhistracenum",
+      "label": "식품이력추적관리번호",
+      "required": false,
+      "sample": "5071420170216"
+     },
+     {
+      "name": "pdtnm",
+      "label": "제품이름",
+      "required": false,
+      "sample": "백수오 궁 120캡슐"
      }
     ],
     "fields": [
@@ -5949,6 +6519,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ctrlministry",
+      "label": "기관코드",
+      "required": false,
+      "sample": "1470092"
+     },
+     {
+      "name": "ctrlministrynm",
+      "label": "기관코드명",
+      "required": false,
+      "sample": "광주지방식품의약품안전청"
      }
     ],
     "fields": [
@@ -6057,6 +6639,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "pdtnm",
+      "label": "제품이름",
+      "required": false,
+      "sample": "잔티젠 이지 버닝 다이어트(30C)"
      }
     ],
     "fields": [
@@ -6129,6 +6717,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "mnftfact",
+      "label": "제조공장",
+      "required": false,
+      "sample": "주식회사 노바렉스2공장"
      }
     ],
     "fields": [
@@ -6201,6 +6795,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "pdtnm",
+      "label": "제품이름",
+      "required": false,
+      "sample": "화진어랑골드셀레늄(72g)"
      }
     ],
     "fields": [
@@ -6297,6 +6897,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ENTPCD",
+      "label": "업체코드",
+      "required": false,
+      "sample": "56339"
+     },
+     {
+      "name": "FOODHISTRACENUM",
+      "label": "식품이력추적관리번호",
+      "required": false,
+      "sample": "100000232301"
+     },
+     {
+      "name": "PDTNM",
+      "label": "제품이름",
+      "required": false,
+      "sample": "잔티젠 이지 버닝 다이어트(30C)"
      }
     ],
     "fields": [
@@ -6393,6 +7011,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ENTPCD",
+      "label": "업체코드",
+      "required": false,
+      "sample": "56339"
+     },
+     {
+      "name": "FOODHISTRACENUM",
+      "label": "식품이력추적관리번호",
+      "required": false,
+      "sample": "100000232301"
      }
     ],
     "fields": [
@@ -6496,6 +7126,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "entp_seq",
+      "label": "업체일련번호",
+      "required": false,
+      "sample": "19320001"
+     },
+     {
+      "name": "entp_name",
+      "label": "업체명",
+      "required": false,
+      "sample": "(주)보령"
      }
     ],
     "fields": [
@@ -6600,6 +7242,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "cosmetic_report_seq",
+      "label": "화장품보고일련번호",
+      "required": false,
+      "sample": "2008000083"
+     },
+     {
+      "name": "item_name",
+      "label": "품목명",
+      "required": false,
+      "sample": "더마바이탈나노펩타이드토너"
      }
     ],
     "fields": [
@@ -6999,6 +7653,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "approval_time",
+      "label": "승인일",
+      "required": false,
+      "sample": "20120228"
+     },
+     {
+      "name": "goods_name",
+      "label": "제품명",
+      "required": false,
+      "sample": "CJ-20001"
+     },
+     {
+      "name": "clnc_test_sn",
+      "label": "임상시험정보일련번호",
+      "required": false,
+      "sample": "201002160"
      }
     ],
     "fields": [
@@ -7094,6 +7766,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "meddev_entp_seq",
+      "label": "MEDDEV_ENTP_SEQ",
+      "required": false,
+      "sample": "2009000263"
+     },
+     {
+      "name": "entp_name",
+      "label": "ENTP_NAME",
+      "required": false,
+      "sample": "(주)메디팁"
      }
     ],
     "fields": []
@@ -7129,6 +7813,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "item_grp_code",
+      "label": "품목군코드",
+      "required": false,
+      "sample": "A24"
+     },
+     {
+      "name": "item_grp_name",
+      "label": "품목군명칭",
+      "required": false,
+      "sample": "치과처치용 재료"
+     },
+     {
+      "name": "item_name",
+      "label": "품목명",
+      "required": false,
+      "sample": "치과용레진계시멘트"
      }
     ],
     "fields": [
@@ -7269,6 +7971,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "item_grp_name",
+      "label": "품목군명",
+      "required": false,
+      "sample": "눈 적용 렌즈(I)"
+     },
+     {
+      "name": "item_name",
+      "label": "품목명",
+      "required": false,
+      "sample": "매일착용소프트콘택트렌즈"
+     },
+     {
+      "name": "manuf_clt_name",
+      "label": "제조자명",
+      "required": false,
+      "sample": "Oculus Private Limited"
      }
     ],
     "fields": [
@@ -7405,6 +8125,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "exam_machinery_code",
+      "label": "심사기관코드",
+      "required": false,
+      "sample": "L000004"
+     },
+     {
+      "name": "exam_machinery_name",
+      "label": "심사기관명",
+      "required": false,
+      "sample": "한국건설생활환경시험연구원"
      }
     ],
     "fields": [
@@ -7750,6 +8482,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "item_seq",
+      "label": "품목기준코드",
+      "required": false,
+      "sample": "201100193"
      }
     ],
     "fields": [
@@ -7934,6 +8672,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "item_seq",
+      "label": "품목기준코드",
+      "required": false,
+      "sample": "199800895"
+     },
+     {
+      "name": "bizrno",
+      "label": "사업자등록번호",
+      "required": false,
+      "sample": "1388105823"
      }
     ],
     "fields": [
@@ -8261,6 +9011,78 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "trustIndutyCode",
+      "label": "trustIndutyCode",
+      "required": false,
+      "sample": "198000058"
+     },
+     {
+      "name": "trustItemName",
+      "label": "trustItemName",
+      "required": false,
+      "sample": "디페인정(디클로페낙나트륨)"
+     },
+     {
+      "name": "trustMainingr",
+      "label": "trustMainingr",
+      "required": false,
+      "sample": "디클로페낙나트륨"
+     },
+     {
+      "name": "trustQntList",
+      "label": "trustQntList",
+      "required": false,
+      "sample": "25밀리그램"
+     },
+     {
+      "name": "trustEntpName",
+      "label": "trustEntpName",
+      "required": false,
+      "sample": "동광제약(주)"
+     },
+     {
+      "name": "trustManuf",
+      "label": "trustManuf",
+      "required": false,
+      "sample": "동광제약(주) 평택 제 1공장"
+     },
+     {
+      "name": "trustItemPermitDate",
+      "label": "trustItemPermitDate",
+      "required": false,
+      "sample": "1980-03-29 00:00:00"
+     },
+     {
+      "name": "trustHiraMainingrCode",
+      "label": "trustHiraMainingrCode",
+      "required": false,
+      "sample": "143504ATB"
+     },
+     {
+      "name": "trustHiraPrductCode",
+      "label": "trustHiraPrductCode",
+      "required": false,
+      "sample": "645901100"
+     },
+     {
+      "name": "trustAtcCode",
+      "label": "trustAtcCode",
+      "required": false,
+      "sample": "M01AB05 (diclofenac)"
+     },
+     {
+      "name": "trustCancelName",
+      "label": "trustCancelName",
+      "required": false,
+      "sample": "정상"
+     },
+     {
+      "name": "cnsgnItemSeq",
+      "label": "cnsgnItemSeq",
+      "required": false,
+      "sample": "201602311"
      }
     ],
     "fields": [
@@ -8410,6 +9232,48 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "receipt_no",
+      "label": "접수번호",
+      "required": false,
+      "sample": "19980028027"
+     },
+     {
+      "name": "notice_goods_name",
+      "label": "제품구분",
+      "required": false,
+      "sample": "가공식품"
+     },
+     {
+      "name": "bsn_ofc_name",
+      "label": "수입업체명",
+      "required": false,
+      "sample": "(주)비스밀라인터프라이즈"
+     },
+     {
+      "name": "goods_kor_name",
+      "label": "제품명(한글)",
+      "required": false,
+      "sample": "칠리파우다"
+     },
+     {
+      "name": "goods_eng_name",
+      "label": "제품명(영문)",
+      "required": false,
+      "sample": "RED CHILLI POWDER"
+     },
+     {
+      "name": "flow_from_date",
+      "label": "소비기한 시작일",
+      "required": false,
+      "sample": "19980610"
+     },
+     {
+      "name": "flow_to_date",
+      "label": "소비기한 종료일",
+      "required": false,
+      "sample": "50000510"
      }
     ],
     "fields": [
@@ -8518,6 +9382,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "receipt_no",
+      "label": "접수번호",
+      "required": false,
+      "sample": "202600163342"
+     },
+     {
+      "name": "notice_goods_name",
+      "label": "제품구분",
+      "required": false,
+      "sample": "기구또는용기.포장"
+     },
+     {
+      "name": "goods_kor_name",
+      "label": "제품명(한글)",
+      "required": false,
+      "sample": "주방용칼"
+     },
+     {
+      "name": "goods_eng_name",
+      "label": "제품명(영문)",
+      "required": false,
+      "sample": "KITCHEN KNIFE(STEEL )"
      }
     ],
     "fields": [
@@ -8626,6 +9514,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "country_code",
+      "label": "국가코드",
+      "required": false,
+      "sample": "NE"
+     },
+     {
+      "name": "country_name",
+      "label": "국가명",
+      "required": false,
+      "sample": "니제르"
      }
     ],
     "fields": [
@@ -8730,6 +9630,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "item_name",
+      "label": "품목명",
+      "required": false,
+      "sample": "피틴산"
      }
     ],
     "fields": [
@@ -9095,6 +10001,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TOXIC_CODE",
+      "label": "독성정보코드",
+      "required": false,
+      "sample": "T5800001054"
+     },
+     {
+      "name": "NM_ENG",
+      "label": "영문물질명",
+      "required": false,
+      "sample": "4-Aminobenzoic acid"
+     },
+     {
+      "name": "NM_KOR",
+      "label": "국문물질명",
+      "required": false,
+      "sample": "4-아미노벤조산"
+     },
+     {
+      "name": "CAS_NO",
+      "label": "CAS No",
+      "required": false,
+      "sample": "150-13-0"
      }
     ],
     "fields": [
@@ -9227,6 +10157,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TOXIC_CODE",
+      "label": "독성정보코드",
+      "required": false,
+      "sample": "T5800001520"
+     },
+     {
+      "name": "NM_ENG",
+      "label": "영문물질명",
+      "required": false,
+      "sample": "Helium"
+     },
+     {
+      "name": "NM_KOR",
+      "label": "국문물질명",
+      "required": false,
+      "sample": "헬륨"
+     },
+     {
+      "name": "CAS_NO",
+      "label": "CAS No",
+      "required": false,
+      "sample": "7440-59-7"
      }
     ],
     "fields": [
@@ -9303,6 +10257,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TOXIC_CODE",
+      "label": "독성정보코드",
+      "required": false,
+      "sample": "T5800001520"
+     },
+     {
+      "name": "NM_ENG",
+      "label": "영문물질명",
+      "required": false,
+      "sample": "Helium"
+     },
+     {
+      "name": "NM_KOR",
+      "label": "국문물질명",
+      "required": false,
+      "sample": "헬륨"
+     },
+     {
+      "name": "CAS_NO",
+      "label": "CAS No",
+      "required": false,
+      "sample": "7440-59-7"
      }
     ],
     "fields": [
@@ -9379,6 +10357,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TOXIC_CODE",
+      "label": "독성정보코드",
+      "required": false,
+      "sample": "T5800001520"
+     },
+     {
+      "name": "NM_ENG",
+      "label": "영문물질명",
+      "required": false,
+      "sample": "Helium"
+     },
+     {
+      "name": "NM_KOR",
+      "label": "국문물질명",
+      "required": false,
+      "sample": "헬륨"
+     },
+     {
+      "name": "CAS_NO",
+      "label": "CAS No",
+      "required": false,
+      "sample": "7440-59-7"
      }
     ],
     "fields": [
@@ -9455,6 +10457,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TOXIC_CODE",
+      "label": "독성정보코드",
+      "required": false,
+      "sample": "T5800001520"
+     },
+     {
+      "name": "NM_ENG",
+      "label": "영문물질명",
+      "required": false,
+      "sample": "Helium"
+     },
+     {
+      "name": "NM_KOR",
+      "label": "국문물질명",
+      "required": false,
+      "sample": "헬륨"
+     },
+     {
+      "name": "CAS_NO",
+      "label": "CAS No",
+      "required": false,
+      "sample": "7440-59-7"
      }
     ],
     "fields": [
@@ -9543,6 +10569,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TOXIC_CODE",
+      "label": "독성정보코드",
+      "required": false,
+      "sample": "T5800001520"
+     },
+     {
+      "name": "NM_ENG",
+      "label": "영문물질명",
+      "required": false,
+      "sample": "Helium"
+     },
+     {
+      "name": "NM_KOR",
+      "label": "국문물질명",
+      "required": false,
+      "sample": "헬륨"
+     },
+     {
+      "name": "CAS_NO",
+      "label": "CAS No",
+      "required": false,
+      "sample": "7440-59-7"
      }
     ],
     "fields": [
@@ -9631,6 +10681,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TOXIC_CODE",
+      "label": "독성정보코드",
+      "required": false,
+      "sample": "T5800001520"
+     },
+     {
+      "name": "NM_ENG",
+      "label": "영문물질명",
+      "required": false,
+      "sample": "Helium"
+     },
+     {
+      "name": "NM_KOR",
+      "label": "국문물질명",
+      "required": false,
+      "sample": "헬륨"
+     },
+     {
+      "name": "CAS_NO",
+      "label": "CAS No",
+      "required": false,
+      "sample": "7440-59-7"
      }
     ],
     "fields": [
@@ -9711,6 +10785,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TOXIC_CODE",
+      "label": "독성정보코드",
+      "required": false,
+      "sample": "T5800001520"
+     },
+     {
+      "name": "NM_ENG",
+      "label": "영문물질명",
+      "required": false,
+      "sample": "Helium"
+     },
+     {
+      "name": "NM_KOR",
+      "label": "국문물질명",
+      "required": false,
+      "sample": "헬륨"
+     },
+     {
+      "name": "CAS_NO",
+      "label": "CAS No",
+      "required": false,
+      "sample": "7440-59-7"
      }
     ],
     "fields": [
@@ -9791,6 +10889,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TOXIC_CODE",
+      "label": "독성정보코드",
+      "required": false,
+      "sample": "T5800001520"
+     },
+     {
+      "name": "NM_ENG",
+      "label": "영문물질명",
+      "required": false,
+      "sample": "Helium"
+     },
+     {
+      "name": "NM_KOR",
+      "label": "국문물질명",
+      "required": false,
+      "sample": "헬륨"
+     },
+     {
+      "name": "CAS_NO",
+      "label": "CAS No",
+      "required": false,
+      "sample": "7440-59-7"
      }
     ],
     "fields": [
@@ -9923,6 +11045,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "CAS_NO",
+      "label": "CAS NO",
+      "required": false,
+      "sample": "630-20-6"
      }
     ],
     "fields": [
@@ -10059,6 +11187,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TOXIC_CODE",
+      "label": "독성정보코드",
+      "required": false,
+      "sample": "T4000000218"
+     },
+     {
+      "name": "NM_ENG",
+      "label": "영문물질명",
+      "required": false,
+      "sample": "Citalopram"
+     },
+     {
+      "name": "NM_KOR",
+      "label": "국문물질명",
+      "required": false,
+      "sample": "씨탈로프람"
+     },
+     {
+      "name": "CAS_NO",
+      "label": "CAS No",
+      "required": false,
+      "sample": "59729-33-8"
      }
     ],
     "fields": [
@@ -10167,6 +11319,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TOXIC_CODE",
+      "label": "독성정보코드",
+      "required": false,
+      "sample": "T0000000005"
+     },
+     {
+      "name": "NM_KOR",
+      "label": "국문물질명",
+      "required": false,
+      "sample": "씨탈로프람"
+     },
+     {
+      "name": "NM_ENG",
+      "label": "영문물질명",
+      "required": false,
+      "sample": "Citalopram"
+     },
+     {
+      "name": "CAS_NO",
+      "label": "CAS No",
+      "required": false,
+      "sample": "59729-33-8"
      }
     ],
     "fields": [
@@ -10384,6 +11560,42 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "UDIDI_CD",
+      "label": "UDI-DI코드",
+      "required": false,
+      "sample": "08800186600030"
+     },
+     {
+      "name": "PRDLST_NM",
+      "label": "품목명",
+      "required": false,
+      "sample": "치과 주조용 귀금속 합금"
+     },
+     {
+      "name": "MDEQ_CLSF_NO",
+      "label": "분류번호",
+      "required": false,
+      "sample": "C02010.01"
+     },
+     {
+      "name": "CLSF_NO_GRAD_CD",
+      "label": "등급",
+      "required": false,
+      "sample": "2"
+     },
+     {
+      "name": "PERMIT_NO",
+      "label": "품목허가번호",
+      "required": false,
+      "sample": "제인 26-4861 호"
+     },
+     {
+      "name": "FOML_INFO",
+      "label": "모델명",
+      "required": false,
+      "sample": "DAVINCI 83"
      }
     ],
     "fields": [
@@ -10531,6 +11743,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "essntl_item_name",
+      "label": "ESSNTL_ITEM_NAME",
+      "required": false,
+      "sample": "아메지늄 정제"
      }
     ],
     "fields": [
@@ -10764,6 +11982,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "haccp_appn_dt",
+      "label": "HACCP 지정일자",
+      "required": false,
+      "sample": "20081016"
      }
     ],
     "fields": [
@@ -10885,6 +12109,48 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "dclPrductSeCdNm",
+      "label": "제품구분",
+      "required": false,
+      "sample": "기구또는용기.포장"
+     },
+     {
+      "name": "bsnOfcName",
+      "label": "수입업체명",
+      "required": false,
+      "sample": "주식회사 성우테크"
+     },
+     {
+      "name": "prductKoreanNm",
+      "label": "제품명(한글)",
+      "required": false,
+      "sample": "후라이어"
+     },
+     {
+      "name": "prductNm",
+      "label": "제품명(영문)",
+      "required": false,
+      "sample": "FRYER(OXE100)"
+     },
+     {
+      "name": "ovsmnfstNm",
+      "label": "해외제조업소",
+      "required": false,
+      "sample": "HENNY PENNY CORPORATION"
+     },
+     {
+      "name": "itmNm",
+      "label": "품목",
+      "required": false,
+      "sample": "금속제"
+     },
+     {
+      "name": "xportNtncdNm",
+      "label": "수출국",
+      "required": false,
+      "sample": "미국"
      }
     ],
     "fields": [
@@ -11052,6 +12318,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ingr_name",
+      "label": "성분명",
+      "required": false,
+      "sample": "펙소페나딘염산염"
+     },
+     {
+      "name": "item_name",
+      "label": "제품명",
+      "required": false,
+      "sample": "펙소지엔정60밀리그램(펙소페나딘염산염)"
+     },
+     {
+      "name": "bizrno",
+      "label": "사업자등록번호",
+      "required": false,
+      "sample": "1238101790"
+     },
+     {
+      "name": "item_seq",
+      "label": "품목일련번호",
+      "required": false,
+      "sample": "202301723"
      }
     ],
     "fields": [
@@ -11151,6 +12441,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ORGN_DEV_BSSH_NM",
+      "label": "원개발사 명칭(업체)",
+      "required": false,
+      "sample": "한미약품(주)"
+     },
+     {
+      "name": "CLNC_TEST_SN",
+      "label": "임상시험정보일련번호",
+      "required": false,
+      "sample": "201900001"
      }
     ],
     "fields": [
@@ -11270,6 +12572,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "item_seq",
+      "label": "품목일련번호",
+      "required": false,
+      "sample": "197100246"
+     },
+     {
+      "name": "item_name",
+      "label": "품목명",
+      "required": false,
+      "sample": "반창고(수출용)"
+     },
+     {
+      "name": "entp_name",
+      "label": "업체명",
+      "required": false,
+      "sample": "신신제약(주)"
+     },
+     {
+      "name": "class_no",
+      "label": "품목코드",
+      "required": false,
+      "sample": "33800"
      }
     ],
     "fields": [
@@ -11575,6 +12901,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "drug_name",
+      "label": "DRUG_NAME",
+      "required": false,
+      "sample": "Tolterodine Tartrate"
+     },
+     {
+      "name": "rld",
+      "label": "RLD",
+      "required": false,
+      "sample": "Detrol 20771"
      }
     ],
     "fields": [
@@ -11933,6 +13271,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "PRDLST_NM",
+      "label": "소분류 품목 명칭",
+      "required": false,
+      "sample": "체외형범용프로브"
      }
     ],
     "fields": [
@@ -12040,6 +13384,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "entpName",
+      "label": "ENTP_NAME",
+      "required": false,
+      "sample": "하나제약(주)"
+     },
+     {
+      "name": "itemName",
+      "label": "ITEM_NAME",
+      "required": false,
+      "sample": "하나염산페치딘주사"
      }
     ],
     "fields": [
@@ -12095,6 +13451,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "entp_seq",
+      "label": "업체일련번호",
+      "required": false,
+      "sample": "19320001"
+     },
+     {
+      "name": "entp_name",
+      "label": "업체명",
+      "required": false,
+      "sample": "(주)보령"
      }
     ],
     "fields": [
@@ -12195,6 +13563,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "item_seq",
+      "label": "품목일련번호",
+      "required": false,
+      "sample": "200409334"
      }
     ],
     "fields": [
@@ -12462,6 +13836,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TITLE",
+      "label": "제목",
+      "required": false,
+      "sample": "안전성속보 배포 알림"
+     },
+     {
+      "name": "PBANC_YMD",
+      "label": "공고일자",
+      "required": false,
+      "sample": "2026-05-21"
      }
     ],
     "fields": [
@@ -12695,6 +14081,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "PRDLST_NM",
+      "label": "제품명",
+      "required": false,
+      "sample": "큐록신정100밀리그램(발로플록사신)"
+     },
+     {
+      "name": "PTNT_REG_DT",
+      "label": "등재일자",
+      "required": false,
+      "sample": "1994-06-24"
+     },
+     {
+      "name": "PTNT_NO",
+      "label": "특허번호",
+      "required": false,
+      "sample": "10-0074758-0000"
      }
     ],
     "fields": [
@@ -12794,6 +14198,48 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "dclPrductSeCdNm",
+      "label": "제품구분",
+      "required": false,
+      "sample": "수산물"
+     },
+     {
+      "name": "bsnOfcName",
+      "label": "수입업체명",
+      "required": false,
+      "sample": "주식회사보성노량진수산"
+     },
+     {
+      "name": "prductKoreanNm",
+      "label": "제품명(한글)",
+      "required": false,
+      "sample": "활가재(바다가재)"
+     },
+     {
+      "name": "prductNm",
+      "label": "제품명(영문)",
+      "required": false,
+      "sample": "LIVE LOBSTER"
+     },
+     {
+      "name": "ovsmnfstNm",
+      "label": "해외제조업소",
+      "required": false,
+      "sample": "CLEARWATER LOBSTERS"
+     },
+     {
+      "name": "itmNm",
+      "label": "품목",
+      "required": false,
+      "sample": "바닷가재(활)"
+     },
+     {
+      "name": "xportNtncdNm",
+      "label": "수출국",
+      "required": false,
+      "sample": "캐나다"
      }
     ],
     "fields": [
@@ -13182,6 +14628,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "PRT_NAME",
+      "label": "PRT_NAME",
+      "required": false,
+      "sample": "바라크루드시럽(엔테카비르)"
      }
     ],
     "fields": [
@@ -13571,6 +15023,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "lab_name",
+      "label": "검사기관명",
+      "required": false,
+      "sample": "세종충남대학교병원"
      }
     ],
     "fields": [
@@ -13680,6 +15138,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "receipt_time",
+      "label": "접수일",
+      "required": false,
+      "sample": "20250205"
+     },
+     {
+      "name": "receipt_no",
+      "label": "접수번호",
+      "required": false,
+      "sample": "20250022929"
+     },
+     {
+      "name": "entp_name",
+      "label": "신청 기관",
+      "required": false,
+      "sample": "고려대학교 의과대학 실험동물연구센터 본관동물실"
      }
     ],
     "fields": [
@@ -13772,6 +15248,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "receipt_time",
+      "label": "접수일",
+      "required": false,
+      "sample": "20241022"
+     },
+     {
+      "name": "receipt_no",
+      "label": "접수번호",
+      "required": false,
+      "sample": "20240193759"
+     },
+     {
+      "name": "entp_name",
+      "label": "신청 기관",
+      "required": false,
+      "sample": "젬크로"
+     },
+     {
+      "name": "bizrno",
+      "label": "사업자등록번호",
+      "required": false,
+      "sample": "4828102043"
      }
     ],
     "fields": [
@@ -13864,6 +15364,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "receipt_time",
+      "label": "접수일",
+      "required": false,
+      "sample": "20251103"
+     },
+     {
+      "name": "receipt_no",
+      "label": "접수번호",
+      "required": false,
+      "sample": "20250193968"
+     },
+     {
+      "name": "entp_name",
+      "label": "신청 기관",
+      "required": false,
+      "sample": "젬바이오사이언스 주식회사"
+     },
+     {
+      "name": "bizrno",
+      "label": "사업자등록번호",
+      "required": false,
+      "sample": "5888700710"
      }
     ],
     "fields": [
@@ -14197,6 +15721,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ORGN_DEV_BSSH_NM",
+      "label": "원개발사 명칭(업체)",
+      "required": false,
+      "sample": "한미약품(주)"
+     },
+     {
+      "name": "PRDT_NM",
+      "label": "임상시험용의약품 제품명(코드명)",
+      "required": false,
+      "sample": "HCP1701"
+     },
+     {
+      "name": "GNRL_CD_NM",
+      "label": "임상시험용의약품  성분명(코드명)",
+      "required": false,
+      "sample": "로사르탄, 암로디핀, 에제티미브, 로수바스타틴"
      }
     ],
     "fields": [
@@ -14535,6 +16077,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "prdlst_nm",
+      "label": "PRDLST_NM",
+      "required": false,
+      "sample": "TEST(건기전문제조)"
+     },
+     {
+      "name": "bssh_nm",
+      "label": "BSSH_NM",
+      "required": false,
+      "sample": "식약처TEST업소(건기전문제조)"
      }
     ],
     "fields": [
@@ -14590,6 +16144,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ENTP_NAME",
+      "label": "업체명",
+      "required": false,
+      "sample": "(주)제일제약"
+     },
+     {
+      "name": "BIZRNO",
+      "label": "사업자등록번호",
+      "required": false,
+      "sample": "5148126323"
      }
     ],
     "fields": [
@@ -14838,6 +16404,36 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "elb_mng_no",
+      "label": "E라벨관리번호",
+      "required": false,
+      "sample": "202607061000009794"
+     },
+     {
+      "name": "prdct_nm",
+      "label": "제품명",
+      "required": false,
+      "sample": "아이돌인기샌드위치"
+     },
+     {
+      "name": "brcd_no",
+      "label": "바코드",
+      "required": false,
+      "sample": "02700038882101"
+     },
+     {
+      "name": "ver_no",
+      "label": "버전번호",
+      "required": false,
+      "sample": "5"
+     },
+     {
+      "name": "vld_bgng_ymd",
+      "label": "유효시작일자",
+      "required": false,
+      "sample": "202607060000"
      }
     ],
     "fields": [
@@ -14970,6 +16566,48 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "elb_mng_no",
+      "label": "E라벨관리번호",
+      "required": false,
+      "sample": "202410221000001856"
+     },
+     {
+      "name": "prdct_nm",
+      "label": "제품명",
+      "required": false,
+      "sample": "전복삼계죽 420g"
+     },
+     {
+      "name": "brcd_no",
+      "label": "바코드번호",
+      "required": false,
+      "sample": "08801007901244"
+     },
+     {
+      "name": "ver_no",
+      "label": "버전번호",
+      "required": false,
+      "sample": "1"
+     },
+     {
+      "name": "vld_bgng_ymd",
+      "label": "유효시작일자",
+      "required": false,
+      "sample": "202411010000"
+     },
+     {
+      "name": "imrpt_no",
+      "label": "품목제조보고번호",
+      "required": false,
+      "sample": "20190450208110"
+     },
+     {
+      "name": "bues_nm",
+      "label": "업소명",
+      "required": false,
+      "sample": "씨제이제일제당(주) 진천 BLOSSOM CAMPUS 3동"
      }
     ],
     "fields": [
@@ -15070,6 +16708,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "brcd_no",
+      "label": "바코드번호",
+      "required": false,
+      "sample": "08801118027314"
+     },
+     {
+      "name": "vld_bgng_ymd",
+      "label": "유효시작일자",
+      "required": false,
+      "sample": "202604200000"
      }
     ],
     "fields": [
@@ -15158,6 +16808,36 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "elb_mng_no",
+      "label": "E라벨관리번호",
+      "required": false,
+      "sample": "202410221000001856"
+     },
+     {
+      "name": "prdt_nm",
+      "label": "PRDT_NM",
+      "required": false,
+      "sample": "전복삼계죽 420g"
+     },
+     {
+      "name": "brcd_no",
+      "label": "바코드번호",
+      "required": false,
+      "sample": "08801007901244"
+     },
+     {
+      "name": "ver_no",
+      "label": "버전번호",
+      "required": false,
+      "sample": "1"
+     },
+     {
+      "name": "vld_bgng_ymd",
+      "label": "유효일자(시작)",
+      "required": false,
+      "sample": "202411010000"
      }
     ],
     "fields": [
@@ -15298,6 +16978,36 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "elb_mng_no",
+      "label": "E라벨관리번호",
+      "required": false,
+      "sample": "202410221000001856"
+     },
+     {
+      "name": "prdct_nm",
+      "label": "제품명",
+      "required": false,
+      "sample": "전복삼계죽 420g"
+     },
+     {
+      "name": "brcd_no",
+      "label": "바코드번호",
+      "required": false,
+      "sample": "08801007901244"
+     },
+     {
+      "name": "ver_no",
+      "label": "버전번호",
+      "required": false,
+      "sample": "1"
+     },
+     {
+      "name": "vld_bgng_ymd",
+      "label": "유효시작일자",
+      "required": false,
+      "sample": "202411010000"
      }
     ],
     "fields": [
@@ -15394,6 +17104,36 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "elb_mng_no",
+      "label": "E라벨관리번호",
+      "required": false,
+      "sample": "202410221000001856"
+     },
+     {
+      "name": "prdct_nm",
+      "label": "제품명",
+      "required": false,
+      "sample": "전복삼계죽 420g"
+     },
+     {
+      "name": "brcd_no",
+      "label": "바코드번호",
+      "required": false,
+      "sample": "08801007901244"
+     },
+     {
+      "name": "ver_no",
+      "label": "버전번호",
+      "required": false,
+      "sample": "1"
+     },
+     {
+      "name": "vld_bgng_ymd",
+      "label": "유효시작일자",
+      "required": false,
+      "sample": "202411010000"
      }
     ],
     "fields": [
@@ -15490,6 +17230,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "elb_mng_no",
+      "label": "E라벨관리번호",
+      "required": false,
+      "sample": "202410221000001856"
+     },
+     {
+      "name": "prdct_nm",
+      "label": "제품명",
+      "required": false,
+      "sample": "전복삼계죽 420g"
+     },
+     {
+      "name": "brcd_no",
+      "label": "바코드번호",
+      "required": false,
+      "sample": "08801007901244"
+     },
+     {
+      "name": "ver_no",
+      "label": "버전번호",
+      "required": false,
+      "sample": "1"
      }
     ],
     "fields": [
@@ -15586,6 +17350,36 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "elb_mng_no",
+      "label": "E라벨관리번호",
+      "required": false,
+      "sample": "202410221000001856"
+     },
+     {
+      "name": "prdct_nm",
+      "label": "제품명",
+      "required": false,
+      "sample": "전복삼계죽 420g"
+     },
+     {
+      "name": "brcd_no",
+      "label": "바코드번호",
+      "required": false,
+      "sample": "08801007901244"
+     },
+     {
+      "name": "ver_no",
+      "label": "버전번호",
+      "required": false,
+      "sample": "1"
+     },
+     {
+      "name": "vld_bgng_ymd",
+      "label": "유효시작일자",
+      "required": false,
+      "sample": "202411010000"
      }
     ],
     "fields": [
@@ -15682,6 +17476,42 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "elb_mng_no",
+      "label": "E라벨관리번호",
+      "required": false,
+      "sample": "202410221000001856"
+     },
+     {
+      "name": "brcd_no",
+      "label": "바코드번호",
+      "required": false,
+      "sample": "08801007901244"
+     },
+     {
+      "name": "prdct_nm",
+      "label": "제품명",
+      "required": false,
+      "sample": "전복삼계죽 420g"
+     },
+     {
+      "name": "ver_no",
+      "label": "버전번호",
+      "required": false,
+      "sample": "1"
+     },
+     {
+      "name": "vld_bgng_ymd",
+      "label": "유효시작일자",
+      "required": false,
+      "sample": "202411010000"
+     },
+     {
+      "name": "imrpt_no",
+      "label": "품목제조보고번호",
+      "required": false,
+      "sample": "20190450208110"
      }
     ],
     "fields": [
@@ -15946,6 +17776,36 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "elb_mng_no",
+      "label": "E라벨관리번호",
+      "required": false,
+      "sample": "202506201000007210"
+     },
+     {
+      "name": "prdct_nm",
+      "label": "제품명",
+      "required": false,
+      "sample": "bibigo 왕교자"
+     },
+     {
+      "name": "brcd_no",
+      "label": "바코드번호",
+      "required": false,
+      "sample": "08801007325224"
+     },
+     {
+      "name": "ver_no",
+      "label": "버전번호",
+      "required": false,
+      "sample": "4"
+     },
+     {
+      "name": "vld_bgng_ymd",
+      "label": "유효시작일자",
+      "required": false,
+      "sample": "202506200000"
      }
     ],
     "fields": [
@@ -16038,6 +17898,36 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "elb_mng_no",
+      "label": "E라벨관리번호",
+      "required": false,
+      "sample": "202410221000001856"
+     },
+     {
+      "name": "prdct_nm",
+      "label": "제품명",
+      "required": false,
+      "sample": "전복삼계죽 420g"
+     },
+     {
+      "name": "brcd_no",
+      "label": "바코드",
+      "required": false,
+      "sample": "08801007901244"
+     },
+     {
+      "name": "ver_no",
+      "label": "버전번호",
+      "required": false,
+      "sample": "1"
+     },
+     {
+      "name": "vld_bgng_ymd",
+      "label": "유효시작일자",
+      "required": false,
+      "sample": "202411010000"
      }
     ],
     "fields": [
@@ -16858,6 +18748,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "meddev_entp_seq",
+      "label": "업체일련번호",
+      "required": false,
+      "sample": "200400171"
+     },
+     {
+      "name": "entp_name",
+      "label": "업체명",
+      "required": false,
+      "sample": "한국스트라이커(주)"
      }
     ],
     "fields": [
@@ -16966,6 +18868,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "item_name",
+      "label": "품목명",
+      "required": false,
+      "sample": "인공엉덩이뼈관절"
+     },
+     {
+      "name": "meddev_item_seq",
+      "label": "의료기기품목일련번호",
+      "required": false,
+      "sample": "199902310"
      }
     ],
     "fields": [
@@ -17098,6 +19012,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "recall_item_seq",
+      "label": "회수품목일련번호",
+      "required": false,
+      "sample": "1"
      }
     ],
     "fields": [
@@ -17218,6 +19138,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "make_no_seq",
+      "label": "제조번호일련번호",
+      "required": false,
+      "sample": "1"
+     },
+     {
+      "name": "make_no",
+      "label": "LOT-NO제조번호",
+      "required": false,
+      "sample": "MHMW56"
      }
     ],
     "fields": [
@@ -17332,6 +19264,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ORM_STD_NM",
+      "label": "ORM_STD_NM",
+      "required": false,
+      "sample": "감자"
      }
     ],
     "fields": [
@@ -17387,6 +19325,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "PRDLST_NM",
+      "label": "PRDLST_NM",
+      "required": false,
+      "sample": "체외형 범용 프로브"
      }
     ],
     "fields": [
@@ -17442,6 +19386,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "entp_name",
+      "label": "업체명",
+      "required": false,
+      "sample": "한국벡스팜제약(주)"
+     },
+     {
+      "name": "entp_no",
+      "label": "업허가번호",
+      "required": false,
+      "sample": "4378"
+     },
+     {
+      "name": "item_name",
+      "label": "품목명",
+      "required": false,
+      "sample": "씨씨엔유캅셀(로무스틴)"
+     },
+     {
+      "name": "item_no",
+      "label": "품목허가번호",
+      "required": false,
+      "sample": "1"
      }
     ],
     "fields": [
@@ -18007,6 +19975,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "bssh_nm",
+      "label": "업소명",
+      "required": false,
+      "sample": "(주)나라엔텍"
      }
     ],
     "fields": [
@@ -18157,6 +20131,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ORGN_DEV_BSSH_NM",
+      "label": "원개발사 명칭(업체)",
+      "required": false,
+      "sample": "한미약품(주)"
+     },
+     {
+      "name": "CLNC_TEST_SN",
+      "label": "임상시험정보일련번호",
+      "required": false,
+      "sample": "201900001"
      }
     ],
     "fields": [
@@ -18758,6 +20744,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "OCTR_MNFT_BSSH_NM",
+      "label": "해외제조업소명",
+      "required": false,
+      "sample": "AHMAD TEA FZ LLC"
+     },
+     {
+      "name": "FOOD_SE_NM",
+      "label": "식품구분명",
+      "required": false,
+      "sample": "가공식품"
+     },
+     {
+      "name": "NATN_NM",
+      "label": "국가명",
+      "required": false,
+      "sample": "아랍에미리트 연합"
      }
     ],
     "fields": [
@@ -18951,6 +20955,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "PRCS_DT",
+      "label": "일자",
+      "required": false,
+      "sample": "2025-01-03"
+     },
+     {
+      "name": "PRDLST_NM",
+      "label": "품목구분명",
+      "required": false,
+      "sample": "1제식팽창제제"
      }
     ],
     "fields": [
@@ -19031,6 +21047,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "MNFT_NATN_CD_NM",
+      "label": "국가명",
+      "required": false,
+      "sample": "아랍에미리트 연합"
      }
     ],
     "fields": [
@@ -19099,6 +21121,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "PRCS_DT",
+      "label": "검사연도",
+      "required": false,
+      "sample": "2021"
+     },
+     {
+      "name": "MNFT_NATN_CD_NM",
+      "label": "국가명",
+      "required": false,
+      "sample": "아랍에미리트 연합"
+     },
+     {
+      "name": "PRDLST_NM",
+      "label": "품목명",
+      "required": false,
+      "sample": "갈치(냉동)"
      }
     ],
     "fields": [
@@ -19179,6 +21219,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "MNFT_NATN_CD_NM",
+      "label": "국가명",
+      "required": false,
+      "sample": "중국"
+     },
+     {
+      "name": "PRDLST_NM",
+      "label": "품목",
+      "required": false,
+      "sample": "고등어(냉동)"
      }
     ],
     "fields": [
@@ -19602,6 +21654,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BIZRNO",
+      "label": "BIZRNO",
+      "required": false,
+      "sample": "2118698525"
      }
     ],
     "fields": [
@@ -19657,6 +21715,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "MEDC_INST_NM",
+      "label": "MEDC_INST_NM",
+      "required": false,
+      "sample": "아주대학교병원"
+     },
+     {
+      "name": "MEDC_INST_CLSFY_DIVS_CD",
+      "label": "MEDC_INST_CLSFY_DIVS_CD",
+      "required": false,
+      "sample": "병원"
+     },
+     {
+      "name": "CARE_INST_DSGN_DIVS_CD",
+      "label": "CARE_INST_DSGN_DIVS_CD",
+      "required": false,
+      "sample": "3차의료급여기관"
      }
     ],
     "fields": [
@@ -20116,6 +22192,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ORGN_DEV_BSSH_NM",
+      "label": "원개발사 명칭(업체)",
+      "required": false,
+      "sample": "Gilead Sciences, Inc."
+     },
+     {
+      "name": "PRDT_NM",
+      "label": "임상시험용의약품 제품명(코드명)",
+      "required": false,
+      "sample": "렘데시비르"
+     },
+     {
+      "name": "GNRL_CD_NM",
+      "label": "임상시험용의약품  성분명(코드명)",
+      "required": false,
+      "sample": "렘데시비르, GS-5734"
      }
     ],
     "fields": [
@@ -20340,6 +22434,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ORGN_DEV_BSSH_NM",
+      "label": "원개발사 명칭(업체)",
+      "required": false,
+      "sample": "Gilead Sciences, Inc."
+     },
+     {
+      "name": "CLNC_TEST_SN",
+      "label": "임상시험정보일련번호",
+      "required": false,
+      "sample": "202000159"
      }
     ],
     "fields": [
@@ -20440,6 +22546,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ORGN_DEV_BSSH_NM",
+      "label": "원개발사 명칭(업체)",
+      "required": false,
+      "sample": "Gilead Sciences, Inc."
+     },
+     {
+      "name": "CLNC_TEST_SN",
+      "label": "임상시험정보일련번호",
+      "required": false,
+      "sample": "202000159"
      }
     ],
     "fields": [
@@ -20544,6 +22662,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ORGN_DEV_BSSH_NM",
+      "label": "원개발사 명칭(업체)",
+      "required": false,
+      "sample": "Gilead Sciences, Inc."
+     },
+     {
+      "name": "INSTT_NAME",
+      "label": "실시기관명",
+      "required": false,
+      "sample": "서울특별시 서울의료원"
+     },
+     {
+      "name": "CLNC_TEST_SN",
+      "label": "임상시험정보일련번호",
+      "required": false,
+      "sample": "202000159"
      }
     ],
     "fields": [
@@ -20813,6 +22949,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "INGR",
+      "label": "INGR",
+      "required": false,
+      "sample": "Erythromycin"
+     },
+     {
+      "name": "MEDCIN_NAME",
+      "label": "MEDCIN_NAME",
+      "required": false,
+      "sample": "Erythromycin 200mg"
      }
     ],
     "fields": [
@@ -20857,6 +23005,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "INGR",
+      "label": "INGR",
+      "required": false,
+      "sample": "acetaminophen"
+     },
+     {
+      "name": "MEDCIN_NAME",
+      "label": "MEDCIN_NAME",
+      "required": false,
+      "sample": "타이레놀정500밀리그램"
      }
     ],
     "fields": [
@@ -20901,6 +23061,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "INGR",
+      "label": "INGR",
+      "required": false,
+      "sample": "Oxitriptan"
+     },
+     {
+      "name": "MEDCIN_NAME",
+      "label": "MEDCIN_NAME",
+      "required": false,
+      "sample": "5-에이치티피캅셀(5-하이드록시트립토판(옥시트립탄))"
+     },
+     {
+      "name": "MDFEE_NTFC_DATE",
+      "label": "MDFEE_NTFC_DATE",
+      "required": false,
+      "sample": "2017-01-20 00:00:00"
      }
     ],
     "fields": [
@@ -20945,6 +23123,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "INGR",
+      "label": "INGR",
+      "required": false,
+      "sample": "Dextromethorphan 20mg/Quinidine 10mg"
+     },
+     {
+      "name": "MEDCIN_NAME",
+      "label": "MEDCIN_NAME",
+      "required": false,
+      "sample": "뉴덱스타캡슐(Nuedexta)"
      }
     ],
     "fields": [
@@ -21211,6 +23401,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "INDT_DIVS_CD_NM",
+      "label": "업종구분",
+      "required": false,
+      "sample": "의료기관"
+     },
+     {
+      "name": "PRMT_YMD",
+      "label": "인허가일자",
+      "required": false,
+      "sample": "20121228"
      }
     ],
     "fields": [
@@ -21376,6 +23578,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "SRNG_INST_NM",
+      "label": "SRNG_INST_NM",
+      "required": false,
+      "sample": "식약처"
+     },
+     {
+      "name": "SRNG_MTH_NM",
+      "label": "SRNG_MTH_NM",
+      "required": false,
+      "sample": "현장합동"
+     },
+     {
+      "name": "PRDLST_NM",
+      "label": "PRDLST_NM",
+      "required": false,
+      "sample": "폴리글락틴봉합사"
      }
     ],
     "fields": [
@@ -21532,6 +23752,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "LCNS_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "19780492001"
+     },
+     {
+      "name": "BSSH_NM",
+      "label": "업소명",
+      "required": false,
+      "sample": "화인떡방아간"
+     },
+     {
+      "name": "CHNG_DT",
+      "label": "변경일자",
+      "required": false,
+      "sample": "20250707"
      }
     ],
     "fields": [
@@ -21638,6 +23876,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "UDIDI_CD",
+      "label": "UDIDI_CD",
+      "required": false,
+      "sample": "04048844006549"
      }
     ],
     "fields": [
@@ -21909,6 +24153,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ORGN_DEV_BSSH_NM",
+      "label": "원개발사 명칭(업체)",
+      "required": false,
+      "sample": "한미약품(주)"
+     },
+     {
+      "name": "INSTT_NAME",
+      "label": "실시기관명",
+      "required": false,
+      "sample": "서울대학교병원"
+     },
+     {
+      "name": "CLNC_TEST_SN",
+      "label": "임상시험정보일련번호",
+      "required": false,
+      "sample": "201900001"
      }
     ],
     "fields": [
@@ -22390,6 +24652,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BIZ_IPLA_NM",
+      "label": "사업장명",
+      "required": false,
+      "sample": "(A)강남실버케어"
+     },
+     {
+      "name": "PRMT_YMD",
+      "label": "인허가일자",
+      "required": false,
+      "sample": "20150304"
      }
     ],
     "fields": [
@@ -23773,6 +26047,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "CLINIC_WORDS",
+      "label": "CLINIC_WORDS",
+      "required": false,
+      "sample": "PHASE2"
      }
     ],
     "fields": [
@@ -23828,6 +26108,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "RPT_KIND_NM",
+      "label": "회수폐기보고구분",
+      "required": false,
+      "sample": "영업자회수보고"
+     },
+     {
+      "name": "BSSH_NM",
+      "label": "업소명",
+      "required": false,
+      "sample": "메드트로닉코리아(유)"
      }
     ],
     "fields": [
@@ -23967,6 +26259,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "SMART_NATION",
+      "label": "SMART_NATION",
+      "required": false,
+      "sample": "캐나다"
+     },
+     {
+      "name": "PERMIT_CMPNY",
+      "label": "PERMIT_CMPNY",
+      "required": false,
+      "sample": "IMMEDICA PHARMA AB"
      }
     ],
     "fields": [
@@ -24022,6 +26326,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "MDEQ_CLSF_NO",
+      "label": "MDEQ_CLSF_NO",
+      "required": false,
+      "sample": "A01000"
+     },
+     {
+      "name": "PRDLST_GRAD_CD",
+      "label": "PRDLST_GRAD_CD",
+      "required": false,
+      "sample": "1"
+     },
+     {
+      "name": "DOC_CTGRY_NM",
+      "label": "DOC_CTGRY_NM",
+      "required": false,
+      "sample": "test"
      }
     ],
     "fields": [
@@ -24180,6 +26502,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BIZ_IPLA_NM",
+      "label": "업체명",
+      "required": false,
+      "sample": "㈜금강기건 \n장성공장"
+     },
+     {
+      "name": "INDT_NM",
+      "label": "업종",
+      "required": false,
+      "sample": "수입업"
      }
     ],
     "fields": [
@@ -24566,6 +26900,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "DRFSTF_KOR_NM",
+      "label": "DRFSTF_KOR_NM",
+      "required": false,
+      "sample": "라파티닙"
+     },
+     {
+      "name": "DRFSTF_ENG_NM",
+      "label": "DRFSTF_ENG_NM",
+      "required": false,
+      "sample": "Lapatinib"
      }
     ],
     "fields": [
@@ -24610,6 +26956,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "RLAT_DRFSTF_NM",
+      "label": "RLAT_DRFSTF_NM",
+      "required": false,
+      "sample": "Tramatenib (Mekinist(R))"
+     },
+     {
+      "name": "RGNT_NM",
+      "label": "RGNT_NM",
+      "required": false,
+      "sample": "THxID BRAF Kit"
+     },
+     {
+      "name": "RLAT_GENE_NM",
+      "label": "RLAT_GENE_NM",
+      "required": false,
+      "sample": "BRAF"
      }
     ],
     "fields": [
@@ -24654,6 +27018,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "GENE_NM",
+      "label": "GENE_NM",
+      "required": false,
+      "sample": "TMEM43"
      }
     ],
     "fields": [
@@ -24698,6 +27068,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "DRFSTF_KOR_NM",
+      "label": "DRFSTF_KOR_NM",
+      "required": false,
+      "sample": "아바카비르"
+     },
+     {
+      "name": "DRFSTF_ENG_NM",
+      "label": "DRFSTF_ENG_NM",
+      "required": false,
+      "sample": "Abacavir"
+     },
+     {
+      "name": "LBDY_INDCT_VAL",
+      "label": "LBDY_INDCT_VAL",
+      "required": false,
+      "sample": "HLA-B"
      }
     ],
     "fields": [
@@ -24742,6 +27130,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "DRFSTF_KOR_NM",
+      "label": "DRFSTF_KOR_NM",
+      "required": false,
+      "sample": "발베나진"
+     },
+     {
+      "name": "DRFSTF_ENG_NM",
+      "label": "DRFSTF_ENG_NM",
+      "required": false,
+      "sample": "Valbenazine"
      }
     ],
     "fields": [
@@ -24935,6 +27335,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "PDT_NM",
+      "label": "PDT_NM",
+      "required": false,
+      "sample": "잔티젠 이지 버닝 다이어트(30C)"
+     },
+     {
+      "name": "BRNCH_NM",
+      "label": "BRNCH_NM",
+      "required": false,
+      "sample": "주식회사 노바렉스2공장"
      }
     ],
     "fields": [
@@ -24990,6 +27402,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BSSH_PRMSN_YMD",
+      "label": "BSSH_PRMSN_YMD",
+      "required": false,
+      "sample": "1977"
      }
     ],
     "fields": [
@@ -25056,6 +27474,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BCLS_NO",
+      "label": "BCLS_NO",
+      "required": false,
+      "sample": "MFDS1007455"
+     },
+     {
+      "name": "SPCM_TYPE_FRST",
+      "label": "SPCM_TYPE_FRST",
+      "required": false,
+      "sample": "식품"
      }
     ],
     "fields": [
@@ -25100,6 +27530,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BCLS_NO",
+      "label": "BCLS_NO",
+      "required": false,
+      "sample": "MFDS1000360"
+     },
+     {
+      "name": "SPCM_TYPE_FRST",
+      "label": "SPCM_TYPE_FRST",
+      "required": false,
+      "sample": "식품"
      }
     ],
     "fields": [
@@ -25144,6 +27586,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BCLS_NO",
+      "label": "BCLS_NO",
+      "required": false,
+      "sample": "MFDS1002380"
+     },
+     {
+      "name": "SPCM_TYPE_FRST",
+      "label": "SPCM_TYPE_FRST",
+      "required": false,
+      "sample": "임상"
      }
     ],
     "fields": [
@@ -25188,6 +27642,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BCLS_NO",
+      "label": "BCLS_NO",
+      "required": false,
+      "sample": "MFDS1000736"
+     },
+     {
+      "name": "SPCM_TYPE_FRST",
+      "label": "SPCM_TYPE_FRST",
+      "required": false,
+      "sample": "식품"
      }
     ],
     "fields": [
@@ -25232,6 +27698,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BCLS_NO",
+      "label": "BCLS_NO",
+      "required": false,
+      "sample": "MFDS1000829"
+     },
+     {
+      "name": "SPCM_TYPE_FRST",
+      "label": "SPCM_TYPE_FRST",
+      "required": false,
+      "sample": "식품"
      }
     ],
     "fields": [
@@ -25276,6 +27754,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BCLS_NO",
+      "label": "BCLS_NO",
+      "required": false,
+      "sample": "MFDS1000001"
+     },
+     {
+      "name": "SPCM_TYPE_FRST",
+      "label": "SPCM_TYPE_FRST",
+      "required": false,
+      "sample": "식품"
      }
     ],
     "fields": [
@@ -25320,6 +27810,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BCLS_NO",
+      "label": "BCLS_NO",
+      "required": false,
+      "sample": "MFDS1000256"
+     },
+     {
+      "name": "SPCM_TYPE_FRST",
+      "label": "SPCM_TYPE_FRST",
+      "required": false,
+      "sample": "식품"
      }
     ],
     "fields": [
@@ -25364,6 +27866,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BCLS_NO",
+      "label": "BCLS_NO",
+      "required": false,
+      "sample": "MFDS1000006"
+     },
+     {
+      "name": "SPCM_TYPE_FRST",
+      "label": "SPCM_TYPE_FRST",
+      "required": false,
+      "sample": "식품"
      }
     ],
     "fields": [
@@ -25408,6 +27922,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BCLS_NO",
+      "label": "BCLS_NO",
+      "required": false,
+      "sample": "MFDS1000073"
+     },
+     {
+      "name": "SPCM_TYPE_FRST",
+      "label": "SPCM_TYPE_FRST",
+      "required": false,
+      "sample": "식품"
      }
     ],
     "fields": [
@@ -25452,6 +27978,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BCLS_NO",
+      "label": "BCLS_NO",
+      "required": false,
+      "sample": "MFDS1001328"
+     },
+     {
+      "name": "SPCM_TYPE_FRST",
+      "label": "SPCM_TYPE_FRST",
+      "required": false,
+      "sample": "식품"
      }
     ],
     "fields": [
@@ -25496,6 +28034,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BCLS_NO",
+      "label": "BCLS_NO",
+      "required": false,
+      "sample": "MFDS1000009"
+     },
+     {
+      "name": "SPCM_TYPE_FRST",
+      "label": "SPCM_TYPE_FRST",
+      "required": false,
+      "sample": "식품"
      }
     ],
     "fields": [
@@ -25540,6 +28090,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BCLS_NO",
+      "label": "BCLS_NO",
+      "required": false,
+      "sample": "MFDS1004772"
+     },
+     {
+      "name": "SPCM_TYPE_FRST",
+      "label": "SPCM_TYPE_FRST",
+      "required": false,
+      "sample": "식품"
      }
     ],
     "fields": [
@@ -25584,6 +28146,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BCLS_NO",
+      "label": "BCLS_NO",
+      "required": false,
+      "sample": "MFDS1000733"
+     },
+     {
+      "name": "SPCM_TYPE_FRST",
+      "label": "SPCM_TYPE_FRST",
+      "required": false,
+      "sample": "식품"
      }
     ],
     "fields": [
@@ -25628,6 +28202,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BCLS_NO",
+      "label": "BCLS_NO",
+      "required": false,
+      "sample": "MFDS1000246"
+     },
+     {
+      "name": "SPCM_TYPE_FRST",
+      "label": "SPCM_TYPE_FRST",
+      "required": false,
+      "sample": "환경"
      }
     ],
     "fields": [
@@ -25705,6 +28291,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "MDEQ_PRDLST_SN",
+      "label": "MDEQ_PRDLST_SN",
+      "required": false,
+      "sample": "108"
+     },
+     {
+      "name": "TRCK_MNG_TRGT_YN",
+      "label": "TRCK_MNG_TRGT_YN",
+      "required": false,
+      "sample": "N"
+     },
+     {
+      "name": "CVGC_RLVT_YN",
+      "label": "CVGC_RLVT_YN",
+      "required": false,
+      "sample": "N"
      }
     ],
     "fields": [
@@ -25760,6 +28364,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "PRDLST_CD",
+      "label": "품목분류코드",
+      "required": false,
+      "sample": "D0100100000000"
      }
     ],
     "fields": [
@@ -26132,6 +28742,48 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ITEM_SEQ",
+      "label": "품목기준코드",
+      "required": false,
+      "sample": "202002619"
+     },
+     {
+      "name": "SM_YEAR",
+      "label": "생산·수입연도",
+      "required": false,
+      "sample": "2025"
+     },
+     {
+      "name": "ENTP_NAME",
+      "label": "업체명",
+      "required": false,
+      "sample": "주식회사코코팜"
+     },
+     {
+      "name": "ENTP_SEQ",
+      "label": "업일련번호",
+      "required": false,
+      "sample": "20190571"
+     },
+     {
+      "name": "PROD_INCME_CLASS",
+      "label": "생산·수입구분",
+      "required": false,
+      "sample": "생산"
+     },
+     {
+      "name": "BIZRNO",
+      "label": "사업자번호",
+      "required": false,
+      "sample": "1288650651"
+     },
+     {
+      "name": "REPORT_DATE",
+      "label": "보고연도",
+      "required": false,
+      "sample": "2026"
      }
     ],
     "fields": [
@@ -26239,6 +28891,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TRMT_YM",
+      "label": "취급년월",
+      "required": false,
+      "sample": "201912"
      }
     ],
     "fields": [
@@ -26356,6 +29014,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "XPORT_NTNNM",
+      "label": "수출국가명",
+      "required": false,
+      "sample": "아랍에미리트 연합"
+     },
+     {
+      "name": "EXPRT_ENTP_NM",
+      "label": "수출업소명",
+      "required": false,
+      "sample": "HAKAN AGRO COMMODITIES TRADING CO"
      }
     ],
     "fields": [
@@ -26703,6 +29373,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "crtr_yr",
+      "label": "기준년도",
+      "required": false,
+      "sample": "2014"
+     },
+     {
+      "name": "prdt_kor_nm",
+      "label": "제품한글명",
+      "required": false,
+      "sample": "하비프레쉬저지방우유"
+     },
+     {
+      "name": "prdlst_nm",
+      "label": "품목명",
+      "required": false,
+      "sample": "저지방우유"
      }
     ],
     "fields": [
@@ -27261,6 +29949,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "LCNS_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "18820308001"
+     },
+     {
+      "name": "BSSH_NM",
+      "label": "업소명",
+      "required": false,
+      "sample": "화성얼음"
+     },
+     {
+      "name": "CHNG_DT",
+      "label": "변경일자",
+      "required": false,
+      "sample": "20150523"
      }
     ],
     "fields": [
@@ -27356,6 +30062,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "UDIDI_CD",
+      "label": "UDI-DI코드",
+      "required": false,
+      "sample": "08802222222220"
+     },
+     {
+      "name": "BSSH_NM",
+      "label": "상호명",
+      "required": false,
+      "sample": "(주)서한케어"
+     },
+     {
+      "name": "BRNO",
+      "label": "사업자등록번호",
+      "required": false,
+      "sample": "2158666461"
      }
     ],
     "fields": [
@@ -28060,6 +30784,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "DCLR_PRDT_DIVS_NM",
+      "label": "DCLR_PRDT_DIVS_NM",
+      "required": false,
+      "sample": "위생종이"
+     },
+     {
+      "name": "PRDT_NM",
+      "label": "PRDT_NM",
+      "required": false,
+      "sample": "커클랜드 시그니춰 냅킨(KIRKLAND SIGNATURE NAPKINS)"
+     },
+     {
+      "name": "OCTR_MNFT_BSSH_NM",
+      "label": "OCTR_MNFT_BSSH_NM",
+      "required": false,
+      "sample": "KIMBERLY CLARK TAIWAN"
      }
     ],
     "fields": [
@@ -28850,6 +31592,42 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "OCTR_WKSH_NM",
+      "label": "OCTR_WKSH_NM",
+      "required": false,
+      "sample": "UNITED FOODS COMPANY"
+     },
+     {
+      "name": "OCTR_WKSH_DIVS_NM",
+      "label": "OCTR_WKSH_DIVS_NM",
+      "required": false,
+      "sample": "가공"
+     },
+     {
+      "name": "INDUTY_RNDR_STLE_NM",
+      "label": "INDUTY_RNDR_STLE_NM",
+      "required": false,
+      "sample": "유가"
+     },
+     {
+      "name": "RTRCN_SUSP_CD_NM",
+      "label": "RTRCN_SUSP_CD_NM",
+      "required": false,
+      "sample": "등록"
+     },
+     {
+      "name": "NATN_NM",
+      "label": "NATN_NM",
+      "required": false,
+      "sample": "아랍에미리트 연합"
+     },
+     {
+      "name": "PRDLST_SCLS_NM",
+      "label": "PRDLST_SCLS_NM",
+      "required": false,
+      "sample": "버터류"
      }
     ],
     "fields": [
@@ -28905,6 +31683,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "RPT_KIND_NM",
+      "label": "회수폐기보고구분",
+      "required": false,
+      "sample": "영업자회수보고"
+     },
+     {
+      "name": "BSSH_NM",
+      "label": "업소명",
+      "required": false,
+      "sample": "보스톤사이언티픽코리아(주)"
+     },
+     {
+      "name": "INDT_NM",
+      "label": "업종구분명",
+      "required": false,
+      "sample": "수입업"
      }
     ],
     "fields": [
@@ -29439,6 +32235,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ITEM_SEQ",
+      "label": "품목일련번호",
+      "required": false,
+      "sample": "196000011"
+     },
+     {
+      "name": "ITEM_NAME",
+      "label": "품목명",
+      "required": false,
+      "sample": "페니라민정(클로르페니라민말레산염)"
+     },
+     {
+      "name": "ENTP_NAME",
+      "label": "업소명",
+      "required": false,
+      "sample": "(주)유한양행"
      }
     ],
     "fields": [
@@ -29600,6 +32414,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "RPT_KIND_NM",
+      "label": "회수폐기보고구분",
+      "required": false,
+      "sample": "영업자회수보고"
+     },
+     {
+      "name": "BSSH_NM",
+      "label": "업소명",
+      "required": false,
+      "sample": "(주)필립스코리아"
      }
     ],
     "fields": [
@@ -30178,6 +33004,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ENTP_NAME",
+      "label": "ENTP_NAME",
+      "required": false,
+      "sample": "(주)코웰"
+     },
+     {
+      "name": "ITEM_NAME",
+      "label": "ITEM_NAME",
+      "required": false,
+      "sample": "화이트견운모미용비누블루베리"
+     },
+     {
+      "name": "DISPS_CONT",
+      "label": "DISPS_CONT",
+      "required": false,
+      "sample": "품질부적합 우려"
+     },
+     {
+      "name": "BIZRNO",
+      "label": "BIZRNO",
+      "required": false,
+      "sample": "2158733119"
      }
     ],
     "fields": [
@@ -30758,6 +33608,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TRMT_YM",
+      "label": "취급년월",
+      "required": false,
+      "sample": "201912"
      }
     ],
     "fields": [
@@ -31274,6 +34130,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ADVT_BSSH_NM",
+      "label": "ADVT_BSSH_NM",
+      "required": false,
+      "sample": "(주)일산메디칼"
+     },
+     {
+      "name": "RPRS_PRDLST_NM",
+      "label": "RPRS_PRDLST_NM",
+      "required": false,
+      "sample": "의료용진동기"
      }
     ],
     "fields": [
@@ -31447,6 +34315,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "prms_org_nm",
+      "label": "인허가기관명",
+      "required": false,
+      "sample": "경기도 고양시 일산서구"
+     },
+     {
+      "name": "bssh_nm",
+      "label": "업소명",
+      "required": false,
+      "sample": "타코팡팡"
      }
     ],
     "fields": [
@@ -31538,6 +34418,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "si",
+      "label": "시도",
+      "required": false,
+      "sample": "경기"
+     },
+     {
+      "name": "entp_name",
+      "label": "업체명",
+      "required": false,
+      "sample": "(A)스마일 보조기구 센터"
      }
     ],
     "fields": [
@@ -31617,6 +34509,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "ENTP_NAME",
+      "label": "ENTP_NAME",
+      "required": false,
+      "sample": "삼의제약"
+     },
+     {
+      "name": "ITEM_NAME",
+      "label": "ITEM_NAME",
+      "required": false,
+      "sample": "삼의목단피"
+     },
+     {
+      "name": "DISPS_CONT",
+      "label": "DISPS_CONT",
+      "required": false,
+      "sample": "이산화황 부적합"
+     },
+     {
+      "name": "BIZRNO",
+      "label": "BIZRNO",
+      "required": false,
+      "sample": "5050664307"
      }
     ],
     "fields": [
@@ -33572,6 +36488,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "MNFT_FACT",
+      "label": "MNFT_FACT",
+      "required": false,
+      "sample": "(주)세종바이오팜"
+     },
+     {
+      "name": "PDT_NM",
+      "label": "PDT_NM",
+      "required": false,
+      "sample": "패밀리 장케어 솔루션17(2g*30포)"
      }
     ],
     "fields": [
@@ -35299,6 +38227,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TRMT_YM",
+      "label": "취급년월",
+      "required": false,
+      "sample": "201912"
      }
     ],
     "fields": [
@@ -35416,6 +38350,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "RAW_IRDNT_NM",
+      "label": "원료성분명",
+      "required": false,
+      "sample": "N-데스메틸실데나필"
+     },
+     {
+      "name": "RAW_IRDNT_ENG_NM",
+      "label": "원료성분영문명",
+      "required": false,
+      "sample": "N-desmethylsildenafil"
      }
     ],
     "fields": [
@@ -35663,6 +38609,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "FOOD_TYPE_NM",
+      "label": "FOOD_TYPE_NM",
+      "required": false,
+      "sample": "가공두부"
+     },
+     {
+      "name": "FOOD_KOR_NM",
+      "label": "FOOD_KOR_NM",
+      "required": false,
+      "sample": "가공두부"
+     },
+     {
+      "name": "EXMN_YR",
+      "label": "EXMN_YR",
+      "required": false,
+      "sample": "2015"
      }
     ],
     "fields": [
@@ -35841,6 +38805,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "NARC_PRDLST_NM",
+      "label": "NARC_PRDLST_NM",
+      "required": false,
+      "sample": "펜터민"
      }
     ],
     "fields": [
@@ -36487,6 +39457,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "LCNS_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "01990285001"
+     },
+     {
+      "name": "CLSBIZ_DT",
+      "label": "폐업일자",
+      "required": false,
+      "sample": "20091111"
+     },
+     {
+      "name": "CHNG_DT",
+      "label": "변경일자",
+      "required": false,
+      "sample": "20150523"
      }
     ],
     "fields": [
@@ -36948,6 +39936,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "KOREAN_NM",
+      "label": "KOREAN_NM",
+      "required": false,
+      "sample": "소고기"
+     },
+     {
+      "name": "ICE_YN",
+      "label": "ICE_YN",
+      "required": false,
+      "sample": "기타"
+     },
+     {
+      "name": "REGN_CD",
+      "label": "REGN_CD",
+      "required": false,
+      "sample": "기타"
+     },
+     {
+      "name": "MNF_NTNCD",
+      "label": "MNF_NTNCD",
+      "required": false,
+      "sample": "호주"
      }
     ],
     "fields": [
@@ -37129,6 +40141,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "SRNG_KIND_NM",
+      "label": "심사종류",
+      "required": false,
+      "sample": "서류심사"
      }
     ],
     "fields": [
@@ -37681,6 +40699,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "LCNS_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "19720257002"
+     },
+     {
+      "name": "BSSH_NM",
+      "label": "업소명",
+      "required": false,
+      "sample": "(주)동방식품"
+     },
+     {
+      "name": "CHNG_DT",
+      "label": "변경일자",
+      "required": false,
+      "sample": "20150523"
      }
     ],
     "fields": [
@@ -37776,6 +40812,36 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "PRDT_NM",
+      "label": "PRDT_NM",
+      "required": false,
+      "sample": "루비레이저수술기"
+     },
+     {
+      "name": "MNFT_NATN_CD_NM",
+      "label": "제조국",
+      "required": false,
+      "sample": "일본"
+     },
+     {
+      "name": "APLY_ENTP_NM",
+      "label": "APLY_ENTP_NM",
+      "required": false,
+      "sample": "(주)신한씨스텍"
+     },
+     {
+      "name": "APLY_DT",
+      "label": "신청일",
+      "required": false,
+      "sample": "2015-06-05 00:00:00"
+     },
+     {
+      "name": "SAMP_MODL_NM",
+      "label": "형명",
+      "required": false,
+      "sample": "The Ruby nano_Q"
      }
     ],
     "fields": [
@@ -38209,6 +41275,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BSSH_NM",
+      "label": "업소명",
+      "required": false,
+      "sample": "삼도숙성회(평택포승점)"
+     },
+     {
+      "name": "PRMT_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "20170309184"
      }
     ],
     "fields": [
@@ -38591,6 +41669,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "LCNS_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "20140294570"
+     },
+     {
+      "name": "BSSH_NM",
+      "label": "업소명",
+      "required": false,
+      "sample": "현대JS축산"
+     },
+     {
+      "name": "CHNG_DT",
+      "label": "변경일자",
+      "required": false,
+      "sample": "20250703"
      }
     ],
     "fields": [
@@ -38694,6 +41790,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "DRNM",
+      "label": "생약명",
+      "required": false,
+      "sample": "흰전동싸리꽃잎(멜릴로트꽃잎)"
+     },
+     {
+      "name": "TXNGRP_NM",
+      "label": "동식물명",
+      "required": false,
+      "sample": "흰전동싸리"
      }
     ],
     "fields": [
@@ -38902,6 +42010,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "LCNS_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "19960531027"
+     },
+     {
+      "name": "CLSBIZ_DT",
+      "label": "폐업일자",
+      "required": false,
+      "sample": "20051012"
+     },
+     {
+      "name": "CHNG_DT",
+      "label": "변경일자",
+      "required": false,
+      "sample": "20260701"
      }
     ],
     "fields": [
@@ -39086,6 +42212,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "V_SCORE",
+      "label": "V_SCORE",
+      "required": false,
+      "sample": "주의"
      }
     ],
     "fields": [
@@ -39324,6 +42456,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BSSH_NM",
+      "label": "업소명",
+      "required": false,
+      "sample": "(주)파인수처스"
+     },
+     {
+      "name": "INDT_NM",
+      "label": "업종구분",
+      "required": false,
+      "sample": "제조업"
+     },
+     {
+      "name": "SRNG_LCGV_CD",
+      "label": "심사청",
+      "required": false,
+      "sample": "식약처"
+     },
+     {
+      "name": "BRNO",
+      "label": "사업자등록번호",
+      "required": false,
+      "sample": "3078133395"
      }
     ],
     "fields": [
@@ -39520,6 +42676,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "LCNS_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "20200579023"
+     },
+     {
+      "name": "BSSH_NM",
+      "label": "업소명",
+      "required": false,
+      "sample": "흥성농장"
+     },
+     {
+      "name": "CHNG_DT",
+      "label": "변경일자",
+      "required": false,
+      "sample": "20201105"
      }
     ],
     "fields": [
@@ -40143,6 +43317,36 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "SCOL_CD",
+      "label": "학교코드",
+      "required": false,
+      "sample": "P100000355"
+     },
+     {
+      "name": "BIZ_IPLA_NM",
+      "label": "BIZ_IPLA_NM",
+      "required": false,
+      "sample": "(주)아워홈"
+     },
+     {
+      "name": "ETPN_DIVS_NM",
+      "label": "ETPN_DIVS_NM",
+      "required": false,
+      "sample": "집단급식소식품판매업"
+     },
+     {
+      "name": "SCOL_NM",
+      "label": "학교명",
+      "required": false,
+      "sample": "상산고등학교"
+     },
+     {
+      "name": "SCOL_UNIQ_NO",
+      "label": "학교고유번호",
+      "required": false,
+      "sample": "4028203077"
      }
     ],
     "fields": [
@@ -40258,6 +43462,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "LCNS_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "20210006593"
+     },
+     {
+      "name": "DSPS_DCSNDT",
+      "label": "처분확정일자",
+      "required": false,
+      "sample": "20250131"
+     },
+     {
+      "name": "LAST_UPDT_DTM",
+      "label": "최종수정일",
+      "required": false,
+      "sample": "2025-01-17 13:56:10"
      }
     ],
     "fields": [
@@ -40605,6 +43827,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "MEATWATCH_NO",
+      "label": "이력번호",
+      "required": false,
+      "sample": "804003012664"
+     },
+     {
+      "name": "ACCEPT_NO",
+      "label": "축산물수입신고필증번호",
+      "required": false,
+      "sample": "2CG2017300029440"
+     },
+     {
+      "name": "HIST_NO",
+      "label": "수입신고확인증번호",
+      "required": false,
+      "sample": "IFDF17111575"
      }
     ],
     "fields": [
@@ -43715,6 +46955,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "LCNS_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "19420611001"
+     },
+     {
+      "name": "CLSBIZ_DT",
+      "label": "폐업일자",
+      "required": false,
+      "sample": "20071113"
+     },
+     {
+      "name": "CHNG_DT",
+      "label": "변경일자",
+      "required": false,
+      "sample": "20150523"
      }
     ],
     "fields": [
@@ -45667,6 +48925,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "bssh_nm",
+      "label": "업소명",
+      "required": false,
+      "sample": "고봉김밥 행당점"
+     },
+     {
+      "name": "induty_cd_nm",
+      "label": "업종명",
+      "required": false,
+      "sample": "휴게음식점"
      }
     ],
     "fields": [
@@ -46941,6 +50211,36 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "PRMT_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "20259350002"
+     },
+     {
+      "name": "RPT_YMD",
+      "label": "보고(신고)일자",
+      "required": false,
+      "sample": "20260914"
+     },
+     {
+      "name": "BSSH_NM",
+      "label": "업소명",
+      "required": false,
+      "sample": "셀킨테크"
+     },
+     {
+      "name": "PRDLST_RPT_NO",
+      "label": "품목제조보고번호",
+      "required": false,
+      "sample": "2025935000275"
+     },
+     {
+      "name": "PRDLST_NM",
+      "label": "품목명",
+      "required": false,
+      "sample": "에이8(A8)"
      }
     ],
     "fields": [
@@ -47139,6 +50439,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "LCNS_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "105001"
+     },
+     {
+      "name": "CLSBIZ_DT",
+      "label": "폐업일자",
+      "required": false,
+      "sample": "19920411"
+     },
+     {
+      "name": "CHNG_DT",
+      "label": "변경일자",
+      "required": false,
+      "sample": "20170324"
      }
     ],
     "fields": [
@@ -47305,6 +50623,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "OECD_GUIDE_SN",
+      "label": "OECD지침일련번호",
+      "required": false,
+      "sample": "1"
+     },
+     {
+      "name": "KOR_TEST_NM",
+      "label": "시험명",
+      "required": false,
+      "sample": "피부감작성"
+     },
+     {
+      "name": "GUIDE_NM",
+      "label": "지침명",
+      "required": false,
+      "sample": "TG 429. Skin Sensitisation (LLNA)"
      }
     ],
     "fields": [
@@ -47400,6 +50736,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "LCNS_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "09950627001"
+     },
+     {
+      "name": "CLSBIZ_DT",
+      "label": "폐업일자",
+      "required": false,
+      "sample": "20000510"
+     },
+     {
+      "name": "CHNG_DT",
+      "label": "변경일자",
+      "required": false,
+      "sample": "20150523"
      }
     ],
     "fields": [
@@ -47598,6 +50952,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "LCNS_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "20140025880"
+     },
+     {
+      "name": "CLSBIZ_DT",
+      "label": "폐업일자",
+      "required": false,
+      "sample": "20141031"
+     },
+     {
+      "name": "CHNG_DT",
+      "label": "변경일자",
+      "required": false,
+      "sample": "20250211"
      }
     ],
     "fields": [
@@ -47938,6 +51310,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "LCNS_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "20200363060"
+     },
+     {
+      "name": "BSSH_NM",
+      "label": "업소명",
+      "required": false,
+      "sample": "주식회사 남사물류터미널"
+     },
+     {
+      "name": "CHNG_DT",
+      "label": "변경일자",
+      "required": false,
+      "sample": "20230714"
      }
     ],
     "fields": [
@@ -48209,6 +51599,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "LCNS_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "19059383001"
+     },
+     {
+      "name": "CLSBIZ_DT",
+      "label": "폐업일자",
+      "required": false,
+      "sample": "20181207"
+     },
+     {
+      "name": "CHNG_DT",
+      "label": "변경일자",
+      "required": false,
+      "sample": "20230610"
      }
     ],
     "fields": [
@@ -48483,6 +51891,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "LCNS_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "19690137004"
+     },
+     {
+      "name": "CLSBIZ_DT",
+      "label": "폐업일자",
+      "required": false,
+      "sample": "20180308"
+     },
+     {
+      "name": "CHNG_DT",
+      "label": "변경일자",
+      "required": false,
+      "sample": "20180308"
      }
     ],
     "fields": [
@@ -48586,6 +52012,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TRMT_YM",
+      "label": "취급년월",
+      "required": false,
+      "sample": "201912"
      }
     ],
     "fields": [
@@ -48677,6 +52109,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TRMT_YM",
+      "label": "취급년월",
+      "required": false,
+      "sample": "201912"
      }
     ],
     "fields": [
@@ -48780,6 +52218,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "agcm_kor_nm",
+      "label": "농약 국문명",
+      "required": false,
+      "sample": "이미녹타딘"
+     },
+     {
+      "name": "agcm_eng_nm",
+      "label": "농약 영문명",
+      "required": false,
+      "sample": "Iminoctadine"
+     },
+     {
+      "name": "food_kor_nm",
+      "label": "식품국문명",
+      "required": false,
+      "sample": "가지"
+     },
+     {
+      "name": "food_eng_nm",
+      "label": "식품영문명",
+      "required": false,
+      "sample": "Egg plant"
      }
     ],
     "fields": [
@@ -49393,6 +52855,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TRMT_YM",
+      "label": "취급년월",
+      "required": false,
+      "sample": "201912"
      }
     ],
     "fields": [
@@ -49743,6 +53211,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "bssh_nm",
+      "label": "업소명",
+      "required": false,
+      "sample": "(주)대운로직스"
+     },
+     {
+      "name": "instt_nm",
+      "label": "기관명",
+      "required": false,
+      "sample": "경기도 안산시"
      }
     ],
     "fields": [
@@ -50038,6 +53518,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "LCNS_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "20220500317"
+     },
+     {
+      "name": "BSSH_NM",
+      "label": "업소명",
+      "required": false,
+      "sample": "안성(부산방향)휴게소"
+     },
+     {
+      "name": "MDFCN_DT",
+      "label": "변경일시",
+      "required": false,
+      "sample": "20220513"
      }
     ],
     "fields": [
@@ -50210,6 +53708,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "LCNS_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "20010543483"
+     },
+     {
+      "name": "BSSH_NM",
+      "label": "업체명",
+      "required": false,
+      "sample": "안동(춘천방향)휴게소"
      }
     ],
     "fields": [
@@ -50368,6 +53878,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BIZ_IPLA_NM",
+      "label": "업체명",
+      "required": false,
+      "sample": "(주)위로"
+     },
+     {
+      "name": "PRDLST_NM",
+      "label": "품목명",
+      "required": false,
+      "sample": "3등급 의료용 조합 자극기"
      }
     ],
     "fields": [
@@ -50602,6 +54124,60 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "clsf",
+      "label": "분류",
+      "required": false,
+      "sample": "농산물"
+     },
+     {
+      "name": "food_pbcd_lcls_scls",
+      "label": "식품공전대분류소분류",
+      "required": false,
+      "sample": "채소류(박과 이외 과채류)"
+     },
+     {
+      "name": "prdlst",
+      "label": "품목",
+      "required": false,
+      "sample": "고추"
+     },
+     {
+      "name": "prdlst_cd",
+      "label": "품목코드",
+      "required": false,
+      "sample": "R060601003-0"
+     },
+     {
+      "name": "dbp",
+      "label": "디부틸프탈레이트",
+      "required": false,
+      "sample": "0.043"
+     },
+     {
+      "name": "bbp",
+      "label": "부틸벤질프탈레이트",
+      "required": false,
+      "sample": "0.043"
+     },
+     {
+      "name": "dehp",
+      "label": "디에틸헥실프탈레이트",
+      "required": false,
+      "sample": "0.12"
+     },
+     {
+      "name": "dinp",
+      "label": "디이소노닐프탈레이트",
+      "required": false,
+      "sample": "0.07"
+     },
+     {
+      "name": "didp",
+      "label": "디이소데실프탈레이트",
+      "required": false,
+      "sample": "0.068"
      }
     ],
     "fields": [
@@ -51041,6 +54617,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BSSH_NM",
+      "label": "업소명",
+      "required": false,
+      "sample": "울퉁불퉁 팩토리"
+     },
+     {
+      "name": "PRMT_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "20190269316"
      }
     ],
     "fields": [
@@ -51206,6 +54794,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "bssh_nm",
+      "label": "업소명",
+      "required": false,
+      "sample": "(주)롯데삼강"
+     },
+     {
+      "name": "clsbiz_dvs_cd_nm",
+      "label": "페업상태",
+      "required": false,
+      "sample": "폐업"
+     },
+     {
+      "name": "instt_nm",
+      "label": "기관명",
+      "required": false,
+      "sample": "서울특별시 영등포구"
      }
     ],
     "fields": [
@@ -51418,6 +55024,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "BSSH_NM",
+      "label": "업소명",
+      "required": false,
+      "sample": "아주식품"
+     },
+     {
+      "name": "PRMT_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "20040016032"
      }
     ],
     "fields": [
@@ -51517,6 +55135,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "LCNS_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "20230771024"
+     },
+     {
+      "name": "BSSH_NM",
+      "label": "업소명",
+      "required": false,
+      "sample": "안동봉화축협 안동축산물공판장"
+     },
+     {
+      "name": "LAST_UPDT_DTM",
+      "label": "최종수정일시",
+      "required": false,
+      "sample": "2026-07-24"
      }
     ],
     "fields": [
@@ -51612,6 +55248,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "cmptnc_instt_nm",
+      "label": "관할기관",
+      "required": false,
+      "sample": "식품의약품안전처"
+     },
+     {
+      "name": "instt_nm",
+      "label": "검사기관",
+      "required": false,
+      "sample": "한국식품산업협회부설한국식품과학연구원"
+     },
+     {
+      "name": "testitm_nm",
+      "label": "시험항목명",
+      "required": false,
+      "sample": "강열감량"
      }
     ],
     "fields": [
@@ -51873,6 +55527,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "LCNS_NO",
+      "label": "인허가번호",
+      "required": false,
+      "sample": "19700126009"
+     },
+     {
+      "name": "CLSBIZ_DT",
+      "label": "폐업일자",
+      "required": false,
+      "sample": "20150427"
+     },
+     {
+      "name": "CHNG_DT",
+      "label": "변경일자",
+      "required": false,
+      "sample": "20150523"
      }
     ],
     "fields": [
@@ -51976,6 +55648,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TRMT_YM",
+      "label": "취급년월",
+      "required": false,
+      "sample": "202501"
      }
     ],
     "fields": [
@@ -52150,6 +55828,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "RGNT_NO",
+      "label": "시약번호",
+      "required": false,
+      "sample": "A-01"
+     },
+     {
+      "name": "RGNT_NM",
+      "label": "시약명",
+      "required": false,
+      "sample": "Acephate"
      }
     ],
     "fields": [
@@ -52257,6 +55947,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "anml_drug_kor_nm",
+      "label": "동물용의약품 국문명",
+      "required": false,
+      "sample": "겐타마이신"
+     },
+     {
+      "name": "anml_drug_eng_nm",
+      "label": "동물용의약품 영문명",
+      "required": false,
+      "sample": "Gentamicin"
+     },
+     {
+      "name": "food_kor_nm",
+      "label": "식품국문명",
+      "required": false,
+      "sample": "가금간"
+     },
+     {
+      "name": "food_eng_nm",
+      "label": "식품영문명",
+      "required": false,
+      "sample": "Poultry Liver"
      }
     ],
     "fields": [
@@ -52431,6 +56145,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "prpos_kor_nm",
+      "label": "용도_국문",
+      "required": false,
+      "sample": "항원충제"
      }
     ],
     "fields": [
@@ -52506,6 +56226,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "PRDLST_NM",
+      "label": "품목",
+      "required": false,
+      "sample": "참다랑어(냉동,머리살,횟감)"
      }
     ],
     "fields": [
@@ -52593,6 +56319,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TRMT_YM",
+      "label": "취급년월",
+      "required": false,
+      "sample": "201912"
      }
     ],
     "fields": [
@@ -52672,6 +56404,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "RESORC_ORGNZ_NO",
+      "label": "개체번호",
+      "required": false,
+      "sample": "7"
      }
     ],
     "fields": [
@@ -52767,6 +56505,30 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "bssh_nm",
+      "label": "업소명",
+      "required": false,
+      "sample": "동원운수(주)"
+     },
+     {
+      "name": "induty_nm",
+      "label": "업종",
+      "required": false,
+      "sample": "축산물운반업"
+     },
+     {
+      "name": "clsbiz_dvs_cd_nm",
+      "label": "페업상태",
+      "required": false,
+      "sample": "폐업(말소)"
+     },
+     {
+      "name": "instt_nm",
+      "label": "기관명",
+      "required": false,
+      "sample": "부산광역시 북구"
      }
     ],
     "fields": [
@@ -52866,6 +56628,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TRMT_YM",
+      "label": "취급년월",
+      "required": false,
+      "sample": "201912"
+     },
+     {
+      "name": "SEX_CONT",
+      "label": "성별내용",
+      "required": false,
+      "sample": "합계"
+     },
+     {
+      "name": "AGE_CONT",
+      "label": "연령내용",
+      "required": false,
+      "sample": "합계"
      }
     ],
     "fields": [
@@ -52965,6 +56745,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "INST_NM",
+      "label": "기관명",
+      "required": false,
+      "sample": "한국한의약진흥원(품질인증센터)"
+     },
+     {
+      "name": "FILD_NM",
+      "label": "분야",
+      "required": false,
+      "sample": "한약, 의약품"
+     },
+     {
+      "name": "DSGN_YMD",
+      "label": "지정일자",
+      "required": false,
+      "sample": "20160831"
      }
     ],
     "fields": [
@@ -53060,6 +56858,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TRMT_YM",
+      "label": "취급년월",
+      "required": false,
+      "sample": "201912"
      }
     ],
     "fields": [
@@ -53159,6 +56963,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "HPLC_NO",
+      "label": "HPLC번호",
+      "required": false,
+      "sample": "1"
+     },
+     {
+      "name": "HBST_NM",
+      "label": "생약명",
+      "required": false,
+      "sample": "당귀"
      }
     ],
     "fields": [
@@ -53290,6 +57106,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TRMT_YM",
+      "label": "취급년월",
+      "required": false,
+      "sample": "201912"
      }
     ],
     "fields": [
@@ -53429,6 +57251,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "HBST_NM",
+      "label": "생약명",
+      "required": false,
+      "sample": "골쇄보(骨碎補)"
+     },
+     {
+      "name": "LATIN_HBST_NM",
+      "label": "라틴생약명",
+      "required": false,
+      "sample": "Drynariae Rhizoma"
      }
     ],
     "fields": [
@@ -53528,6 +57362,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "prpos_kor_nm",
+      "label": "용도_국문",
+      "required": false,
+      "sample": "식물생장조절제"
+     },
+     {
+      "name": "prpos_eng_nm",
+      "label": "용도_영문",
+      "required": false,
+      "sample": "Plant growth regulator"
      }
     ],
     "fields": [
@@ -53603,6 +57449,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "WORD_NM",
+      "label": "용어명",
+      "required": false,
+      "sample": "가소제, Plasticizer"
      }
     ],
     "fields": [
@@ -53702,6 +57554,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TRMT_YM",
+      "label": "취급년월",
+      "required": false,
+      "sample": "201912"
+     },
+     {
+      "name": "SEX_CONT",
+      "label": "성별내용",
+      "required": false,
+      "sample": "합계"
+     },
+     {
+      "name": "CLSFY_NM",
+      "label": "종별명",
+      "required": false,
+      "sample": "합계"
      }
     ],
     "fields": [
@@ -53801,6 +57671,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TRMT_YM",
+      "label": "취급년월",
+      "required": false,
+      "sample": "201912"
      }
     ],
     "fields": [
@@ -53892,6 +57768,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TRMT_YM",
+      "label": "취급년월",
+      "required": false,
+      "sample": "201912"
      }
     ],
     "fields": [
@@ -54123,6 +58005,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TRMT_YM",
+      "label": "취급년월",
+      "required": false,
+      "sample": "201912"
      }
     ],
     "fields": [
@@ -54210,6 +58098,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "IVSGT_ASMT_NM",
+      "label": "연구과제명",
+      "required": false,
+      "sample": "국산질환모델동물 기술이전"
      }
     ],
     "fields": [
@@ -54297,6 +58191,24 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "CALENDAR_ONE_YMD_INFO",
+      "label": "캘린더1일자정보",
+      "required": false,
+      "sample": "2020-11-27"
+     },
+     {
+      "name": "CALENDAR_TWO_YMD_INFO",
+      "label": "캘린더2일자정보",
+      "required": false,
+      "sample": "2020-11-27"
+     },
+     {
+      "name": "CALENDAR_DIVS_VAL",
+      "label": "캘린더구분값",
+      "required": false,
+      "sample": "gubn5"
      }
     ],
     "fields": [
@@ -54416,6 +58328,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "AGCM_NM",
+      "label": "농약명",
+      "required": false,
+      "sample": "Ethephon"
+     },
+     {
+      "name": "TRGT_FOOD_NM",
+      "label": "대상식품",
+      "required": false,
+      "sample": "Walnut"
      }
     ],
     "fields": [
@@ -54499,6 +58423,18 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "agcm_kor_nm",
+      "label": "농약 국문명",
+      "required": false,
+      "sample": "이미녹타딘"
+     },
+     {
+      "name": "agcm_eng_nm",
+      "label": "농약 영문명",
+      "required": false,
+      "sample": "Iminoctadine"
      }
     ],
     "fields": [
@@ -54598,6 +58534,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "anml_drug_eng_nm",
+      "label": "동물용의약품_영문명",
+      "required": false,
+      "sample": "Nystatin"
      }
     ],
     "fields": [
@@ -54909,6 +58851,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "TRMT_YM",
+      "label": "취급년월",
+      "required": false,
+      "sample": "202501"
      }
     ],
     "fields": [
@@ -54996,6 +58944,12 @@
       "required": false,
       "sample": "json",
       "system": true
+     },
+     {
+      "name": "RESORC_ORGNZ_NM",
+      "label": "조직",
+      "required": false,
+      "sample": "LIV"
      }
     ],
     "fields": [

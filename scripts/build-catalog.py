@@ -48,6 +48,7 @@ OUT_PATH = REPO_ROOT / "data" / "catalog.json"
 
 AJAX_EXTRA_OP_CACHE = RAW_DIR / "datagokr-extra-ops.json"
 FSK_DETAIL_CACHE = RAW_DIR / "fsk-detail.json"
+DISCOVERED_PARAMS_CACHE = RAW_DIR / "discovered-params.json"
 
 DATAGOKR_AJAX_URL = "https://www.data.go.kr/tcs/dss/selectApiDetailFunction.do"
 FSK_INFO_URL = "https://www.foodsafetykorea.go.kr/api/openApiInfo.do"
@@ -569,6 +570,39 @@ def build_datagokr_datasets(no_network: bool) -> tuple[list[dict], dict]:
     return datasets, stats
 
 
+def merge_discovered_params(dg_datasets: list[dict]) -> int:
+    """scripts/raw/discovered-params.json (실호출로 알아낸 검색 파라미터)를 병합한다.
+
+    swagger/문서에 파라미터가 없던(non-system 0개) 오퍼레이션에 한해, 실호출로 확인된
+    파라미터만 추가한다. 이미 존재하는 파라미터 이름과 겹치면 덮어쓰지 않고 건너뛴다.
+    """
+    if not DISCOVERED_PARAMS_CACHE.exists():
+        return 0
+    discovered = load_json(DISCOVERED_PARAMS_CACHE)
+    added = 0
+    for d in dg_datasets:
+        if d["source"] != "datagokr":
+            continue
+        for op in d.get("ops", []):
+            key = f"{d['id']}:{op['id']}"
+            entry = discovered.get(key)
+            if not entry or entry.get("status") != "ok":
+                continue
+            existing_names = {p["name"].lower() for p in op["params"]}
+            for p in entry.get("params", []):
+                if p["name"].lower() in existing_names:
+                    continue
+                op["params"].append({
+                    "name": p["name"],
+                    "label": p["label"],
+                    "required": False,
+                    **({"sample": p["sample"]} if p.get("sample") else {}),
+                })
+                existing_names.add(p["name"].lower())
+                added += 1
+    return added
+
+
 def pair_link_datasets(dg_datasets: list[dict], fsk_datasets: list[dict]) -> int:
     fsk_by_title = [(d["id"], d["title"]) for d in fsk_datasets]
     matched = 0
@@ -713,18 +747,22 @@ def print_report(datasets: list[dict], dg_stats: dict, fsk_stats: dict, paired: 
 def main() -> None:
     no_network = "--no-network" in sys.argv
 
-    print("[1/4] data.go.kr 498개 파싱 중...")
+    print("[1/5] data.go.kr 498개 파싱 중...")
     dg_datasets, dg_stats = build_datagokr_datasets(no_network)
 
-    print("[2/4] 식품안전나라 178개 파싱 중 (네트워크 호출, 0.5초 간격)...")
+    print("[2/5] 식품안전나라 178개 파싱 중 (네트워크 호출, 0.5초 간격)...")
     fsk_datasets, fsk_stats = build_fsk_datasets(no_network)
 
-    print("[3/4] LINK(PRDE04) ↔ 식품안전나라 서비스 짝 맞추는 중...")
+    print("[3/5] LINK(PRDE04) ↔ 식품안전나라 서비스 짝 맞추는 중...")
     paired = pair_link_datasets(dg_datasets, fsk_datasets)
+
+    print("[4/5] 실호출로 알아낸 검색 파라미터(discovered-params.json) 병합 중...")
+    merged = merge_discovered_params(dg_datasets)
+    print(f"    병합된 파라미터: {merged}개")
 
     all_datasets = dg_datasets + fsk_datasets
 
-    print("[4/4] data/catalog.json 저장 중...")
+    print("[5/5] data/catalog.json 저장 중...")
     save_json(OUT_PATH, all_datasets)
 
     print_report(all_datasets, dg_stats, fsk_stats, paired)
