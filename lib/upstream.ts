@@ -18,6 +18,8 @@ export interface QueryInput {
 }
 
 const REVALIDATE_SECONDS = 3600;
+// 식품안전나라는 서비스당 하루 2,000회 · 시간당 100회 제한이 있어 더 오래 캐시한다
+const FSK_REVALIDATE_SECONDS = 21_600;
 const TIMEOUT_MS = 15_000;
 const FSK_BASE = 'http://openapi.foodsafetykorea.go.kr/api';
 
@@ -46,14 +48,20 @@ async function queryFsk({ op, params, page, size }: QueryInput): Promise<QueryRe
   const filters = Object.entries(params)
     .map(([k, v]) => `${k}=${encodeURIComponent(v)}`)
     .join('&');
-  const res = await fetchText(`${FSK_BASE}/${key}/${op.endpoint}/json/${start}/${end}${filters ? `/${filters}` : ''}`);
+  const res = await fetchText(
+    `${FSK_BASE}/${key}/${op.endpoint}/json/${start}/${end}${filters ? `/${filters}` : ''}`,
+    FSK_REVALIDATE_SECONDS,
+  );
   return res.ok ? parseFsk(res.body, op.endpoint) : res.result;
 }
 
-async function fetchText(url: string): Promise<{ ok: true; body: string } | { ok: false; result: QueryResult }> {
+async function fetchText(
+  url: string,
+  revalidate: number = REVALIDATE_SECONDS,
+): Promise<{ ok: true; body: string } | { ok: false; result: QueryResult }> {
   try {
     const res = await fetch(url, {
-      next: { revalidate: REVALIDATE_SECONDS },
+      next: { revalidate },
       signal: AbortSignal.timeout(TIMEOUT_MS),
     });
     if (!res.ok) {
